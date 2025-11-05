@@ -1,0 +1,50 @@
+{
+    "notice_id": null,
+    "application_eligibility": "청년(만19세 이상 만39세 이하) 무주택자, 월평균소득이 전년도 도시근로자 가구원수별 가구당 월평균소득의 100% 이하, 총자산가액 3억 3,700만원 이하, 자동차가액 3,803만원 이하",
+    "housing_info": [
+        {
+            "name": null,
+            "address": null,
+            "district": null,
+            "type": null,
+            "total_households": null,
+            "supply_households": null,
+            "house_type": null,
+            "parking": null,
+            "elevator": null
+        }
+    ],
+    "residence_period": "최대 10년, 2년 단위로 재계약 가능하되 4회를 초과할 수 없음",
+    "priority_and_bonus": {
+        "priority_criteria": [
+            {
+                "priority": "1순위",
+                "criteria": [
+                    "만19세 이상 만39세 이하인 청년",
+                    "무주택세대구성원",
+                    "월평균소득이 전년도 도시근로자 가구원수별 가구당 월평균소득의 100% 이하",
+                    "총자산가액 3억 3,700만원 이하",
+                    "자동차가액 3,803만원 이하"
+                ]
+            },
+            {
+                "priority": "예비입주자",
+                "criteria": [
+                    "공급세대 수를 초과한 신청자 중 일정비율로 선정",
+                    "1년간 유효"
+                ]
+            }
+        ],
+        "score_items": []
+    },
+    "application_schedule": {
+        "announcement_date": "2025.03.07.",
+        "online_application_period": "2025.03.07.~2025.03.13.",
+        "document_submission_period": null,
+        "inspection_period": "2025.03.21. 부터",
+        "winner_announcement": "개별 안내",
+        "contract_period": "개별 안내",
+        "move_in_period": "개별 안내"
+    },
+    "precautions": "신청서류는 일체 반환하지 않으며, 허위, 위조 서류로 인한 당첨 및 계약 취소 가능. 재계약 시 자격요건 검증 필요."
+}

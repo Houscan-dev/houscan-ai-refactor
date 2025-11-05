@@ -1,0 +1,57 @@
+{
+    "notice_id": null,
+    "application_eligibility": "모집공고일(2022.5.4.) 기준 서울특별시에 거주하는 3인 이하 무주택 세대구성원으로 만 19세 이상 ~ 만 39세 이하(1982.5.5. ~ 2003.5.4. 출생) 청년. 은평구 거주자 우대(우선 선발). 아래의 소득 및 자산보유 기준을 충족하는 자.",
+    "housing_info": [
+        {
+            "name": "청년 창업인의 집",
+            "address": null,
+            "district": "은평구",
+            "type": "도시형생활주택",
+            "total_households": "4세대",
+            "supply_households": "4세대",
+            "house_type": "29.74, 47.06, 51.65, 25.01",
+            "parking": "주차면수 15대, 11대",
+            "elevator": "있음"
+        }
+    ],
+    "residence_period": "최대 2년 계약에 2회 재계약 가능 (최장 6년 거주)",
+    "priority_and_bonus": {
+        "priority_criteria": [
+            {
+                "priority": "1순위",
+                "criteria": [
+                    "주민등록지가 은평구이고 월평균소득 50% 이하, 자산 · 자동차 보유 기준액 이하인 신청자"
+                ]
+            },
+            {
+                "priority": "2순위",
+                "criteria": [
+                    "주민등록지가 은평구이고 월평균소득 70% 이하 신청자"
+                ]
+            },
+            {
+                "priority": "3순위",
+                "criteria": [
+                    "주민등록지가 서울시이고 월평균소득 50% 이하, 자산 · 자동차 보유 기준액 이하인 신청자"
+                ]
+            },
+            {
+                "priority": "4순위",
+                "criteria": [
+                    "주민등록지가 서울시이고 월평균소득 70% 이하 신청자"
+                ]
+            }
+        ],
+        "score_items": []
+    },
+    "application_schedule": {
+        "announcement_date": "2022.5.4.",
+        "online_application_period": "2022.5.4. ~ 5.23.",
+        "document_submission_period": null,
+        "inspection_period": null,
+        "winner_announcement": "2022.8.17.",
+        "contract_period": "2022.8월 중",
+        "move_in_period": "2022.8월 ~ 11월 중"
+    },
+    "precautions": "모집공고일 이후 발급된 원본 서류 제출, 제출 서류는 계약시 서울주택도시공사(SH)에 이관될 수 있음."
+}

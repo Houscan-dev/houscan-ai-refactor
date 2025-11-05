@@ -1,0 +1,393 @@
+{
+    "notice_id": null,
+    "application_eligibility": "미혼 청년, 대학생, 취업준비생으로서 무주택자이며, 소득 및 자산 기준을 충족해야 합니다.",
+    "housing_info": [
+        {
+            "name": "서도휴파크",
+            "address": "서울특별시 종로구 숭인동 178-100",
+            "district": "종로구",
+            "type": "오피스텔 (개방형 원룸)",
+            "total_households": "18",
+            "supply_households": "18",
+            "house_type": "18B",
+            "parking": "자주식(지상, 지하)/기계식(지상)",
+            "elevator": "있음"
+        },
+        {
+            "name": "남산의아침 A동",
+            "address": "서울특별시 중구 필동2가 84-12외",
+            "district": "중구",
+            "type": "도시형생활주택 (개방형 원룸)",
+            "total_households": "28",
+            "supply_households": "28",
+            "house_type": "28B",
+            "parking": "자주식(지상)",
+            "elevator": "있음"
+        },
+        {
+            "name": "남산의아침 B동",
+            "address": "서울특별시 중구 필동2가 84-12외",
+            "district": "중구",
+            "type": "도시형생활주택 (개방형 원룸)",
+            "total_households": "28",
+            "supply_households": "28",
+            "house_type": "28B",
+            "parking": "자주식(지상)",
+            "elevator": "있음"
+        },
+        {
+            "name": "HwellsPARK장충1",
+            "address": "서울특별시 중구 장충동1가 50-2",
+            "district": "중구",
+            "type": "도시형생활주택 (분리형 원룸)",
+            "total_households": "28",
+            "supply_households": "28",
+            "house_type": "28A",
+            "parking": "자주식(지하)",
+            "elevator": "있음"
+        },
+        {
+            "name": "해마루빌리지",
+            "address": "서울특별시 중랑구 중화동 461",
+            "district": "중랑구",
+            "type": "도시형생활주택 (분리형 원룸)",
+            "total_households": "33",
+            "supply_households": "33",
+            "house_type": "33A",
+            "parking": "자주식(지상)",
+            "elevator": "있음"
+        },
+        {
+            "name": "백년빌",
+            "address": "서울특별시 강남구 도곡동 547-11",
+            "district": "강남구",
+            "type": "도시형생활주택 (개방형 원룸)",
+            "total_households": "2",
+            "supply_households": "2",
+            "house_type": null,
+            "parking": "자주식(지상)",
+            "elevator": "없음"
+        },
+        {
+            "name": "강동서영스윗홈",
+            "address": "서울특별시 강동구 길동 349-9",
+            "district": "강동구",
+            "type": "도시형생활주택 (분리형 원룸)",
+            "total_households": "35",
+            "supply_households": "35",
+            "house_type": "35A",
+            "parking": "자주식(지상)",
+            "elevator": "없음"
+        },
+        {
+            "name": "강동서영스윗홈6",
+            "address": "서울특별시 강동구 성내동 420-49",
+            "district": "강동구",
+            "type": "도시형생활주택 (개방형 원룸)",
+            "total_households": "27",
+            "supply_households": "27",
+            "house_type": "27B",
+            "parking": "자주식(지상)",
+            "elevator": "없음"
+        },
+        {
+            "name": "더클래스길동2",
+            "address": "서울특별시 강동구 길동 342-30",
+            "district": "강동구",
+            "type": "도시형생활주택 (개방형 원룸)",
+            "total_households": "25",
+            "supply_households": "25",
+            "house_type": "25B",
+            "parking": "자주식(지상)",
+            "elevator": "있음"
+        },
+        {
+            "name": "허브빌",
+            "address": "서울특별시 강동구 암사동 493-15",
+            "district": "강동구",
+            "type": "도시형생활주택 (개방형 원룸)",
+            "total_households": "25",
+            "supply_households": "25",
+            "house_type": "25B",
+            "parking": "자주식(지상)",
+            "elevator": "있음"
+        },
+        {
+            "name": "더이룸하우스",
+            "address": "서울특별시 강북구 수유동 134-44외",
+            "district": "강북구",
+            "type": "도시형생활주택 (분리형 원룸)",
+            "total_households": "32",
+            "supply_households": "32",
+            "house_type": "32A",
+            "parking": "자주식(지상)",
+            "elevator": "있음"
+        },
+        {
+            "name": "신림파크빌",
+            "address": "서울특별시 관악구 신림동 505-10",
+            "district": "관악구",
+            "type": "도시형생활주택 (분리형 원룸)",
+            "total_households": "32",
+            "supply_households": "32",
+            "house_type": "32A",
+            "parking": "자주식(지상)",
+            "elevator": "있음"
+        },
+        {
+            "name": "더 하임",
+            "address": "서울특별시 광진구 중곡동 88-20외",
+            "district": "광진구",
+            "type": "도시형생활주택 (개방형 원룸)",
+            "total_households": "27",
+            "supply_households": "27",
+            "house_type": "27B",
+            "parking": "자주식(지상)",
+            "elevator": "있음"
+        },
+        {
+            "name": "하늘사랑채5차",
+            "address": "서울특별시 구로구 고척동 241-112",
+            "district": "구로구",
+            "type": "도시형생활주택 (개방형 원룸)",
+            "total_households": "19",
+            "supply_households": "19",
+            "house_type": "19B",
+            "parking": "자주식(지상)",
+            "elevator": "없음"
+        },
+        {
+            "name": "하늘사랑채6차",
+            "address": "서울특별시 구로구 오류동 81-117",
+            "district": "구로구",
+            "type": "도시형생활주택 (개방형 원룸)",
+            "total_households": "21",
+            "supply_households": "21",
+            "house_type": "21B",
+            "parking": "자주식(지상)",
+            "elevator": "없음"
+        },
+        {
+            "name": "하늘사랑채5차 B동",
+            "address": "서울특별시 구로구 고척동 241-116",
+            "district": "구로구",
+            "type": "도시형생활주택 (개방형 원룸)",
+            "total_households": "19",
+            "supply_households": "19",
+            "house_type": "19B",
+            "parking": "자주식(지상)",
+            "elevator": "없음"
+        },
+        {
+            "name": "예하임",
+            "address": "서울특별시 구로구 궁동 134-7",
+            "district": "구로구",
+            "type": "도시형생활주택 (분리형 원룸)",
+            "total_households": "21",
+            "supply_households": "21",
+            "house_type": "21A",
+            "parking": "자주식(지상)",
+            "elevator": "없음"
+        },
+        {
+            "name": "아이유하임",
+            "address": "서울특별시 금천구 독산동 1162",
+            "district": "금천구",
+            "type": "도시형생활주택 (개방형 원룸)",
+            "total_households": "29",
+            "supply_households": "29",
+            "house_type": "29B",
+            "parking": "자주식(지상, 지하)",
+            "elevator": "있음"
+        },
+        {
+            "name": "제이하우스",
+            "address": "서울특별시 동대문구 제기동 67-236",
+            "district": "동대문구",
+            "type": "도시형생활주택 (개방형 원룸)",
+            "total_households": "26",
+            "supply_households": "26",
+            "house_type": "26B",
+            "parking": "자주식(지상)",
+            "elevator": "있음"
+        },
+        {
+            "name": "네스트197",
+            "address": "서울특별시 송파구 가락동 197-3",
+            "district": "송파구",
+            "type": "도시형생활주택 (개방형 원룸)",
+            "total_households": "23",
+            "supply_households": "23",
+            "house_type": "23B",
+            "parking": "자주식(지상)",
+            "elevator": "있음"
+        },
+        {
+            "name": "서도휴빌",
+            "address": "서울특별시 송파구 문정동 13-8",
+            "district": "송파구",
+            "type": "도시형생활주택 (개방형 원룸)",
+            "total_households": "24",
+            "supply_households": "24",
+            "house_type": "24B",
+            "parking": "자주식(지상)",
+            "elevator": "있음"
+        },
+        {
+            "name": "광채빌라",
+            "address": "서울특별시 송파구 삼전동 53-19",
+            "district": "송파구",
+            "type": "도시형생활주택 (개방형 원룸)",
+            "total_households": "28",
+            "supply_households": "28",
+            "house_type": "28B",
+            "parking": "자주식(지상)",
+            "elevator": "있음"
+        },
+        {
+            "name": "T&K신정",
+            "address": "서울특별시 양천구 신정동 960-21외",
+            "district": "양천구",
+            "type": "도시형생활주택 (개방형 원룸)",
+            "total_households": "29",
+            "supply_households": "29",
+            "house_type": "29B",
+            "parking": "자주식(지상)",
+            "elevator": "있음"
+        },
+        {
+            "name": "남양파크빌",
+            "address": "서울특별시 영등포구 대림동 700-28",
+            "district": "영등포구",
+            "type": "도시형생활주택 (개방형 원룸)",
+            "total_households": "29",
+            "supply_households": "29",
+            "house_type": "29B",
+            "parking": "자주식(지상)",
+            "elevator": "있음"
+        },
+        {
+            "name": "삼정주택",
+            "address": "서울특별시 영등포구 당산동1가 230",
+            "district": "영등포구",
+            "type": "도시형생활주택 (개방형 원룸)",
+            "total_households": "27",
+            "supply_households": "27",
+            "house_type": "27B",
+            "parking": "자주식(지상)",
+            "elevator": "있음"
+        },
+        {
+            "name": "양평바로지음",
+            "address": "서울특별시 영등포구 양평동1가 31-7",
+            "district": "영등포구",
+            "type": "오피스텔 (개방형 원룸)",
+            "total_households": "23",
+            "supply_households": "23",
+            "house_type": "23B",
+            "parking": "자주식(지상)",
+            "elevator": "있음"
+        }
+    ],
+    "residence_period": "최대 2년 계약에 6회 갱신 가능 (최장 6년 거주) 입주 후 혼인한 경우 2년 단위로 7회 추가 연장 가능 (최장 20년 거주)",
+    "priority_and_bonus": {
+        "priority_criteria": [
+            {
+                "priority": "1순위",
+                "criteria": [
+                    "생계·의료·주거급여 수급자 가구",
+                    "보호대상 한부모 가족",
+                    "차상위계층 가구"
+                ]
+            },
+            {
+                "priority": "2순위",
+                "criteria": [
+                    "본인과 부모의 월평균소득이 전년도 도시근로자 가구당 월평균소득의 100% 이하",
+                    "본인과 부모의 자산이 국민임대주택의 자산기준을 충족 (총자산 32,500만원 이하, 개별 자동차 3,557만원 이하)"
+                ]
+            },
+            {
+                "priority": "3순위",
+                "criteria": [
+                    "본인의 월평균소득이 전년도 도시근로자 가구당 월평균소득의 100% 이하",
+                    "해당세대의 자산이 행복주택(청년)의 자산기준을 충족 (총자산 28,800만원 이하, 개별 자동차 3,557만원 이하)"
+                ]
+            }
+        ],
+        "score_items": [
+            {
+                "priority": "1순위",
+                "items": [
+                    {
+                        "item": "생계·의료급여 수급자",
+                        "score": "3"
+                    },
+                    {
+                        "item": "보호대상 한부모가족",
+                        "score": "3"
+                    },
+                    {
+                        "item": "소득기준 50% 이하",
+                        "score": "3"
+                    },
+                    {
+                        "item": "부모 무주택",
+                        "score": "2"
+                    },
+                    {
+                        "item": "타지역 출신",
+                        "score": "2"
+                    },
+                    {
+                        "item": "민간임대주택 거주자",
+                        "score": "1"
+                    },
+                    {
+                        "item": "장애인(본인)",
+                        "score": "2"
+                    },
+                    {
+                        "item": "장애인 가구",
+                        "score": "1"
+                    }
+                ]
+            },
+            {
+                "priority": "2, 3순위",
+                "items": [
+                    {
+                        "item": "부모 무주택",
+                        "score": "2"
+                    },
+                    {
+                        "item": "타지역 출신",
+                        "score": "2"
+                    },
+                    {
+                        "item": "민간임대주택 거주자",
+                        "score": "1"
+                    },
+                    {
+                        "item": "장애인(본인)",
+                        "score": "2"
+                    },
+                    {
+                        "item": "장애인 가구",
+                        "score": "1"
+                    }
+                ]
+            }
+        ]
+    },
+    "application_schedule": {
+        "announcement_date": "2022.12.30.",
+        "online_application_period": "2023.01.16.~2023.01.18.",
+        "document_submission_period": "2023.01.25.~2023.02.02.",
+        "inspection_period": "2023.05. 중",
+        "winner_announcement": "2023.05.17.",
+        "contract_period": "2023.06.05.~2023.06.09.",
+        "move_in_period": "2023.06.26.~2023.08.25."
+    },
+    "precautions": "서류미제출 탈락, 서류오제출 불이익, 서류심사대상자 발표 후 별도 연락 없음, 서류제출 기간 이외 소인 분은 접수하지 않음, 서류미제출 및 오제출로 인한 불이익에 대한 책임은 신청자 본인에게 있습니다."
+}

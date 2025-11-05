@@ -1,0 +1,185 @@
+{
+    "notice_id": "53",
+    "application_eligibility": "청년계층은 19세 이상 39세 이하 무주택자, 미혼자, 소득 및 자산 기준을 충족해야 합니다. 1순위는 생계·의료급여 수급자, 보호대상 한부모가족, 차상위계층이 해당하며, 2, 3순위는 월평균소득 100% 이하, 자산 기준을 충족해야 합니다.",
+    "housing_info": [
+        {
+            "name": "용산 원효 루미니",
+            "address": "용산구 원효로 1가 134",
+            "district": "용산구",
+            "type": "원룸형",
+            "total_households": "17",
+            "supply_households": "4",
+            "house_type": "17.98m²",
+            "parking": "공영주차장 요금",
+            "elevator": "있음"
+        },
+        {
+            "name": "포르투나 블루",
+            "address": "강서구 화곡동 1073-11",
+            "district": "강서구",
+            "type": "원룸형",
+            "total_households": "20",
+            "supply_households": "1",
+            "house_type": "20.46m²",
+            "parking": "공영주차장 요금",
+            "elevator": "있음"
+        },
+        {
+            "name": "선정릉역 모아엘가 퍼스트홈",
+            "address": "강남구 논현동 278-4",
+            "district": "강남구",
+            "type": "원룸형",
+            "total_households": "18",
+            "supply_households": "1",
+            "house_type": "18.94m²",
+            "parking": "공영주차장 요금",
+            "elevator": "있음"
+        },
+        {
+            "name": "리마크빌 군자",
+            "address": "광진구 중곡동 637-5",
+            "district": "광진구",
+            "type": "원룸형",
+            "total_households": "16",
+            "supply_households": "1",
+            "house_type": "16.32m²",
+            "parking": "공영주차장 요금",
+            "elevator": "있음"
+        },
+        {
+            "name": "잠실센트럴파크",
+            "address": "송파구 잠실동 187-10",
+            "district": "송파구",
+            "type": "원룸형",
+            "total_households": "43",
+            "supply_households": "4",
+            "house_type": "43.46m²",
+            "parking": "공영주차장 요금",
+            "elevator": "있음"
+        },
+        {
+            "name": "청계로벤하임",
+            "address": "종로구 숭인동 240-1",
+            "district": "종로구",
+            "type": "원룸형",
+            "total_households": "34",
+            "supply_households": "1",
+            "house_type": "34.79m²",
+            "parking": "공영주차장 요금",
+            "elevator": "있음"
+        },
+        {
+            "name": "동대문역사문화공원역 166 TOWER",
+            "address": "중구 광희동 1가 166",
+            "district": "중구",
+            "type": "원룸형",
+            "total_households": "14",
+            "supply_households": "1",
+            "house_type": "14.72m²",
+            "parking": "공영주차장 요금",
+            "elevator": "있음"
+        },
+        {
+            "name": "연신내역 루체스테이션",
+            "address": "은평구 불광동 323-21",
+            "district": "은평구",
+            "type": "원룸형",
+            "total_households": "17",
+            "supply_households": "21",
+            "house_type": "17.05m²",
+            "parking": "공영주차장 요금",
+            "elevator": "있음"
+        },
+        {
+            "name": "문정역 마에스트로",
+            "address": "송파구 문정동 55-6",
+            "district": "송파구",
+            "type": "원룸형",
+            "total_households": "16",
+            "supply_households": "20",
+            "house_type": "16.42m²",
+            "parking": "공영주차장 요금",
+            "elevator": "있음"
+        },
+        {
+            "name": "사당역 코브",
+            "address": "동작구 사당동 1044-1",
+            "district": "동작구",
+            "type": "원룸형",
+            "total_households": "18",
+            "supply_households": "2",
+            "house_type": "18.25m²",
+            "parking": "공영주차장 요금",
+            "elevator": "있음"
+        }
+    ],
+    "residence_period": "청년계층은 최대 6년 거주 가능, 신혼부부 계층은 무자녀 6년, 자녀 1명 이상 10년 거주 가능",
+    "priority_and_bonus": {
+        "priority_criteria": [
+            {
+                "priority": "1순위",
+                "criteria": [
+                    "생계·의료급여 수급자 가구",
+                    "보호대상 한부모가족",
+                    "차상위계층 가구"
+                ]
+            },
+            {
+                "priority": "2순위",
+                "criteria": [
+                    "본인과 부모의 월평균소득이 전년도 도시근로자 가구원수별 가구당 월평균소득의 100% 이하",
+                    "본인과 부모의 자산이 국민임대 주택의 자산기준을 충족"
+                ]
+            },
+            {
+                "priority": "3순위",
+                "criteria": [
+                    "본인의 월평균소득이 전년도 도시근로자 가구원수별 가구당 월평균소득의 100% 이하",
+                    "행복주택 청년의 자산기준을 충족"
+                ]
+            }
+        ],
+        "score_items": [
+            {
+                "priority": "1순위",
+                "items": [
+                    {
+                        "item": "생계급여 또는 의료급여 수급자",
+                        "score": "3"
+                    },
+                    {
+                        "item": "주거급여 또는 교육급여 수급자, 차상위계층",
+                        "score": "2"
+                    }
+                ]
+            },
+            {
+                "priority": "공통",
+                "items": [
+                    {
+                        "item": "자녀의 수 (3인 이상)",
+                        "score": "3"
+                    },
+                    {
+                        "item": "서울시 거주자",
+                        "score": "2"
+                    },
+                    {
+                        "item": "장애인 등록 여부",
+                        "score": "2"
+                    }
+                ]
+            }
+        ]
+    },
+    "application_schedule": {
+        "announcement_date": "2024.07.26",
+        "online_application_period": "2024.07.26~2024.07.28",
+        "document_submission_period": "2024.07.26~2024.07.28",
+        "inspection_period": "2024.08.01~2024.08.02",
+        "winner_announcement": "2024.10.중",
+        "contract_period": "2024.12.11~2024.12.13",
+        "move_in_period": "2025.01.08~2025.02.07"
+    },
+    "precautions": "청약 신청 시 주택소유, 소득 및 자산, 가점사항 소명대상자 개별 통보 및 소명자료 등기우편 제출, 주택소유, 소득 및 자산 전산조회 결과가 신청내역의 자격 기준을 초과한 신청자는 소명대상자로 선정되며, 기한 내에 증명 서류를 제출하지 않은 경우 탈락 처리."
+}

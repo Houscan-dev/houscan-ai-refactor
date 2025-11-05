@@ -1,0 +1,84 @@
+{
+    "notice_id": null,
+    "application_eligibility": "청년, 대학생, 취업준비생, 고령자 가구, 장애인 가구 등 다양한 유형의 신청자를 대상으로 합니다. 각 유형별로 소득 및 자산 기준이 있으며, 자세한 내용은 공고문을 참조하세요.",
+    "housing_info": [
+        {
+            "name": null,
+            "address": null,
+            "district": "강동구",
+            "type": "다가구 단독거주형",
+            "total_households": "16",
+            "supply_households": "16",
+            "house_type": null,
+            "parking": null,
+            "elevator": null
+        },
+        {
+            "name": null,
+            "address": null,
+            "district": "광진구",
+            "type": "다가구 단독거주형",
+            "total_households": "17",
+            "supply_households": "17",
+            "house_type": null,
+            "parking": null,
+            "elevator": null
+        },
+        {
+            "name": null,
+            "address": null,
+            "district": "금천구",
+            "type": "다가구 단독거주형",
+            "total_households": "26",
+            "supply_households": "26",
+            "house_type": null,
+            "parking": null,
+            "elevator": null
+        }
+    ],
+    "residence_period": "최초 2년 계약 후 2회 갱신 가능(총 6년). 입주 후 혼인한 경우 2년 단위로 7회 추가 연장 가능(총 20년, 원룸 및 단독거주형 다가구 입주자만 가능)",
+    "priority_and_bonus": {
+        "priority_criteria": [
+            {
+                "priority": "1순위",
+                "criteria": [
+                    "생계·의료급여 수급자 가구",
+                    "한부모 가족 가구",
+                    "주거지원 시급가구"
+                ]
+            },
+            {
+                "priority": "2순위",
+                "criteria": [
+                    "장애인 가구",
+                    "장애인"
+                ]
+            },
+            {
+                "priority": "3순위",
+                "criteria": [
+                    "일반 (장애인 가구)",
+                    "일반 (장애인)"
+                ]
+            },
+            {
+                "priority": "4순위",
+                "criteria": [
+                    "단독세대주",
+                    "세대원이 있는 세대주"
+                ]
+            }
+        ],
+        "score_items": []
+    },
+    "application_schedule": {
+        "announcement_date": "2019.12.24.",
+        "online_application_period": "2020.01.07. 10:00 – 2020.01.10. 17:00",
+        "document_submission_period": "2020.01.15. – 2020.01.21.",
+        "inspection_period": "2020.01.14. 18:00",
+        "winner_announcement": "2020.04.21.",
+        "contract_period": "2020.04.21. – 2020.04.23.",
+        "move_in_period": "2020.04.29. – 2020.06.29."
+    },
+    "precautions": "1인 1주택만 신청 가능하며, 주소지 단위로 신청 가능합니다. 호실은 전산 무작위 추첨하여 배정됩니다. 주택 미확인으로 인한 이의제기는 불가능합니다."
+}

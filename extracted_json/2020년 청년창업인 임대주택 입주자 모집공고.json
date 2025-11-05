@@ -1,0 +1,45 @@
+{
+    "notice_id": null,
+    "application_eligibility": "청년(만 19세 이상 만 39세 이하) 무주택세대구성원, 월평균소득이 전년도 도시근로자 가구당 월평균소득의 100퍼센트 이하, 총 자산가액 2억 8,800만원 이하, 자동차가액 2,468만원 이하",
+    "housing_info": [
+        {
+            "name": "청년창업인 주택",
+            "address": "지하철 1·4호선 창동역 1번출구 인근",
+            "district": "강남구",
+            "type": "창업지원주택",
+            "total_households": null,
+            "supply_households": null,
+            "house_type": null,
+            "parking": null,
+            "elevator": "있음"
+        }
+    ],
+    "residence_period": "최초 계약 기간 2년, 최장 거주기간 무자녀 6년, 자녀 1인 이상 10년",
+    "priority_and_bonus": {
+        "priority_criteria": [
+            {
+                "priority": "1순위",
+                "criteria": [
+                    "(가칭)창업고도화센터 내 입주(예정)기업의 청년창업인 및 그 임직원"
+                ]
+            },
+            {
+                "priority": "2순위",
+                "criteria": [
+                    "서울시가 운영 중인 창업보육기관(26개소)에 입주한 청년창업인 및 그 임직원"
+                ]
+            }
+        ],
+        "score_items": []
+    },
+    "application_schedule": {
+        "announcement_date": "2020.5.20.",
+        "online_application_period": null,
+        "document_submission_period": "2020.5.20. 이후 발급된 서류 제출",
+        "inspection_period": null,
+        "winner_announcement": null,
+        "contract_period": "2020.9.23. ~ 2020.9.24., 2020.9.28.",
+        "move_in_period": null
+    },
+    "precautions": "신청자격 및 자산, 소득, 주택 소유 여부를 정확히 확인하고, 제출 서류는 공고일 이후 발급된 서류로 제출해야 함."
+}

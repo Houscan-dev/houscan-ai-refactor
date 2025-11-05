@@ -1,0 +1,268 @@
+{
+    "notice_id": null,
+    "application_eligibility": "청년, 대학생, 취업준비생으로서 무주택자이며, 소득 및 자산 기준을 충족해야 합니다.",
+    "housing_info": [
+        {
+            "name": "해담빌",
+            "address": "서울특별시 강동구 구천면로40길 7",
+            "district": "강동구",
+            "type": "원룸형",
+            "total_households": "5",
+            "supply_households": "5",
+            "house_type": null,
+            "parking": null,
+            "elevator": null
+        },
+        {
+            "name": "휴먼에코빌4차 A동",
+            "address": "서울특별시 금천구 독산로96길 27-6",
+            "district": "금천구",
+            "type": "원룸형",
+            "total_households": "12",
+            "supply_households": "12",
+            "house_type": null,
+            "parking": null,
+            "elevator": null
+        },
+        {
+            "name": "휴먼에코빌4차 B동",
+            "address": "서울특별시 금천구 독산로96길 27-6",
+            "district": "금천구",
+            "type": "원룸형",
+            "total_households": "5",
+            "supply_households": "5",
+            "house_type": null,
+            "parking": null,
+            "elevator": null
+        },
+        {
+            "name": "시흥동 849-33, A단지",
+            "address": "서울특별시 금천구 독산로33길 34",
+            "district": "금천구",
+            "type": "원룸형",
+            "total_households": "8",
+            "supply_households": "8",
+            "house_type": null,
+            "parking": null,
+            "elevator": null
+        },
+        {
+            "name": "시흥동 849-32, B단지",
+            "address": "서울특별시 금천구 독산로33길 32",
+            "district": "금천구",
+            "type": "원룸형",
+            "total_households": "4",
+            "supply_households": "4",
+            "house_type": null,
+            "parking": null,
+            "elevator": null
+        },
+        {
+            "name": "삼화에코빌2차 A동",
+            "address": "서울특별시 동대문구 답십리로65길 114",
+            "district": "동대문구",
+            "type": "원룸형",
+            "total_households": "7",
+            "supply_households": "7",
+            "house_type": null,
+            "parking": null,
+            "elevator": null
+        },
+        {
+            "name": "삼화에코빌2차 B동",
+            "address": "서울특별시 동대문구 답십리로65길 114",
+            "district": "동대문구",
+            "type": "원룸형",
+            "total_households": "4",
+            "supply_households": "4",
+            "house_type": null,
+            "parking": null,
+            "elevator": null
+        },
+        {
+            "name": "더존에이스빌 가동",
+            "address": "서울특별시 동대문구 천호대로89길 51",
+            "district": "동대문구",
+            "type": "원룸형",
+            "total_households": "14",
+            "supply_households": "14",
+            "house_type": null,
+            "parking": null,
+            "elevator": null
+        },
+        {
+            "name": "더존에이스빌 나동",
+            "address": "서울특별시 동대문구 천호대로89길 51",
+            "district": "동대문구",
+            "type": "원룸형",
+            "total_households": "5",
+            "supply_households": "5",
+            "house_type": null,
+            "parking": null,
+            "elevator": null
+        },
+        {
+            "name": "서도휴빌 101동",
+            "address": "서울특별시 성북구 장월로1마길 23",
+            "district": "성북구",
+            "type": "원룸형",
+            "total_households": "7",
+            "supply_households": "7",
+            "house_type": null,
+            "parking": null,
+            "elevator": null
+        },
+        {
+            "name": "서도휴빌 102동",
+            "address": "서울특별시 성북구 장월로1마길 23",
+            "district": "성북구",
+            "type": "원룸형",
+            "total_households": "13",
+            "supply_households": "13",
+            "house_type": null,
+            "parking": null,
+            "elevator": null
+        },
+        {
+            "name": "서도휴빌 103동",
+            "address": "서울특별시 성북구 장월로1마길 23",
+            "district": "성북구",
+            "type": "원룸형",
+            "total_households": "11",
+            "supply_households": "11",
+            "house_type": null,
+            "parking": null,
+            "elevator": null
+        },
+        {
+            "name": "서도휴빌 104동",
+            "address": "서울특별시 성북구 장월로1마길 23",
+            "district": "성북구",
+            "type": "원룸형",
+            "total_households": "5",
+            "supply_households": "5",
+            "house_type": null,
+            "parking": null,
+            "elevator": null
+        },
+        {
+            "name": "서도휴빌 105동",
+            "address": "서울특별시 성북구 장월로1마길 23",
+            "district": "성북구",
+            "type": "원룸형",
+            "total_households": "11",
+            "supply_households": "11",
+            "house_type": null,
+            "parking": null,
+            "elevator": null
+        },
+        {
+            "name": "서도휴빌 106동",
+            "address": "서울특별시 성북구 장월로1마길 23",
+            "district": "성북구",
+            "type": "원룸형",
+            "total_households": "9",
+            "supply_households": "9",
+            "house_type": null,
+            "parking": null,
+            "elevator": null
+        },
+        {
+            "name": "서도휴빌 107동",
+            "address": "서울특별시 성북구 장월로1마길 23",
+            "district": "성북구",
+            "type": "원룸형",
+            "total_households": "13",
+            "supply_households": "13",
+            "house_type": null,
+            "parking": null,
+            "elevator": null
+        }
+    ],
+    "residence_period": "최초 2년 계약 후 2회 갱신 가능(총 6년). 입주 후 혼인 시 2년 단위로 7회 추가 연장 가능(총 20년)",
+    "priority_and_bonus": {
+        "priority_criteria": [
+            {
+                "priority": "1순위",
+                "criteria": [
+                    "생계·의료급여 수급자 가구",
+                    "한부모 가족",
+                    "차상위계층 가구"
+                ]
+            },
+            {
+                "priority": "2순위",
+                "criteria": [
+                    "본인과 부모의 월평균소득이 전년도 도시근로자 가구당 월평균소득의 100% 이하",
+                    "본인과 부모의 자산이 국민임대 주택의 자산기준을 충족"
+                ]
+            },
+            {
+                "priority": "3순위",
+                "criteria": [
+                    "본인의 월평균소득이 전년도 도시근로자 가구당 월평균소득의 100% 이하",
+                    "행복주택(청년)의 자산기준을 충족"
+                ]
+            }
+        ],
+        "score_items": [
+            {
+                "priority": "1순위",
+                "items": [
+                    {
+                        "item": "생계·의료급여 수급자",
+                        "score": "3"
+                    },
+                    {
+                        "item": "한부모 가족",
+                        "score": "3"
+                    }
+                ]
+            },
+            {
+                "priority": "2, 3순위",
+                "items": [
+                    {
+                        "item": "소득기준 50% 이하",
+                        "score": "3"
+                    }
+                ]
+            },
+            {
+                "priority": "공통",
+                "items": [
+                    {
+                        "item": "부모 무주택",
+                        "score": "2"
+                    },
+                    {
+                        "item": "타지역 출신",
+                        "score": "2"
+                    },
+                    {
+                        "item": "민간임대주택 거주자",
+                        "score": "1"
+                    },
+                    {
+                        "item": "장애인(본인)",
+                        "score": "2"
+                    },
+                    {
+                        "item": "장애인 가구",
+                        "score": "1"
+                    }
+                ]
+            }
+        ]
+    },
+    "application_schedule": {
+        "announcement_date": "2020.06.22.",
+        "online_application_period": "2020.07.01.~2020.07.03.",
+        "document_submission_period": "2020.07.08.~2020.07.14.",
+        "inspection_period": "2020.09. 중",
+        "winner_announcement": "2020.09.28. 18:00",
+        "contract_period": "2020.10.12.~2020.10.14.",
+        "move_in_period": "2020.10.19.~2020.12.18."
+    },
+    "precautions": "1인 1주택만 신청 가능하며, 중복 신청 시 무효 처리. 주소지 단위로 신청 가능하며 호실은 무작위 배정. 주택 미확인으로 인한 이의제기는 불가능."
+}

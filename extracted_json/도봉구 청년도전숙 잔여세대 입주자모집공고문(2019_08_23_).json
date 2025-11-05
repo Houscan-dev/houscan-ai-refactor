@@ -1,0 +1,67 @@
+{
+    "notice_id": null,
+    "application_eligibility": "서울특별시 거주 1인 무주택세대구성원, 만19세 이상 ~ 만39세 이하, 청년창업인(1인 창조기업인, 예비사회적기업인, 마을기업인, 예비창업인)",
+    "housing_info": [
+        {
+            "name": null,
+            "address": null,
+            "district": "도봉구",
+            "type": "공공임대주택",
+            "total_households": null,
+            "supply_households": "6명",
+            "house_type": null,
+            "parking": null,
+            "elevator": null
+        }
+    ],
+    "residence_period": "최대 2년 계약에 6회 갱신 가능",
+    "priority_and_bonus": {
+        "priority_criteria": [
+            {
+                "priority": "1순위",
+                "criteria": [
+                    "서울특별시 거주 1인 무주택세대구성원",
+                    "만19세 이상 ~ 만39세 이하",
+                    "청년창업인(1인 창조기업인, 예비사회적기업인, 마을기업인, 예비창업인)"
+                ]
+            }
+        ],
+        "score_items": [
+            {
+                "priority": "1순위",
+                "items": [
+                    {
+                        "item": "월평균소득기준",
+                        "score": "20"
+                    },
+                    {
+                        "item": "자산보유기준",
+                        "score": "20"
+                    },
+                    {
+                        "item": "기술평가",
+                        "score": "20"
+                    },
+                    {
+                        "item": "기업가치",
+                        "score": "10"
+                    },
+                    {
+                        "item": "관내기여도",
+                        "score": "10"
+                    }
+                ]
+            }
+        ]
+    },
+    "application_schedule": {
+        "announcement_date": "2019.08.23.",
+        "online_application_period": "2019.08.28.~2019.09.10.",
+        "document_submission_period": null,
+        "inspection_period": "2019.09.20.~2019.11.08.",
+        "winner_announcement": "2019.11.25.",
+        "contract_period": "2019.12.09.~2019.12.11.",
+        "move_in_period": "2019.12.12.~2020.02.11."
+    },
+    "precautions": "신청접수 기간에 접수하지 아니하면 신청 무효처리, 제출된 서류는 반환하지 않으며, 신청 이후에는 취소나 정정 불가능, 입주 시까지 입주자격을 유지하여야 함"
+}

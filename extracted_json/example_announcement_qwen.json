@@ -1,0 +1,23 @@
+{
+    "notice_id": 101,
+    "application_eligibility": "만 19세 이상 만 39세 이하의 미혼 청년으로, 무주택세대구성원이며, 해당 세대의 월평균소득이 전년도 도시근로자 가구원수별 가구당 월평균소득의 100% 이하이고, 총 자산이 행복주택 자산기준을 충족해야 합니다.",
+    "housing_info": [],
+    "residence_period": "최대 10년, 2년 단위로 4회 재계약 가능",
+    "priority_and_bonus": {
+        "priority_criteria": [
+            {
+                "priority": "1순위",
+                "criteria": [
+                    "만 19세 이상 만 39세 이하의 청년",
+                    "미혼",
+                    "무주택세대구성원",
+                    "해당 세대의 월평균소득이 전년도 도시근로자 가구원수별 가구당 월평균소득의 100% 이하",
+                    "해당 세대의 총 자산이 행복주택 자산기준을 충족"
+                ]
+            }
+        ],
+        "score_items": []
+    },
+    "application_schedule": {},
+    "precautions": ""
+}
