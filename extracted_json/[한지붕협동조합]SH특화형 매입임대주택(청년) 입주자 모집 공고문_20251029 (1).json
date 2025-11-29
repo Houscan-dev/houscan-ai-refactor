@@ -1,0 +1,42 @@
+{
+    "notice_id": "[한지붕협동조합]SH특화형 매입임대주택(청년) 입주자 모집 공고문_20251029 (1)",
+    "application_eligibility": "청년(만19세 이상 만39세 이하) 무주택자, 소득 및 자산 기준 충족",
+    "housing_info": [
+        {
+            "name": null,
+            "address": "서울특별시 금천구 독산로22길 65 제C동 (시흥동 824-16)",
+            "district": "금천구",
+            "type": "매입임대주택",
+            "total_households": "11",
+            "supply_households": "1",
+            "house_type": "방 2개, 면적 55.94㎡",
+            "parking": null,
+            "elevator": null
+        }
+    ],
+    "residence_period": "최대 10년, 2년 단위로 재계약 가능, 4회를 초과할 수 없음",
+    "priority_and_bonus": {
+        "priority_criteria": [
+            {
+                "priority": "1순위",
+                "criteria": [
+                    "청년(만19세 이상 만39세 이하)",
+                    "무주택세대구성원",
+                    "월평균소득이 전년도 도시근로자 가구원수별 가구당 월평균소득의 100% 이하",
+                    "총 자산이 행복주택 자산기준 충족이하"
+                ]
+            }
+        ],
+        "score_items": []
+    },
+    "application_schedule": {
+        "announcement_date": "2025.10.29.",
+        "online_application_period": "2025.10.29.~2025.10.30.",
+        "document_submission_period": "2025.10.29.~2025.10.30.",
+        "inspection_period": "2025.10.31.~",
+        "winner_announcement": "개별 안내",
+        "contract_period": "개별 안내",
+        "move_in_period": "개별 안내"
+    },
+    "precautions": "입주 후 공동생활을 위한 공동체 질서 준수, 재계약 시 자격요건 검증 필요"
+}

@@ -1,13 +1,13 @@
 {
-    "notice_id": null,
-    "application_eligibility": "청년, 대학생, 취업준비생, 고령자 가구, 장애인 가구 등 다양한 유형의 신청자를 대상으로 합니다. 각 유형별로 소득 및 자산 기준이 있으며, 자세한 내용은 공고문을 참조하세요.",
+    "notice_id": "[공고문] 청년 매입임대주택 신규세대 입주자 모집 공고(2019_12_24_) 공고문",
+    "application_eligibility": null,
     "housing_info": [
         {
             "name": null,
             "address": null,
             "district": "강동구",
             "type": "다가구 단독거주형",
-            "total_households": "16",
+            "total_households": "59",
             "supply_households": "16",
             "house_type": null,
             "parking": null,
@@ -18,7 +18,7 @@
             "address": null,
             "district": "광진구",
             "type": "다가구 단독거주형",
-            "total_households": "17",
+            "total_households": "59",
             "supply_households": "17",
             "house_type": null,
             "parking": null,
@@ -29,43 +29,41 @@
             "address": null,
             "district": "금천구",
             "type": "다가구 단독거주형",
-            "total_households": "26",
+            "total_households": "59",
             "supply_households": "26",
             "house_type": null,
             "parking": null,
             "elevator": null
         }
     ],
-    "residence_period": "최초 2년 계약 후 2회 갱신 가능(총 6년). 입주 후 혼인한 경우 2년 단위로 7회 추가 연장 가능(총 20년, 원룸 및 단독거주형 다가구 입주자만 가능)",
+    "residence_period": null,
     "priority_and_bonus": {
         "priority_criteria": [
             {
-                "priority": "1순위",
+                "priority": "1순위 (타지역)",
                 "criteria": [
-                    "생계·의료급여 수급자 가구",
-                    "한부모 가족 가구",
+                    "생계·의료급여 수급자",
+                    "한부모 가족",
                     "주거지원 시급가구"
                 ]
             },
             {
-                "priority": "2순위",
+                "priority": "2순위 (타지역)",
                 "criteria": [
-                    "장애인 가구",
-                    "장애인"
+                    "일반 (월평균소득 50%) / 장애인 가구 (월평균소득 100%)"
                 ]
             },
             {
-                "priority": "3순위",
+                "priority": "3순위 (타지역)",
                 "criteria": [
-                    "일반 (장애인 가구)",
-                    "일반 (장애인)"
+                    "일반 (월평균소득 100%) / 장애인 가구 (월평균소득 150%)"
                 ]
             },
             {
-                "priority": "4순위",
+                "priority": "4순위 (지역 무관)",
                 "criteria": [
-                    "단독세대주",
-                    "세대원이 있는 세대주"
+                    "단독세대주 / 비세대주인 세대 구성원 (월평균 소득 80% 이하)",
+                    "세대원이 있는 세대주 (월평균 소득 100% 이하)"
                 ]
             }
         ],
@@ -73,12 +71,12 @@
     },
     "application_schedule": {
         "announcement_date": "2019.12.24.",
-        "online_application_period": "2020.01.07. 10:00 – 2020.01.10. 17:00",
+        "online_application_period": null,
         "document_submission_period": "2020.01.15. – 2020.01.21.",
-        "inspection_period": "2020.01.14. 18:00",
-        "winner_announcement": "2020.04.21.",
+        "inspection_period": "2020.01.23.",
+        "winner_announcement": "2020.01.14. 18:00",
         "contract_period": "2020.04.21. – 2020.04.23.",
-        "move_in_period": "2020.04.29. – 2020.06.29."
+        "move_in_period": null
     },
-    "precautions": "1인 1주택만 신청 가능하며, 주소지 단위로 신청 가능합니다. 호실은 전산 무작위 추첨하여 배정됩니다. 주택 미확인으로 인한 이의제기는 불가능합니다."
+    "precautions": "◻ 1인 1주택(실)만 신청 가능합니다.\n◻ 공고 내용을 정확히 숙지하여 신청 과정에서 불이익(순위등을 실제보다 낮게 기재, 기한 내 서류미제출 탈락 등)이 발생하지 않도록 유의하시기 바랍니다. 반드시 기한 내에 신청접수 및 서류 제출하여야 하며 신청 후에는 수정이 불가능합니다.\n◻ 주소지 단위로 신청가능하며 호실은 전산 무작위 추첨하여 배정하고, 세대마다 남성과 여성의 성별이 지정되어 있습니다."
 }

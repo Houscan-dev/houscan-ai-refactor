@@ -1,0 +1,43 @@
+{
+    "notice_id": "[한지붕협동조합]SH특화형 매입임대주택(청년) 입주자 모집 공고문_20250811_구천면로46길 38",
+    "application_eligibility": "청년(만19세 이상 만39세 이하) 무주택세대구성원, 월평균소득이 전년도 도시근로자 가구원수별 가구당 월평균소득의 100% 이하, 총자산가액 33,700만원 이하, 자동차가액 3,803만원 이하",
+    "housing_info": [
+        {
+            "name": null,
+            "address": "서울특별시 강동구 구천면로46길 38, 리츠하우스",
+            "district": "강동구",
+            "type": "원룸형",
+            "total_households": "12",
+            "supply_households": "1",
+            "house_type": "방 개수: 3, 면적: 67.88㎡(전용 59.99㎡, 공용 7.89㎡)",
+            "parking": null,
+            "elevator": "있음"
+        }
+    ],
+    "residence_period": "최대 10년, 2년 단위로 재계약 가능, 재계약은 4회를 초과할 수 없음",
+    "priority_and_bonus": {
+        "priority_criteria": [
+            {
+                "priority": "1순위",
+                "criteria": [
+                    "청년(만19세 이상 만39세 이하)",
+                    "무주택세대구성원",
+                    "월평균소득이 전년도 도시근로자 가구원수별 가구당 월평균소득의 100% 이하",
+                    "총자산가액 33,700만원 이하",
+                    "자동차가액 3,803만원 이하"
+                ]
+            }
+        ],
+        "score_items": []
+    },
+    "application_schedule": {
+        "announcement_date": "2025.08.11.",
+        "online_application_period": "2025.08.11.~2025.08.12.",
+        "document_submission_period": "2025.08.11.~2025.08.12.",
+        "inspection_period": "2025.08.13.~",
+        "winner_announcement": "심사 후 약 8주 소요",
+        "contract_period": "개별 안내",
+        "move_in_period": "개별 안내"
+    },
+    "precautions": "모든 제출서류는 입주자모집공고일(2025.08.11.) 이후 발급한 서류만 인정됩니다. 입주자모집공고일부터 입주시까지 입주자격을 유지하여야 합니다."
+}

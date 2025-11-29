@@ -1,33 +1,26 @@
 {
-    "notice_id": 1,
-    "application_eligibility": "신청 대상은 1985.04.04. ~ 2006.04.03. 사이에 출생한 미혼 청년으로, 해당 세대의 월평균소득이 전년도 도시근로자 가구원수별 가구당 월평균소득의 100% 이하여야 합니다.",
+    "notice_id": "[협동조합 큰바위얼굴]SH특화형 매입임대주택(청년) 입주자 모집 공고문_20250403",
+    "application_eligibility": "청년 1인 가구 단독거주, 무주택세대구성원, 월평균소득이 전년도 도시근로자 가구원수별 가구당 월평균소득의 100% 이하, 총 자산이 행복주택 자산기준을 충족",
     "housing_info": [
         {
-            "name": "특화형 매입임대주택",
+            "name": null,
             "address": "서울특별시 은평구 진흥로1길 13-11 (역촌동 39-35)",
             "district": "은평구",
             "type": "원룸형",
-            "total_households": "1",
-            "supply_households": "1",
-            "house_type": "26.02m²",
-            "parking": "없음",
+            "total_households": "1호",
+            "supply_households": "1호",
+            "house_type": "26.02㎡",
+            "parking": null,
             "elevator": "있음"
         }
     ],
-    "residence_period": "최대 10년 거주 가능, 2년 단위로 재계약 가능하며, 4회를 초과할 수 없습니다.",
+    "residence_period": "최대 10년, 2년 단위로 재계약 가능, 4회를 초과할 수 없음",
     "priority_and_bonus": {
         "priority_criteria": [
             {
                 "priority": "1순위",
                 "criteria": [
-                    "1985.04.04. ~ 2006.04.03. 사이에 출생한 미혼 청년",
-                    "해당 세대의 월평균소득이 전년도 도시근로자 가구원수별 가구당 월평균소득의 100% 이하",
-                    "해당 세대의 총 자산이 행복주택 자산기준 충족 이하"
-                ]
-            },
-            {
-                "priority": "2순위",
-                "criteria": [
+                    "신청일 현재, 본 모집공고의 소득 및 자산 기준을 충족하는 자",
                     "입주희망일이 빠른 자",
                     "계약기간을 2년으로 희망하는 자",
                     "생계·의료·수급자, 한부모 가족, 주거지원시급가구, 저소득 고령자"
@@ -38,12 +31,12 @@
     },
     "application_schedule": {
         "announcement_date": "2025.04.03",
-        "online_application_period": "2025.04.03.~2025.04.06.",
-        "document_submission_period": "2025.04.03.~2025.04.06.",
-        "inspection_period": "약 6-8주 소요",
+        "online_application_period": "2025.04.03~2025.04.06",
+        "document_submission_period": "2025.04.03~2025.04.06",
+        "inspection_period": "약 6-8주",
         "winner_announcement": "신청자 전원에 적격여부 문자발송",
-        "contract_period": "적격자 중 계약희망자 대상으로 진행",
-        "move_in_period": "2025.6.29. 이후"
+        "contract_period": "주택개방일에 입주자 선정 및 계약서 작성",
+        "move_in_period": null
     },
-    "precautions": "1. 입주 후 공동생활을 위한 공동체 질서 준수 필요\n2. 거짓이나 부정한 방법으로 임대주택을 임대받거나 임대받게 한 자에 대한 처벌 규정이 있음\n3. 태아를 가구원으로 인정받아 입주예정자로 선정된 자는 입주 전까지 임신 또는 출산 관련 서류를 제출해야 함"
+    "precautions": "반려동물은 원칙적으로 불허함, 입주 후 공동생활을 위한 공동체 질서 준수, 자동차 이용문화 변화 및 주차난 해소로 주차장 일부를 나눔카(카셰어링) 사업 등에 제공 가능"
 }

@@ -1,69 +1,42 @@
 {
-    "notice_id": null,
-    "application_eligibility": "만 19세 이상 만 39세 이하의 미혼 청년으로, 무주택세대구성원이며, 해당 세대의 월평균소득이 전년도 도시근로자 가구원수별 가구당 월평균소득의 100% 이하이고, 총 자산이 행복주택 자산기준을 충족해야 합니다.",
+    "notice_id": "[한지붕협동조합]SH특화형 매입임대주택(청년) 입주자 모집 공고문_20250324",
+    "application_eligibility": "청년(만19세 이상 만39세 이하) 무주택세대구성원으로서, 해당 세대의 월평균소득이 전년도 도시근로자 가구원수별 가구당 월평균소득의 100% 이하, 해당 세대의 총 자산이 행복주택 자산기준을 충족해야 함.",
     "housing_info": [
         {
-            "name": "소담빌라",
-            "address": "서울특별시 금천구 시흥대로88길 18, 독산동 1068-16",
+            "name": null,
+            "address": "서울특별시 금천구 시흥대로88길 18, 소담빌라 (독산동 1068-16)",
             "district": "금천구",
-            "type": "청년 1인 단독거주",
-            "total_households": "1호",
-            "supply_households": "1호",
-            "house_type": "403호",
-            "parking": "주차 가능",
+            "type": "원룸형",
+            "total_households": "1",
+            "supply_households": "1",
+            "house_type": "방0",
+            "parking": null,
             "elevator": "있음"
         }
     ],
-    "residence_period": "최대 10년, 2년 단위로 4회 재계약 가능",
+    "residence_period": "최초 임대차기간은 2년이며, 재계약은 2년 단위로 4회까지 가능. 재계약 시 자격요건을 충족해야 함.",
     "priority_and_bonus": {
         "priority_criteria": [
             {
                 "priority": "1순위",
                 "criteria": [
-                    "만 19세 이상 만 39세 이하의 청년",
-                    "미혼",
+                    "청년(만19세 이상 만39세 이하)",
                     "무주택세대구성원",
                     "해당 세대의 월평균소득이 전년도 도시근로자 가구원수별 가구당 월평균소득의 100% 이하",
                     "해당 세대의 총 자산이 행복주택 자산기준을 충족"
                 ]
             }
         ],
-        "score_items": [
-            {
-                "priority": "1순위",
-                "items": [
-                    {
-                        "item": "한지붕 공동체 교육",
-                        "score": "20"
-                    },
-                    {
-                        "item": "도시근로자 월평균소득",
-                        "score": "20"
-                    },
-                    {
-                        "item": "공동체 생활 관련 활동기간",
-                        "score": "20"
-                    },
-                    {
-                        "item": "주거, 공유경제, 공동체, 주택협동조합에 대한 생각",
-                        "score": "20"
-                    },
-                    {
-                        "item": "친환경에 대한 생각, 공동체 참여의지, 자기소개서",
-                        "score": "20"
-                    }
-                ]
-            }
-        ]
+        "score_items": []
     },
     "application_schedule": {
         "announcement_date": "2025.03.24",
         "online_application_period": "2025.03.24~2025.03.27",
-        "document_submission_period": "2025.03.24~2025.03.27",
+        "document_submission_period": null,
         "inspection_period": "2025.03.28~",
-        "winner_announcement": "2025.05.24",
-        "contract_period": "개별 안내",
+        "winner_announcement": "2025.05.20",
+        "contract_period": "2025.05.20~2025.05.20",
         "move_in_period": "2025.06.17"
     },
-    "precautions": "최대 10년 거주 가능, 2년 단위로 4회 재계약 가능, 재계약 시 자격요건 충족 여부 검증, 거짓이나 부정한 방법으로 임대주택을 임대받거나 임대받게 한 경우 3년 이하 징역 또는 3천만원 이하 벌금, 특화형 매입임대주택은 시중은행 대출이 어려움."
+    "precautions": "입주 후 공동생활을 위한 공동체 질서 준수, 거짓이나 부정한 방법으로 임대주택을 임대받거나 임대주택을 전대하는 행위 금지, 태아를 가구원으로 인정받아 선정된 자는 입주 전까지 임신 또는 출산 관련 서류 제출 필요."
 }

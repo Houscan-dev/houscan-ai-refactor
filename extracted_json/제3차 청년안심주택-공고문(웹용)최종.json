@@ -1,173 +1,205 @@
 {
-    "notice_id": "2024년 3차 서울시 청년안심주택(공공임대) 입주자 모집공고",
-    "application_eligibility": "청년 계층: 19세 이상 39세 이하 무주택 청년, 소득 및 자산 기준 충족. 신혼부부 계층: 공고일 현재 혼인 7년 이내인 신혼부부, 6세 이하 자녀가 있는 가구, 신생아 가구.",
+    "notice_id": "제3차 청년안심주택-공고문(웹용)최종",
+    "application_eligibility": "2024년 3차 청년안심주택은 입주자모집공고일(2024.12.23.) 현재 19세 이상 39세 이하 무주택 청년 및 신혼부부 계층을 대상으로 공급됩니다.",
     "housing_info": [
+        {
+            "name": "종암 라온 프라이빗",
+            "address": "성북구 종암동 83-3",
+            "district": "성북구",
+            "type": "원룸형",
+            "total_households": "21",
+            "supply_households": "11",
+            "house_type": "21.82㎡",
+            "parking": "개별 난방",
+            "elevator": "있음"
+        },
+        {
+            "name": "골드타워",
+            "address": "동작구 신대방동 351-5",
+            "district": "동작구",
+            "type": "원룸형",
+            "total_households": "19",
+            "supply_households": "57",
+            "house_type": "19.42㎡",
+            "parking": "개별 난방",
+            "elevator": "있음"
+        },
+        {
+            "name": "성북 펠릭스",
+            "address": "성북구 하월곡동 88-222",
+            "district": "성북구",
+            "type": "원룸형",
+            "total_households": "16",
+            "supply_households": "22",
+            "house_type": "16.46㎡",
+            "parking": "개별 난방",
+            "elevator": "있음"
+        },
+        {
+            "name": "한영 스테이",
+            "address": "성동구 마장동 783-5",
+            "district": "성동구",
+            "type": "원룸형",
+            "total_households": "18",
+            "supply_households": "15",
+            "house_type": "18.28㎡",
+            "parking": "개별 난방",
+            "elevator": "있음"
+        },
         {
             "name": "어바니엘 위드 더 스타일 충정로",
             "address": "서대문구 충정로3가 480",
             "district": "서대문구",
-            "type": "공공임대",
+            "type": "원룸형",
             "total_households": "16",
-            "supply_households": "5",
-            "house_type": "16㎡",
-            "parking": null,
-            "elevator": null
+            "supply_households": "2",
+            "house_type": "16.06㎡",
+            "parking": "개별 난방",
+            "elevator": "있음"
         },
         {
             "name": "아임 2030",
             "address": "강서구 등촌동 648-5",
             "district": "강서구",
-            "type": "공공임대",
+            "type": "원룸형",
             "total_households": "15",
             "supply_households": "4",
-            "house_type": "15A㎡",
-            "parking": null,
-            "elevator": null
+            "house_type": "15.17㎡",
+            "parking": "개별 난방",
+            "elevator": "있음"
         },
         {
             "name": "홍대크리원",
             "address": "마포구 상수동 355-2",
             "district": "마포구",
-            "type": "공공임대",
+            "type": "원룸형",
             "total_households": "30",
             "supply_households": "2",
-            "house_type": "30㎡",
-            "parking": null,
-            "elevator": null
+            "house_type": "30.07㎡",
+            "parking": "개별 난방",
+            "elevator": "있음"
         },
         {
             "name": "보눔하우스 화곡",
             "address": "강서구 화곡동 401-1",
             "district": "강서구",
-            "type": "공공임대",
+            "type": "원룸형",
             "total_households": "16",
             "supply_households": "1",
-            "house_type": "16㎡",
-            "parking": null,
-            "elevator": null
+            "house_type": "16.90㎡",
+            "parking": "개별 난방",
+            "elevator": "있음"
         },
         {
             "name": "칼튼테라스",
             "address": "중랑구 묵동 176-39",
             "district": "중랑구",
-            "type": "공공임대",
+            "type": "원룸형",
             "total_households": "16",
             "supply_households": "4",
-            "house_type": "16㎡",
-            "parking": null,
-            "elevator": null
+            "house_type": "16.81㎡",
+            "parking": "개별 난방",
+            "elevator": "있음"
         },
         {
             "name": "용산베르디움프렌즈",
             "address": "용산구 한강로2가 426",
             "district": "용산구",
-            "type": "공공임대",
+            "type": "원룸형",
             "total_households": "19",
             "supply_households": "3",
-            "house_type": "19㎡",
-            "parking": null,
-            "elevator": null
+            "house_type": "19.70㎡",
+            "parking": "개별 난방",
+            "elevator": "있음"
         },
         {
             "name": "인히어 쌍문",
             "address": "도봉구 쌍문동 103-6",
             "district": "도봉구",
-            "type": "공공임대",
+            "type": "원룸형",
             "total_households": "19",
             "supply_households": "1",
-            "house_type": "19㎡",
-            "parking": null,
-            "elevator": null
+            "house_type": "19.17㎡",
+            "parking": "개별 난방",
+            "elevator": "있음"
         },
         {
             "name": "L TOWER",
             "address": "송파구 잠실동 208-4",
             "district": "송파구",
-            "type": "공공임대",
-            "total_households": "16A",
+            "type": "원룸형",
+            "total_households": "16",
             "supply_households": "2",
-            "house_type": "16A㎡",
-            "parking": null,
-            "elevator": null
+            "house_type": "16.24㎡",
+            "parking": "개별 난방",
+            "elevator": "있음"
         },
         {
             "name": "제이스타상봉",
             "address": "중랑구 상봉동 109-34",
             "district": "중랑구",
-            "type": "공공임대",
+            "type": "원룸형",
             "total_households": "17",
             "supply_households": "1",
-            "house_type": "17㎡",
-            "parking": null,
-            "elevator": null
+            "house_type": "17.75㎡",
+            "parking": "개별 난방",
+            "elevator": "있음"
         },
         {
             "name": "리스트강남",
             "address": "강남구 논현동 202-7",
             "district": "강남구",
-            "type": "공공임대",
-            "total_households": "14A",
+            "type": "원룸형",
+            "total_households": "14",
             "supply_households": "3",
-            "house_type": "14A㎡",
-            "parking": null,
-            "elevator": null
-        },
-        {
-            "name": "중앙",
-            "address": "강남구 논현동 202-7",
-            "district": "강남구",
-            "type": "공공임대",
-            "total_households": "17",
-            "supply_households": "3",
-            "house_type": "17㎡",
-            "parking": null,
-            "elevator": null
+            "house_type": "14.29㎡",
+            "parking": "중앙 난방",
+            "elevator": "있음"
         },
         {
             "name": "용산 원효 루미니",
-            "address": "용산구 원효로 1가 134",
+            "address": "용산구 원효로1가 134",
             "district": "용산구",
-            "type": "공공임대",
-            "total_households": "29B",
+            "type": "원룸형",
+            "total_households": "29",
             "supply_households": "2",
-            "house_type": "29B㎡",
-            "parking": null,
-            "elevator": null
+            "house_type": "29.96㎡",
+            "parking": "개별 난방",
+            "elevator": "있음"
         },
         {
             "name": "한화포레나 당산",
             "address": "영등포구 당산동 2가 165",
             "district": "영등포구",
-            "type": "공공임대",
+            "type": "원룸형",
             "total_households": "41",
             "supply_households": "1",
-            "house_type": "41㎡",
-            "parking": null,
-            "elevator": null
+            "house_type": "41.12㎡",
+            "parking": "개별 난방",
+            "elevator": "있음"
         }
     ],
-    "residence_period": "청년 계층: 최대 10년, 신혼부부 계층: 최대 20년",
+    "residence_period": "임대차 계약기간은 2년이며, 계속 거주를 희망하는 경우에는 관계법령에서 정한 입주자격을 충족하는 자에 한하여 2년 단위로 계약 갱신가능합니다.",
     "priority_and_bonus": {
         "priority_criteria": [
             {
                 "priority": "1순위",
                 "criteria": [
                     "생계·의료급여 수급자 가구",
-                    "보호대상 한부모가족"
+                    "보호대상 한부모 가족",
+                    "차상위계층 가구"
                 ]
             },
             {
                 "priority": "2순위",
                 "criteria": [
-                    "임신 중이거나 출산, 입양으로 자녀가 있는 (예비)신혼부부",
-                    "6세 이하 자녀가 있는 한부모 가족"
+                    "일반"
                 ]
             },
             {
                 "priority": "3순위",
                 "criteria": [
-                    "자녀가 없는 (예비)신혼부부",
-                    "6세 이하 자녀가 있는 혼인가구"
+                    "일반"
                 ]
             }
         ],
@@ -177,11 +209,23 @@
                 "items": [
                     {
                         "item": "생계·의료급여 수급자",
-                        "score": "3"
+                        "score": "3점"
                     },
                     {
                         "item": "보호대상 한부모가족",
-                        "score": "3"
+                        "score": "3점"
+                    },
+                    {
+                        "item": "부모 무주택",
+                        "score": "2점"
+                    },
+                    {
+                        "item": "장애인(본인)",
+                        "score": "2점"
+                    },
+                    {
+                        "item": "장애인 가구",
+                        "score": "1점"
                     }
                 ]
             },
@@ -189,16 +233,12 @@
                 "priority": "공통",
                 "items": [
                     {
-                        "item": "부모 무주택",
-                        "score": "2"
+                        "item": "소득기준 50% 이하",
+                        "score": "3점"
                     },
                     {
-                        "item": "장애인(본인)",
-                        "score": "2"
-                    },
-                    {
-                        "item": "장애인 가구",
-                        "score": "1"
+                        "item": "청약저축 또는 주택청약종합저축 납입횟수",
+                        "score": "24회 이상 납입: 3점, 12회 이상 24회 미만 납입: 2점, 6회 이상 12회 미만 납입: 1점"
                     }
                 ]
             },
@@ -207,24 +247,20 @@
                 "items": [
                     {
                         "item": "소득기준 50% 이하",
-                        "score": "3"
-                    },
-                    {
-                        "item": "청약저축 또는 주택청약종합저축 납입횟수",
-                        "score": "3"
+                        "score": "3점"
                     }
                 ]
             }
         ]
     },
     "application_schedule": {
-        "announcement_date": "2024.12.23.",
-        "online_application_period": "2024.12.23. ~ 2024.12.29.",
-        "document_submission_period": null,
-        "inspection_period": "2025.03. 중",
-        "winner_announcement": "2025.04.30.",
+        "announcement_date": "2024.12.23",
+        "online_application_period": "2025.05.14. ~ 2025.05.16.",
+        "document_submission_period": "2025.05.14. ~ 2025.05.16.",
+        "inspection_period": "2025.05",
+        "winner_announcement": "2025.05",
         "contract_period": "2025.05.14. ~ 2025.05.16.",
         "move_in_period": "2025.06.09. ~ 2025.07.08."
     },
-    "precautions": "온라인(전자)계약 기간 내에 계약을 체결하지 않으면 당첨이 취소되며, 계약금은 환불됩니다. 주택소유, 소득, 자산 초과로 부적격자로 통보받은 경우 소명이 완료되어야 계약이 가능합니다."
+    "precautions": "공고일은 청약자격의 판단 기준일이 되며, 청약신청은 신청자가 입주자 모집 공고문을 숙지하신 후 신청자의 의사에 따라 신청하는 것이므로 신청자격 미숙지, 착오 등의 사유로 신청하신 내용의 수정이 불가하오니 이로 인하여 불이익을 받는 일이 없도록 유의하여 주시기 바랍니다."
 }

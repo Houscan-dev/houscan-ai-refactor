@@ -1,12 +1,12 @@
 {
-    "notice_id": null,
-    "application_eligibility": "청년(만19세 이상 만39세 이하) 무주택자, 월평균소득이 전년도 도시근로자 가구원수별 가구당 월평균소득의 100% 이하, 총자산가액 3억 3,700만원 이하, 자동차가액 3,803만원 이하",
+    "notice_id": "[마을과집]SH특화형 매입임대주택(청년) 입주자 모집 공고문_20250307",
+    "application_eligibility": "청년(만19세 이상 만39세 이하) 무주택자, 월평균소득이 전년도 도시근로자 가구원수별 가구당 월평균소득의 100% 이하, 총자산가액 33,700만원 이하, 자동차가액 3,803만원 이하",
     "housing_info": [
         {
             "name": null,
             "address": null,
             "district": null,
-            "type": null,
+            "type": "마을과집 특화형매입임대주택",
             "total_households": null,
             "supply_households": null,
             "house_type": null,
@@ -14,37 +14,30 @@
             "elevator": null
         }
     ],
-    "residence_period": "최대 10년, 2년 단위로 재계약 가능하되 4회를 초과할 수 없음",
+    "residence_period": "최초 임대차기간 2년, 재계약 가능 4회, 최대 거주기간 10년",
     "priority_and_bonus": {
         "priority_criteria": [
             {
                 "priority": "1순위",
                 "criteria": [
-                    "만19세 이상 만39세 이하인 청년",
-                    "무주택세대구성원",
+                    "만19세 이상 만39세 이하 청년",
+                    "무주택",
                     "월평균소득이 전년도 도시근로자 가구원수별 가구당 월평균소득의 100% 이하",
-                    "총자산가액 3억 3,700만원 이하",
+                    "총자산가액 33,700만원 이하",
                     "자동차가액 3,803만원 이하"
-                ]
-            },
-            {
-                "priority": "예비입주자",
-                "criteria": [
-                    "공급세대 수를 초과한 신청자 중 일정비율로 선정",
-                    "1년간 유효"
                 ]
             }
         ],
         "score_items": []
     },
     "application_schedule": {
-        "announcement_date": "2025.03.07.",
-        "online_application_period": "2025.03.07.~2025.03.13.",
+        "announcement_date": "2025.03.07",
+        "online_application_period": "2025.03.07~2025.03.13",
         "document_submission_period": null,
-        "inspection_period": "2025.03.21. 부터",
+        "inspection_period": "2025.03.21 부터",
         "winner_announcement": "개별 안내",
         "contract_period": "개별 안내",
         "move_in_period": "개별 안내"
     },
-    "precautions": "신청서류는 일체 반환하지 않으며, 허위, 위조 서류로 인한 당첨 및 계약 취소 가능. 재계약 시 자격요건 검증 필요."
+    "precautions": "공공주택 특별법 제49조의3에 따라 거짓이나 부정한 방법으로 임대주택을 임대받거나 임대받게 한 자는 임대차계약이 해제 또는 해지되거나 재계약이 거절될 수 있으며, 제49조의8에 따라 공공임대주택의 입주자격이 4년 범위에서 제한될 수 있습니다."
 }

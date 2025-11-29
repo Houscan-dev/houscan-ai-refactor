@@ -1,103 +1,224 @@
 {
-    "notice_id": null,
-    "application_eligibility": "청년(만 19세 이상 ~ 39세 이하), 대학생, 취업준비생",
+    "notice_id": "1_[공고문] 2023년 2차 청년 매입임대주택 입주자모집공고문(홈페이지 공개용)(수정)",
+    "application_eligibility": "청년 매입임대주택 입주자 모집공고 대상은 무주택자(본인)인 미혼 청년, 취업준비생, 대학생으로서 소득, 자산, 자동차 보유 기준을 충족해야 합니다. 1순위는 생계, 의료, 주거급여 수급자, 보호대상 한부모 가족, 차상위계층 가구이며, 2순위는 본인과 부모의 월평균소득이 전년도 도시근로자 가구당 월평균소득의 100% 이하인 가구, 3순위는 본인의 월평균소득이 전년도 도시근로자 가구당 월평균소득의 100% 이하인 가구입니다.",
     "housing_info": [
         {
-            "name": "삼정리버뷰",
-            "address": "경인로71길 74, 문래동5가 20-21",
-            "district": "영등포구",
-            "type": "도시형생활주택, 오피스텔",
-            "total_households": "18",
-            "supply_households": "18",
-            "house_type": "29B",
-            "parking": "자주식(지상)",
-            "elevator": "있음"
-        },
-        {
-            "name": "현도빌리지VII",
-            "address": "대림로31가길 5, 대림동 729-7",
-            "district": "영등포구",
-            "type": "도시형생활주택",
-            "total_households": "10",
-            "supply_households": "10",
-            "house_type": "37A",
-            "parking": "자주식(지상)",
-            "elevator": "있음"
-        },
-        {
-            "name": "현도빌리지VIII",
-            "address": "대림로34길 17, 대림동 685-24",
-            "district": "영등포구",
-            "type": "도시형생활주택",
-            "total_households": "2",
-            "supply_households": "2",
-            "house_type": "48A",
-            "parking": "자주식(지상)",
-            "elevator": "있음"
-        },
-        {
-            "name": "미래하이츠",
-            "address": "디지털로38길 4-7, 대림동1081-82",
-            "district": "영등포구",
-            "type": "도시형생활주택",
-            "total_households": "2",
-            "supply_households": "2",
-            "house_type": "31A",
-            "parking": "자주식(지상)",
-            "elevator": "있음"
-        },
-        {
-            "name": "대림하이츠",
-            "address": "디지털로38길 8-12, 대림동1081-84",
-            "district": "영등포구",
-            "type": "도시형생활주택",
-            "total_households": "5",
-            "supply_households": "5",
-            "house_type": "32A",
-            "parking": "자주식(지상)",
-            "elevator": "있음"
-        },
-        {
-            "name": "초행지붕 구산A동",
-            "address": "갈현로11가길 3, 구산동 551",
-            "district": "은평구",
-            "type": "도시형생활주택",
-            "total_households": "8",
-            "supply_households": "8",
-            "house_type": "26B",
+            "name": "청춘가옥",
+            "address": "독산로50길 130-9, 시흥동 3-123",
+            "district": "금천구",
+            "type": "다세대주택",
+            "total_households": "1",
+            "supply_households": "1",
+            "house_type": "개방형 원룸",
             "parking": "자주식(지하)",
-            "elevator": "있음"
+            "elevator": "O"
         },
         {
-            "name": "초행지붕 구산B동",
-            "address": "갈현로11가길 3, 구산동 550",
+            "name": "신영",
+            "address": "범안로11길 60, 독산동 333-14",
+            "district": "금천구",
+            "type": "오피스텔",
+            "total_households": "1",
+            "supply_households": "1",
+            "house_type": "개방형 원룸",
+            "parking": "자주식(지상, 지하)",
+            "elevator": "O"
+        },
+        {
+            "name": "씨앤제이빌",
+            "address": "도당로9길 15-3, 방학동 665-29",
+            "district": "도봉구",
+            "type": "도시형생활주택",
+            "total_households": "1",
+            "supply_households": "1",
+            "house_type": "투룸",
+            "parking": "자주식(지상)",
+            "elevator": "O"
+        },
+        {
+            "name": "제기홈",
+            "address": "경동시장로9가길 21, 제기동 846-23, 24",
+            "district": "동대문구",
+            "type": "도시형생활주택",
+            "total_households": "4",
+            "supply_households": "4",
+            "house_type": "개방형 원룸",
+            "parking": "자주식(지상)",
+            "elevator": "X"
+        },
+        {
+            "name": "성지파크빌",
+            "address": "남부순환로255길 16, 사당동 303-42",
+            "district": "동작구",
+            "type": "도시형생활주택",
+            "total_households": "1",
+            "supply_households": "1",
+            "house_type": "분리형 원룸",
+            "parking": "자주식(지상)",
+            "elevator": "O"
+        },
+        {
+            "name": "서초파크타운 A동",
+            "address": "반포대로5길 64, 서초동 1478-9",
+            "district": "서초구",
+            "type": "도시형생활주택",
+            "total_households": "2",
+            "supply_households": "2",
+            "house_type": "개방형 원룸",
+            "parking": "자주식(지상)",
+            "elevator": "O"
+        },
+        {
+            "name": "서초파크타운 B동",
+            "address": "반포대로5길 62, 서초동 1478-16",
+            "district": "서초구",
+            "type": "도시형생활주택",
+            "total_households": "1",
+            "supply_households": "1",
+            "house_type": "개방형 원룸",
+            "parking": "자주식(지상)",
+            "elevator": "O"
+        },
+        {
+            "name": "와이하우스",
+            "address": "자동차시장3길 93, 용답동 238-5",
+            "district": "성동구",
+            "type": "도시형생활주택",
+            "total_households": "13",
+            "supply_households": "13",
+            "house_type": "분리형 원룸",
+            "parking": "자주식(지하)/기계식(지하)",
+            "elevator": "O"
+        },
+        {
+            "name": "티엘하우스",
+            "address": "중대로14길 6, 가락동 129-11",
+            "district": "송파구",
+            "type": "도시형생활주택",
+            "total_households": "1",
+            "supply_households": "1",
+            "house_type": "개방형 원룸",
+            "parking": "자주식(지상)",
+            "elevator": "O"
+        },
+        {
+            "name": "다온에코하임",
+            "address": "거마로9길 24-5, 거여동 135-54외",
+            "district": "송파구",
+            "type": "도시형생활주택",
+            "total_households": "2",
+            "supply_households": "2",
+            "house_type": "분리형 원룸",
+            "parking": "자주식(지상)",
+            "elevator": "O"
+        },
+        {
+            "name": "마천빌",
+            "address": "성내천로22길 1, 마천동 40-10",
+            "district": "송파구",
+            "type": "도시형생활주택",
+            "total_households": "1",
+            "supply_households": "1",
+            "house_type": "개방형 원룸",
+            "parking": "자주식(지상)",
+            "elevator": "O"
+        },
+        {
+            "name": "네스트197",
+            "address": "오금로46길 65, 가락동 197-3",
+            "district": "송파구",
+            "type": "도시형생활주택",
+            "total_households": "4",
+            "supply_households": "4",
+            "house_type": "개방형 원룸",
+            "parking": "자주식(지상)",
+            "elevator": "O"
+        },
+        {
+            "name": "금성하이츠",
+            "address": "가락로5길 13-15, 석촌동 243-1",
+            "district": "송파구",
+            "type": "도시형생활주택",
+            "total_households": "2",
+            "supply_households": "2",
+            "house_type": "분리형 원룸",
+            "parking": "자주식(지상)",
+            "elevator": "O"
+        },
+        {
+            "name": "광채빌라",
+            "address": "삼전로2길 49, 삼전동 53-19",
+            "district": "송파구",
+            "type": "도시형생활주택",
+            "total_households": "4",
+            "supply_households": "4",
+            "house_type": "개방형 원룸",
+            "parking": "자주식(지상)",
+            "elevator": "O"
+        },
+        {
+            "name": "에코리움빌",
+            "address": "남부순환로56가길 14, 신월동 197-8",
+            "district": "양천구",
+            "type": "도시형생활주택",
+            "total_households": "1",
+            "supply_households": "1",
+            "house_type": "개방형 원룸",
+            "parking": "자주식(지상)",
+            "elevator": "X"
+        },
+        {
+            "name": "에코리움빌",
+            "address": "남부순환로60길 12-10, 신월동 197-11외",
+            "district": "양천구",
+            "type": "도시형생활주택",
+            "total_households": "1",
+            "supply_households": "1",
+            "house_type": "개방형 원룸",
+            "parking": "자주식(지상)",
+            "elevator": "X"
+        },
+        {
+            "name": "에코하임5차",
+            "address": "목동중앙본로22길 52, 목동 231-77",
+            "district": "양천구",
+            "type": "도시형생활주택",
+            "total_households": "2",
+            "supply_households": "2",
+            "house_type": "개방형 원룸",
+            "parking": "자주식(지상)",
+            "elevator": "X"
+        },
+        {
+            "name": "다이알로그191",
+            "address": "갈현로11길 26-11, 구산동 549",
             "district": "은평구",
             "type": "도시형생활주택",
             "total_households": "6",
             "supply_households": "6",
-            "house_type": "26B",
-            "parking": "자주식(지상)",
-            "elevator": "있음"
+            "house_type": "분리형 원룸",
+            "parking": "자주식(지상, 지하)",
+            "elevator": "O"
         },
         {
-            "name": "예그리나 10차",
-            "address": "진흥로3길 2, 역촌동 41-55",
+            "name": "리츠하우스2",
+            "address": "갈현로11가길 14-4, 구산동 177-53",
             "district": "은평구",
-            "type": "다세대주택, 오피스텔",
-            "total_households": "16",
-            "supply_households": "16",
-            "house_type": "29A",
-            "parking": "자주식(지상)",
-            "elevator": "있음"
+            "type": "도시형생활주택",
+            "total_households": "3",
+            "supply_households": "3",
+            "house_type": "개방형 원룸",
+            "parking": "자주식(지상, 지하)",
+            "elevator": "O"
         }
     ],
-    "residence_period": "최대 2년 계약에 6회 갱신 가능",
+    "residence_period": null,
     "priority_and_bonus": {
         "priority_criteria": [
             {
                 "priority": "1순위",
                 "criteria": [
-                    "생계·의료·주거급여 수급자 가구",
+                    "생계, 의료, 주거급여 수급자 가구",
                     "보호대상 한부모 가족",
                     "차상위계층 가구"
                 ]
@@ -106,7 +227,7 @@
                 "priority": "2순위",
                 "criteria": [
                     "본인과 부모의 월평균소득이 전년도 도시근로자 가구당 월평균소득의 100% 이하",
-                    "본인과 부모의 자산이 공공주택특별법 시행규칙 제13조 제2항에 따라 국민임대주택의 자산기준을 충족"
+                    "본인과 부모의 자산이 국민임대주택의 자산기준을 충족"
                 ]
             },
             {
@@ -122,36 +243,12 @@
                 "priority": "1순위",
                 "items": [
                     {
-                        "item": "생계·의료급여 수급자",
+                        "item": "생계, 의료, 주거급여 수급자",
                         "score": "3"
                     },
                     {
-                        "item": "보호대상 한부모가족",
+                        "item": "보호대상 한부모 가족",
                         "score": "3"
-                    },
-                    {
-                        "item": "소득기준 50% 이하",
-                        "score": "3"
-                    },
-                    {
-                        "item": "부모 무주택",
-                        "score": "2"
-                    },
-                    {
-                        "item": "타지역 출신",
-                        "score": "2"
-                    },
-                    {
-                        "item": "민간임대주택 거주자",
-                        "score": "1"
-                    },
-                    {
-                        "item": "장애인(본인)",
-                        "score": "2"
-                    },
-                    {
-                        "item": "장애인 가구",
-                        "score": "1"
                     }
                 ]
             },
@@ -188,12 +285,12 @@
     },
     "application_schedule": {
         "announcement_date": "2023.12.29.",
-        "online_application_period": "2024.01.15. 10:00~2024.01.17. 17:00",
-        "document_submission_period": "2024.01.22.~2024.01.26.",
-        "inspection_period": "2024.01.19.",
-        "winner_announcement": "2024.05.17.",
-        "contract_period": "2024.06.10.~2024.06.14.",
-        "move_in_period": "2024.06.24.~2024.08.23."
+        "online_application_period": "2024.01.19. (금) 예정",
+        "document_submission_period": "2024.01.22. (월) – 2024.01.26. (금)",
+        "inspection_period": "2024.05. 중",
+        "winner_announcement": "2024.06.10. (월) – 2024.06.14. (금)",
+        "contract_period": "2024.06.24. (월) – 2024.08.23. (금)",
+        "move_in_period": null
     },
-    "precautions": "1인 1주택만 신청 가능, 복수 주택 중복 신청 시 전부 무효 처리, 주소지 단위로 신청 가능, 호실은 무작위 추첨, 주택 미확인으로 인한 이의제기는 불가능"
+    "precautions": "서류 제출 시 등기우편으로만 제출 가능하며, 제출 기간 이외의 서류는 접수되지 않습니다. 서류 미제출 및 오제출로 인한 불이익에 대한 책임은 신청자 본인에게 있습니다."
 }

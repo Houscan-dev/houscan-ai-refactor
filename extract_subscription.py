@@ -1,10 +1,12 @@
 import os
 import json
-from pydantic import BaseModel, Field, ValidationError
-from typing import List
-import torch
 import re
 import shutil
+import pandas as pd 
+
+from pydantic import BaseModel, Field, ValidationError
+from typing import List, Dict, Any
+import torch
 
 from llama_index.core import Settings, VectorStoreIndex
 from llama_index.core.ingestion import IngestionPipeline
@@ -17,30 +19,17 @@ from llama_index.core.vector_stores import MetadataFilters, ExactMatchFilter
 from llama_index.readers.file import PyMuPDFReader
 from transformers import AutoTokenizer, AutoModelForCausalLM
 import chromadb
+import camelot 
 
-# 모집 일정
 class ApplicationSchedule(BaseModel):
     announcement_date: str | None = Field(None, description="모집공고일 (YYYY.MM.DD 형식 또는 null)")
-    online_application_period: str | None = Field(
-        None,
-        description="(인터넷) 신청접수 기간. 시작일과 종료일이 모두 있으면 'YYYY.MM.DD~YYYY.MM.DD', 하루면 'YYYY.MM.DD'. 정보가 없으면 null."
-    )
-    document_submission_period: str | None = Field(
-        None,
-        description="서류 제출 기간. 시작과 끝이 모두 있으면 'YYYY.MM.DD~YYYY.MM.DD', 하루면 'YYYY.MM.DD'. 정보가 없으면 null."
-    )
+    online_application_period: str | None = Field(None, description="(인터넷) 신청접수 기간. 시작일과 종료일이 모두 있으면 'YYYY.MM.DD~YYYY.MM.DD', 하루면 'YYYY.MM.DD'. 정보가 없으면 null.")
+    document_submission_period: str | None = Field(None, description="서류 제출 기간. 시작과 끝이 모두 있으면 'YYYY.MM.DD~YYYY.MM.DD', 하루면 'YYYY.MM.DD'. 정보가 없으면 null.")
     inspection_period: str | None = Field(None, description="입주자격 검증 기간 (YYYY.MM 또는 기간 요약). 없으면 null.")
     winner_announcement: str | None = Field(None, description="당첨자(입주자) 발표일시 (YYYY.MM.DD HH:mm 또는 null)")
-    contract_period: str | None = Field(
-        None,
-        description="계약 체결 기간. 시작과 끝이 모두 있으면 'YYYY.MM.DD~YYYY.MM.DD', 하루면 'YYYY.MM.DD'. 정보가 없으면 null."
-    )
-    move_in_period: str | None = Field(
-        None,
-        description="입주 기간. 시작과 끝이 모두 있으면 'YYYY.MM.DD~YYYY.MM.DD', 하루면 'YYYY.MM.DD'. 정보가 없으면 null."
-    )
+    contract_period: str | None = Field(None, description="계약 체결 기간. 시작과 끝이 모두 있으면 'YYYY.MM.DD~YYYY.MM.DD', 하루면 'YYYY.MM.DD'. 정보가 없으면 null.")
+    move_in_period: str | None = Field(None, description="입주 기간. 시작과 끝이 모두 있으면 'YYYY.MM.DD~YYYY.MM.DD', 하루면 'YYYY.MM.DD'. 정보가 없으면 null.")
 
-# 우선순위 및 가점 사항
 class PriorityCriteriaItem(BaseModel):
     priority: str = Field(..., description="순위 (예: 1순위, 2순위)")
     criteria: List[str] = Field(..., description="자격요건 설명 문자열 리스트")
@@ -57,7 +46,6 @@ class PriorityAndBonus(BaseModel):
     priority_criteria: List[PriorityCriteriaItem] = Field(..., description="순위별 자격요건 목록. 명확히 제시되지 않으면 빈 배열([])을 반환하세요.")
     score_items: List[ScoreGroup] = Field(..., description="가점 항목 그룹 목록. 명확히 제시되지 않으면 빈 배열([])을 반환하세요.")
 
-# 공급 주택
 class DetailHouseInfo(BaseModel):
     name: str | None = Field(None, description="주택명. 정보가 없다면 null을 반환하세요.")
     address: str | None = Field(None, description="주소. 정보가 없다면 null을 반환하세요.")
@@ -68,13 +56,10 @@ class DetailHouseInfo(BaseModel):
     supply_households: str | None = Field(None, description="공급호수 (해당 공고에서 모집하는 호수). 정보가 없다면 null을 반환하세요.")
     house_type: str | None = Field(None, description="주택형 (예: 37A, 27B, 29m²). 정보가 없다면 null을 반환하세요.")
     parking: str | None = Field(None, description="주차장 정보 (예: 주차 가능, 세대당 0.5대). 정보가 없다면 null을 반환하세요.")
-
     elevator: str | None = Field(None, description="엘리베이터 유무 (예: 있음, 없음, 혹은 해당 정보가 포함된 텍스트). 정보가 없다면 null을 반환하세요.")
 
-# 최종 요약
 class HousingNoticeSummary(BaseModel):
     notice_id: str | None = Field(None, description="PDF 파일명에서 추출한 공고 식별자. 파이프라인에서 파일명을 기반으로 주입할 예정이므로 LLM은 무시하세요.") 
-    
     application_eligibility: str | None = Field(None, description="[신청 자격] 주요 연령, 소득, 자산 기준을 청년 입장에서 요약 설명. 정보가 없다면 null을 반환하세요.")
     housing_info: List[DetailHouseInfo] = Field(..., description="[공급 주택 정보] 공급 주택 정보 목록. 공고문에 주택 수만큼 객체를 생성해야 하며, 정보가 없다면 빈 배열([])을 반환해야 합니다.")
     residence_period: str | None = Field(None, description="[거주 기간] 실제 거주할 수 있는 최대 기간과 갱신 조건을 명확히 설명. 예: '최대 2년 계약에 6회 갱신 가능'. 정보가 없다면 null을 반환하세요.") 
@@ -85,10 +70,9 @@ class HousingNoticeSummary(BaseModel):
 json_schema_str = HousingNoticeSummary.model_json_schema()
 
 
-# PDF 텍스트 클리닝
 def clean_text(text: str) -> str:
     """PDF에서 추출된 텍스트의 품질을 높이기 위해 노이즈를 제거하고 정규화합니다."""
-    text = re.sub(r'[●▩■◆◇※]', '', text)
+    text = re.sub(r'[●▩■◆◇※★☆|―]', '', text) 
     text = re.sub(r'[\s]{2,}', ' ', text)
     text = re.sub(r'(\d{4})\.\s*(\d{1,2})\.\s*(\d{1,2})\.', r'\1.\2.\3.', text)
     text = re.sub(r'(\d)\s*\.\s*(\d)', r'\1.\2', text)
@@ -108,7 +92,6 @@ Settings.embed_model = HuggingFaceEmbedding(
     device="cuda" if torch.cuda.is_available() else "cpu"
 )
 
-# PDF 파싱 및 청크 구조화
 PDF_DIR = "./pdfs"
 documents = []
 reader = PyMuPDFReader()
@@ -129,26 +112,35 @@ for file_name in os.listdir(DOCUMENTS_DIR):
 
         try:
             doc_list = reader.load_data(file_path)
-            
             for doc in doc_list:
                 cleaned_text = clean_text(doc.text)
                 metadata = doc.metadata.copy()
                 metadata['file_name'] = file_name
+                documents.append(TextNode(text=cleaned_text, metadata=metadata))
+
+            try:
+                tables = camelot.read_pdf(file_path, pages='all', flavor='lattice')
                 
-                cleaned_node = TextNode(
-                    text=cleaned_text,
-                    metadata=metadata
-                )
+                table_texts = []
+                for i, table in enumerate(tables):
+                    csv_data = table.df.to_csv(index=False) 
+                    table_text = f"--- [구조화된 표 데이터 - 페이지 {table.page}, 표 {i+1}] ---\n{csv_data}\n--- 표 데이터 끝 ---"
+                    table_texts.append(table_text)
                 
-                documents.append(cleaned_node)
+                if table_texts:
+                    combined_table_text = "\n\n".join(table_texts)
+                    metadata = {'file_name': file_name, 'page_label': 'TABLE_DATA'}
+                    documents.append(TextNode(text=combined_table_text, metadata=metadata))
+                    
+            except Exception as e:
+                pass 
 
         except Exception as e:
-            print(f"[{file_name}] 파일 로드 후 처리 중 오류 발생: {e}")
+            print(f"[{file_name}] 파일 로드 및 처리 중 오류 발생: {e}")
 
 parser = SentenceSplitter(chunk_size=3072, chunk_overlap=300)
 nodes = parser.get_nodes_from_documents(documents)
 
-# 임베딩 및 Vector DB 저장
 if not nodes:
     print("로드된 문서나 청크가 없습니다. PDF 경로와 파일 상태를 확인하세요.")
     exit()
@@ -174,30 +166,20 @@ model = AutoModelForCausalLM.from_pretrained(
 
 def extract_json_object(text: str) -> str | None:
     match = re.search(r"\{[\s\S]*\}", text.strip())
-    if not match:
-        return None
+    if not match: return None
     raw_json = match.group(0)
     raw_json = re.sub(r',\s*([\]}])', r'\1', raw_json)
     return raw_json
 
-
 def normalize_housing_info(data: dict) -> dict:
-    """
-    housing_info 내부에서 district가 리스트로 들어온 경우,
-    각 district별로 housing_info 객체를 복제하여 분해합니다.
-    (예: district: ['A','B'] 인 경우 housing_info 엔트리 2개로 확장)
-    """
-    if not isinstance(data, dict):
-        return data
-    if "housing_info" not in data or not isinstance(data["housing_info"], list):
-        return data
+    if not isinstance(data, dict): return data
+    if "housing_info" not in data or not isinstance(data["housing_info"], list): return data
 
     new_infos = []
     for h in data["housing_info"]:
         if not isinstance(h, dict):
             new_infos.append(h)
             continue
-
         district_val = h.get("district")
         if isinstance(district_val, list):
             for d in district_val:
@@ -220,9 +202,11 @@ def extract_structured_json_with_oss(file_name: str, index: VectorStoreIndex):
     
     queries_by_section = {
         "application_schedule": "모집 공고일, 신청 접수 기간, 서류 제출, 당첨자 발표, 계약 체결 등 전체 모집 일정 표의 내용",
-        "supply_house_info": (
-            "공급 주택 세부정보 표 전체. 주택명, 주소, 자치구, 유형, 총 세대수, 공급호수, 주택형(예: 37A, 29m²), 설치시설, 부대시설 "
-            "주차장 정보, 엘리베이터 유무가 포함된 모든 행을 빠짐없이 추출"
+        "supply_house_info_new": (
+            "**[신규세대 주택 목록]** 주택 주소지, 자치구, 유형, 공급호수 (91실)를 포함하는 표의 내용"
+        ),
+        "supply_house_info_remaining": (
+            "**[잔여세대 주택 목록]** 주택 주소지, 자치구, 성별, 유형, 공급호수 (133실)를 포함하는 표의 내용"
         ),
         "priority_and_bonus": "입주 순위(1순위, 2순위) 자격 요건 표 및 가점 항목과 배점 표의 내용",
         "application_eligibility": "신청 자격 조건 (소득, 자산, 나이, 무주택 여부 등) 상세 설명",
@@ -232,7 +216,7 @@ def extract_structured_json_with_oss(file_name: str, index: VectorStoreIndex):
 
     retriever = index.as_retriever(
         filters=MetadataFilters(filters=[ExactMatchFilter(key="file_name", value=file_name)]),
-        similarity_top_k=12
+        similarity_top_k=30
     )
 
     all_retrieved_nodes = []
@@ -257,12 +241,13 @@ def extract_structured_json_with_oss(file_name: str, index: VectorStoreIndex):
         "명확하고 간결한 한국어로 추출해야 합니다. **JSON 스키마에 정의된 모든 필드는 반드시 포함되어야 합니다.** "
         "\n\n"
         "### [주택 정보 추출 규칙 강화] ###\n"
-        "1. 공급 주택 정보(housing_info)는 공고문에 나온 주택 수만큼 반드시 리스트로 모두 채워야 합니다.\n"
-        "   - 예: 공고문에 3개 주택이 있으면 housing_info 배열 길이도 3이어야 합니다.\n"
-        "2. 각 주택 객체에는 name, address, district, type, total_households, supply_households, house_type, parking, elevator를 최대한 채워 넣으세요.\n"
-        "   - 일부 정보가 빠져 있으면 null을 쓰되, 문서에서 추정 가능한 값은 반드시 추출하세요.\n"
-        "3. 표 형식으로 된 데이터(예: 29m², 37A, ○○동 주소)는 가능한 그대로 보존하세요.\n"
-        "4. 정보가 반복되면 누락하지 말고 모두 배열에 포함시키세요.\n"
+        "1. **최고 우선순위:** 청약 공고문 내용 중 `--- [구조화된 표 데이터 - 페이지 X, 표 Y] ---` 태그 안에 있는 **CSV 형태의 데이터**를 가장 중요한 근거로 사용하여 주택 정보를 추출해야 합니다.\n"
+        "2. 공급 주택 정보(housing_info)는 공고문에 나온 주택 수만큼 반드시 리스트로 모두 채워야 합니다.\n"
+        "3. **이름/주소/호수 추출 강화:**\n"
+        "   - **name** 필드는 주택 주소지에 병기된 **건물명, 동, 단지명** (예: 해담빌, 휴먼에코빌4차 A동)을 반드시 추출하세요. 주소만 있다면 null을 쓰세요.\n"
+        "   - **supply_households** 필드는 **원룸형**과 **쉐어형**의 호수를 **성별에 따라 분리하고 합산**하여 정확하게 추출하세요. 0호수라는 데이터는 반드시 표에 있는 그대로를 반영하세요.\n"
+        "4. 각 주택 객체에는 **name, address, district, type, total_households, supply_households, house_type, parking, elevator** 필드를 **CSV 표 데이터에서 최대한 빠짐없이 채워 넣으세요.**\n"
+        "   - 표 데이터에서 정보가 명확히 보이지 않으면 `null`을 쓰되, 표의 행이나 주변 텍스트에서 추출 가능한 값은 반드시 채우세요.\n"
         "5. 만약 공고문에 '강동구, 광진구, 금천구'처럼 여러 자치구가 한 행에 표기되어 있다면, "
         "각 자치구별로 housing_info 객체를 각각 생성하세요. (즉, housing_info 배열의 길이를 늘리세요.)\n"
         "\n"
@@ -312,6 +297,8 @@ def extract_structured_json_with_oss(file_name: str, index: VectorStoreIndex):
 
         try:
             pydantic_instance = HousingNoticeSummary.model_validate(parsed_dict)
+            pydantic_instance.notice_id = file_name.replace('.pdf', '')
+            
             return pydantic_instance.model_dump()
         except ValidationError as ve:
             print("Pydantic 검증 실패. LLM 출력(원문 일부):", generated_text[:800])
@@ -322,7 +309,7 @@ def extract_structured_json_with_oss(file_name: str, index: VectorStoreIndex):
         print(f"JSON 추출 중 오류 발생 (파일: {file_name}): {e}")
         return {"error": f"JSON 생성 및 유효성 검사 실패: {e}"}
 
-OUTPUT_DIR = "./extracted_json"
+OUTPUT_DIR = "./extracted_json1"
 ERROR_DIR = "./error_pdfs"
 EXTRACTED_PDF_DIR = "./extracted_pdfs"
 SOURCE_PDF_DIR = "./pdfs"
@@ -331,14 +318,26 @@ for d in [OUTPUT_DIR, ERROR_DIR, EXTRACTED_PDF_DIR]:
     if not os.path.exists(d):
         os.makedirs(d)
 
-unique_file_names = sorted(list(set([doc.metadata.get('file_name') for doc in documents if doc.metadata.get('file_name')])))
-
+if 'documents' in locals() and documents:
+    unique_file_names = sorted(list(set([doc.metadata.get('file_name') for doc in documents if doc.metadata.get('file_name')])))
+else:
+    unique_file_names = [f for f in os.listdir(SOURCE_PDF_DIR) if f.endswith(".pdf")]
+    
 processed_count = 0
 error_count = 0
 
+if not unique_file_names:
+    print(f"'{SOURCE_PDF_DIR}' 폴더에 처리할 PDF 파일이 없습니다.")
+    
 for file_name in unique_file_names:
     print(f"[{file_name}] 공고문 JSON 추출 시작")
-    extracted_data = extract_structured_json_with_oss(file_name, index)
+    
+    if 'index' in locals():
+        extracted_data = extract_structured_json_with_oss(file_name, index)
+    else:
+        print("경고: 인덱스가 로드되지 않아 추출을 건너뜁니다. (인덱싱 단계에 오류가 있었을 수 있습니다.)")
+        error_count += 1
+        continue
 
     if "error" not in extracted_data:
         output_file_name = file_name.replace('.pdf', '.json')
@@ -347,35 +346,35 @@ for file_name in unique_file_names:
         with open(output_path, "w", encoding="utf-8") as f:
             json.dump(extracted_data, f, ensure_ascii=False, indent=4)
 
-        print(f"[{file_name}] 추출 완료. -> '{output_path}'에 저장됨.")
+        print(f"[{file_name}] 추출 완료 -> '{output_path}'에 저장됨.")
         processed_count += 1
         
         original_path = os.path.join(SOURCE_PDF_DIR, file_name)
         extracted_path = os.path.join(EXTRACTED_PDF_DIR, file_name)
-        shutil.move(original_path, extracted_path)
-
+        
+        if os.path.exists(original_path):
+            shutil.move(original_path, extracted_path)
+            
     else:
         original_path = os.path.join(SOURCE_PDF_DIR, file_name)
         error_path = os.path.join(ERROR_DIR, file_name)
 
         print(f"[{file_name}] 오류 발생: {extracted_data['error']}")
+        error_count += 1
 
         try:
             if os.path.exists(original_path):
                 shutil.move(original_path, error_path)
-                print(f"    -> 오류 PDF를 '{ERROR_DIR}'로 이동했습니다.")
-            else:
-                print(f"    -> PDF 파일이 원본 경로({original_path})에 없습니다. 이미 이동되었거나 경로가 잘못되었습니다.")
+                print(f"오류 PDF를 '{ERROR_DIR}'로 이동했습니다.")
+            
         except Exception as e:
-            print(f"    -> PDF 이동 실패: {e}")
-
-        error_count += 1
+            print(f"PDF 이동 실패: {e}")
 
 try:
-    if hasattr(db, "persist"):
+    if 'db' in locals() and hasattr(db, "persist"):
         db.persist()
         print(f"\nVector DB가 '{PERSIST_DIR}'에 성공적으로 저장되었습니다.")
-    else:
+    elif 'db' in locals():
         print("\nVector DB 클라이언트가 persist 메서드를 제공하지 않습니다.")
 except Exception as e:
     print(f"\nVector DB 저장 실패: {e}")
