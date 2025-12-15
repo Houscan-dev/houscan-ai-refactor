@@ -6,7 +6,7 @@
             "name": "스마트웰",
             "address": "서울특별시 금천구 독산로72길 64, 스마트웰 (독산동 913)",
             "district": "금천구",
-            "type": "청년 1인 단독거주",
+            "type": ["청년 1인 단독거주"],
             "total_households": 1,
             "supply_households": [1],
             "house_type": ["29.33m²"],

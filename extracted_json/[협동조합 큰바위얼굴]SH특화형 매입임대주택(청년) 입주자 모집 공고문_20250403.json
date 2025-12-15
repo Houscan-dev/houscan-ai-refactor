@@ -6,7 +6,7 @@
             "name": "역촌예하임",
             "address": "서울특별시 은평구 진흥로1길 13-11 (역촌동 39-35)",
             "district": "은평구",
-            "type": "원룸형",
+            "type": ["원룸형"],
             "total_households": 1,
             "supply_households": [1],
             "house_type": ["26.02m²"],

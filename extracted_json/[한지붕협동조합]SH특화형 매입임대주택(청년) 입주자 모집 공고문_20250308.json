@@ -6,7 +6,7 @@
             "name": "대명파크힐",
             "address": "서울특별시 서초구 강남대로2길 79 (양재동 361-5), 대명파크힐",
             "district": "서초구",
-            "type": "청년 특화형 매입임대주택",
+            "type": ["청년 특화형 매입임대주택"],
             "total_households": 1,
             "supply_households": [1],
             "house_type": ["34.67m²"],

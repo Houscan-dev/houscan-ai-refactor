@@ -6,7 +6,7 @@
             "name": "은행나무",
             "address": "서울특별시 금천구 독산로22길 65, 은행나무 (시흥동 824-16)",
             "district": "금천구",
-            "type": "도시형생활주택",
+            "type": ["도시형생활주택"],
             "total_households": 1,
             "supply_households": [1],
             "house_type": ["60.00m²"],
