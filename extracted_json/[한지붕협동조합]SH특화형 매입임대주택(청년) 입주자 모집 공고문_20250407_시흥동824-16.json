@@ -1,42 +1,32 @@
 {
-    "announcement_id": "[한지붕협동조합]SH특화형 매입임대주택(청년) 입주자 모집 공고문_20250407_시흥동824-16",
-    "application_eligibility": "청년(만19세 이상 만39세 이하) 무주택세대구성원, 월평균소득이 전년도 도시근로자 가구원수별 가구당 월평균소득의 100% 이하, 총 자산이 행복주택 자산기준을 충족해야 함.",
+    "announcement_id": 9,
+    "application_eligibility": "만 19세 이상 만 39세 이하의 미혼 청년으로, 무주택세대구성원이며, 해당 세대의 월평균소득이 전년도 도시근로자 가구원수별 가구당 월평균소득의 100% 이하이고, 총 자산이 행복주택 자산기준을 충족해야 합니다.",
     "housing_info": [
         {
-            "name": null,
+            "name": "은행나무",
             "address": "서울특별시 금천구 독산로22길 65, 은행나무 (시흥동 824-16)",
             "district": "금천구",
-            "type": "원룸형",
-            "total_households": "1",
-            "supply_households": "1",
-            "house_type": "방2",
-            "parking": "있음",
-            "elevator": "있음"
+            "type": "도시형생활주택",
+            "total_households": 1,
+            "supply_households": [1],
+            "house_type": ["60.00m²"],
+            "parking": "본인명의 및 영업용 차량만 주차가능",
+            "elevator": true
         }
     ],
-    "residence_period": "최대 10년, 2년 단위로 재계약 가능, 4회를 초과할 수 없음",
+    "residence_period": "최대 10년, 2년 단위로 4회 재계약 가능",
     "priority_and_bonus": {
-        "priority_criteria": [
-            {
-                "priority": "1순위",
-                "criteria": [
-                    "청년(만19세 이상 만39세 이하)",
-                    "무주택세대구성원",
-                    "월평균소득이 전년도 도시근로자 가구원수별 가구당 월평균소득의 100% 이하",
-                    "총 자산이 행복주택 자산기준을 충족"
-                ]
-            }
-        ],
+        "priority_criteria": [],
         "score_items": []
     },
     "application_schedule": {
-        "announcement_date": "2025.04.07",
-        "online_application_period": "2025.04.07~2025.04.08",
-        "document_submission_period": "2025.04.07~2025.04.08",
-        "inspection_period": "2025.04.09~",
-        "winner_announcement": "심사 후 약 8주 소요",
+        "announcement_date": "2025.04.07.",
+        "online_application_period": "2025.04.07. ~ 2025.04.08.",
+        "document_submission_period": "2025.04.07. ~ 2025.04.08.",
+        "document_announce_date": null,
+        "winner_announcement": "개별 안내",
         "contract_period": "개별 안내",
-        "move_in_period": "개별 안내"
+        "move_in_period": "2025.07.01."
     },
-    "precautions": "입주 후 공동생활을 위한 공동체 질서 준수, 거짓이나 부정한 방법으로 임대주택을 임대받거나 임대받게 한 경우 처벌, 태아를 가구원으로 인정받아 입주예정자로 선정된 자는 입주 전까지 임신 또는 출산 관련 서류 제출 필요"
+    "precautions": ["거짓이나 부정한 방법으로 임대주택을 임대받거나 임대받게 한 경우 3년 이하 징역 또는 3천만원 이하 벌금", "특화형 매입임대주택은 시중은행 대출이 어려움."]
 }
