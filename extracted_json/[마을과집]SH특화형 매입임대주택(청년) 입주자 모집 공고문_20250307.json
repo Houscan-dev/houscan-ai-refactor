@@ -1,32 +1,43 @@
 {
-    "announcement_id": 4,
-    "application_eligibility": "청년(만19세 이상 만39세 이하) 무주택자, 월평균소득이 전년도 도시근로자 가구원수별 가구당 월평균소득의 100% 이하, 총자산가액 3억 3,700만원 이하, 자동차가액 3,803만원 이하를 모두 충족하여야 합니다",
+    "announcement_id": "[마을과집]SH특화형 매입임대주택(청년) 입주자 모집 공고문_20250307",
+    "application_eligibility": "청년(만19세 이상 만39세 이하) 무주택자, 월평균소득이 전년도 도시근로자 가구원수별 가구당 월평균소득의 100% 이하, 총자산가액 33,700만원 이하, 자동차가액 3,803만원 이하",
     "housing_info": [
         {
-            "name": "서영스윗홈",
-            "address": "서울특별시 구로구 남부순환로105나길 24(가리봉동134-22)",
-            "district": "구로구",
-            "type": ["1세대(2룸)"],
-            "total_households": 1,
-            "supply_households": [1],
-            "house_type": ["48.89m²"],
-            "parking": "있음",
-            "elevator": false
+            "name": null,
+            "address": null,
+            "district": null,
+            "type": "마을과집 특화형매입임대주택",
+            "total_households": null,
+            "supply_households": null,
+            "house_type": null,
+            "parking": null,
+            "elevator": null
         }
     ],
-    "residence_period": "최대 10년, 최초 임대차기간은 2년이며 2년 단위로 재계약 가능하되 4회를 초과할 수 없음",
+    "residence_period": "최초 임대차기간 2년, 재계약 가능 4회, 최대 거주기간 10년",
     "priority_and_bonus": {
-        "priority_criteria": [],
+        "priority_criteria": [
+            {
+                "priority": "1순위",
+                "criteria": [
+                    "만19세 이상 만39세 이하 청년",
+                    "무주택",
+                    "월평균소득이 전년도 도시근로자 가구원수별 가구당 월평균소득의 100% 이하",
+                    "총자산가액 33,700만원 이하",
+                    "자동차가액 3,803만원 이하"
+                ]
+            }
+        ],
         "score_items": []
     },
     "application_schedule": {
-        "announcement_date": "2025.03.07.",
-        "online_application_period": "2025.03.07. ~ 2025.03.13.",
-        "document_submission_period": "2025.03.13.까지",
-        "document_announce_date": null,
+        "announcement_date": "2025.03.07",
+        "online_application_period": "2025.03.07~2025.03.13",
+        "document_submission_period": null,
+        "inspection_period": "2025.03.21 부터",
         "winner_announcement": "개별 안내",
         "contract_period": "개별 안내",
         "move_in_period": "개별 안내"
     },
-    "precautions": ["협의 하에 임대차기간을 2년 미만으로 정한 경우라도 재계약 시기마다 자격요건 충족 여부를 검증(2년 단위 검증이 아님을 주의)하오니 유의하시기 바랍니다.", "서울주택도시공사와 운영기관의 임대차계약서상 임대보증금 및 월임대료가 인상될 경우, 운영기관과 입주자의 임대차계약서상 임대보증금 및 월임대료도 인상될 수 있습니다.", "주택소유, 소득, 자산 및 자동차 보유기준 전산검색결과 부적격자로 판명된 자가 통보내용이 사실과 다르거나 이의가 있을 경우에는 소명기간 내에 소명자료를 제출하여야 하며, 정당한 사유 없이 동 기한 내에 증명서류를 제출하지 아니하거나 소명자료로 인정되지 않을 경우에는 부적격자로 확정되고 당첨 및 계약을 취소합니다."]
+    "precautions": "공공주택 특별법 제49조의3에 따라 거짓이나 부정한 방법으로 임대주택을 임대받거나 임대받게 한 자는 임대차계약이 해제 또는 해지되거나 재계약이 거절될 수 있으며, 제49조의8에 따라 공공임대주택의 입주자격이 4년 범위에서 제한될 수 있습니다."
 }

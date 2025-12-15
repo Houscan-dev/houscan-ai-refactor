@@ -1,57 +1,47 @@
 {
-    "announcement_id": 23,
-    "application_eligibility": "서울특별시에 거주하는 2인 이하 무주택세대 구성원(강동구 거주자 우선 선발), 만19세 이상(1998.9.12. 이전 출생) ~ 만39세 이하(1977.9.13. 이후 출생), '전년도 월평균 소득기준(70% 이하) 범위 내 해당하는 자, 영구임대주택 자산기준(총자산액 1.67억, 자동차 2,522만원)을 초과하지 않는 자, 가죽패션 산업 분야 청년 1인 (예비)창조기업가, 청년기업가, 청년근로자",
+    "announcement_id": "강동구 청년가죽창작마을 입주자 모집 공고문(2017_09_12_공고)",
+    "application_eligibility": null,
     "housing_info": [
         {
-            "name": "천호예가",
+            "name": null,
             "address": "상암로27길 28-7",
             "district": "강동구",
-            "type": "공동체주택",
-            "total_households": 16,
-            "supply_households": [16],
-            "house_type": ["23~29m²"],
-            "parking": "8대 가능",
+            "type": "청년가죽창작마을",
+            "total_households": "16",
+            "supply_households": "16",
+            "house_type": null,
+            "parking": "8대",
             "elevator": null
         }
     ],
-    "residence_period": "최초 임대기간 2년(자격요건 충족 시 1회에 한하여 연장가능, 최장 4년)",
+    "residence_period": "최대 2년 거주, 1회 재계약 가능 (최장 4년)",
     "priority_and_bonus": {
         "priority_criteria": [
             {
                 "priority": "1순위",
                 "criteria": [
-                    "주민등록지가 강동구인 월평균소득 50% 이하"
+                    "주민등록지가 강동구인 월평균소득 50% 이하 신청자",
+                    "주민등록지가 서울시인 월평균소득 50% 이하 신청자"
                 ]
             },
             {
                 "priority": "2순위",
                 "criteria": [
-                    "주민등록지가 서울시인 월평균소득 50% 이하"
-                ]
-            },
-            {
-                "priority": "3순위",
-                "criteria": [
-                    "주민등록지가 강동구인 월평균소득 70% 이하"
-                ]
-            },
-            {
-                "priority": "4순위",
-                "criteria": [
-                    "주민등록지가 서울시인 월평균소득 70% 이하"
+                    "주민등록지가 강동구인 월평균소득 70% 이하 신청자",
+                    "주민등록지가 서울시인 월평균소득 70% 이하 신청자"
                 ]
             }
         ],
         "score_items": []
     },
     "application_schedule": {
-        "announcement_date": "2017.09.12.",
-        "online_application_period": "2017.09.18. ~ 2017.09.29. 18:00",
-        "document_submission_period": "2017.09.18. ~ 2017.09.29. 18:00",
-        "document_announce_date": null,
-        "winner_announcement": "2017.11월 중순 예정",
+        "announcement_date": "2017.9.12.",
+        "online_application_period": "2017.9.18. ~ 2017.9.29.",
+        "document_submission_period": null,
+        "inspection_period": null,
+        "winner_announcement": null,
         "contract_period": "2017.12월 중",
-        "move_in_period": "2017.12월 중 (입주기간 60일)"
+        "move_in_period": "2017.12월 중"
     },
-    "precautions": ["본 공고문에 명시하지 못한 사항이 있을 수 있으므로 신청 전 반드시 현장을 방문하여 외부 환경(생활여건)을 사전확인 후 신청하십시오.", "본 공고문에 명시되지 아니한 사항은 “주택공급에 관한 규칙” 및 “공공주택특별법” 등 관계법령, 강동구청 홈페이지 공고내용 등에 의합니다."]
+    "precautions": "본 공고문에 명시되지 않은 사항은 “주택공급에 관한 규칙” 및 “공공주택특별법” 등 관계법령, 강동구청 홈페이지 공고내용 등에 의함"
 }
