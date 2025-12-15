@@ -1,51 +1,51 @@
 {
-    "notice_id": "2020년 청년창업인 임대주택 입주자 모집공고문(재공급)",
-    "application_eligibility": "청년 계층은 입주자모집공고일 현재부터 임대차계약 종료일까지 무주택자이어야 합니다. 소득 기준은 청년창업인(세대원이 있는 경우 포함)으로, 1인 가구 2,645,147원, 2인 가구 4,379,809원, 3인 가구 5,626,897원, 4인 가구 6,226,342원, 5인 가구 6,938,354원 이하입니다. 자산 기준은 총 자산가액 2억 8,800만원 이하, 자동차가액 2,468만원 이하입니다.",
+    "announcement_id": null,
+    "application_eligibility": "청년(만 19세 이상 만 39세 이하) 무주택세대구성원으로서 월평균소득이 전년도 도시근로자 가구당 월평균소득의 100퍼센트 이하이고, 총 자산가액 합산기준 2억 8,800만원 이하, 자동차가액이 2,468만원 이하인 자",
     "housing_info": [
         {
-            "name": null,
-            "address": null,
-            "district": "서울특별시",
-            "type": "청년창업인 주택",
+            "name": "청년창업인 임대주택",
+            "address": "지하철 1‧4호선 창동역 인근",
+            "district": "강동구",
+            "type": "도시형생활주택",
             "total_households": null,
             "supply_households": null,
             "house_type": null,
             "parking": null,
-            "elevator": "있음"
+            "elevator": null
         }
     ],
-    "residence_period": "임대차 계약기간은 2년이며, 최대 거주기간은 무자녀(6년), 자녀 1명 이상(10년)입니다.",
+    "residence_period": "최초 계약 기간 2년, 소득·자산 등 재계약요건을 유지할 경우 최장 6년(자녀 1인 이상의 경우 최장 10년) 거주 가능",
     "priority_and_bonus": {
         "priority_criteria": [
             {
                 "priority": "1순위",
                 "criteria": [
-                    "가칭 창업고도화센터 내 입주(예정)기업의 청년창업인 및 그 임직원"
+                    "(가칭)창업고도화센터 내 입주(예정)기업의 청년창업인 및 그 임직원"
                 ]
             },
             {
                 "priority": "2순위",
                 "criteria": [
-                    "공고일 현재, 서울시가 운영 중인 창업보육기관(26개소)에 입주한 청년창업인 및 그 임직원"
+                    "서울시가 운영 중인 창업보육기관(26개소)에 입주한 청년 창업인 및 그 임직원"
                 ]
             },
             {
                 "priority": "3순위",
                 "criteria": [
-                    "서울 소재 벤처 기업 청년창업인 및 그 임직원"
+                    "서울 소재 벤처기업 청년 창업인 및 그 임직원"
                 ]
             }
         ],
         "score_items": []
     },
     "application_schedule": {
-        "announcement_date": "2020.06.12",
-        "online_application_period": "2020.06.23~2020.06.25",
+        "announcement_date": "2020.6.12.",
+        "online_application_period": null,
         "document_submission_period": null,
-        "inspection_period": null,
+        "document_announce_date": null,
         "winner_announcement": null,
-        "contract_period": null,
+        "contract_period": "2020.9.23.(수) ~ 9.25.(금) 10:00 ~ 17:00",
         "move_in_period": null
     },
-    "precautions": "모집공고일로부터 입주시까지 무주택세대구성원이어야 합니다. 주택소유, 소득, 자산 및 자동차 보유기준 전산검색결과 부적격자로 판명된 자는 소명기간 내에 증명서류를 제출해야 합니다."
+    "precautions": "모집공고일 현재부터 임대차계약 종료일까지 무주택자이어야 하며, 주택소유, 소득, 자산 및 자동차 보유기준 전산검색결과 부적격자로 판명된 자는 소명자료를 제출해야 함."
 }

@@ -1,15 +1,16 @@
+
 {
-    "notice_id": "2019-2차 역세권청년주택(공공임대) 입주자모집공고문(1101)",
-    "application_eligibility": "입주자모집공고일(2019.11.01) 현재 무주택세대구성원(예비신혼부부의 경우 무주택자)으로서 아래의 요건을 모두 갖춘 자(신혼부부는 ① -㉮와 ②～⑤를, 예비신혼부부는 ① -㉯와 ②,④～⑥를 모두 갖추어야 함)",
+    "announcement_id": null,
+    "application_eligibility": "입주자모집공고일(2019.11.01) 현재 무주택세대구성원으로서 아래의 요건을 모두 갖춘 자",
     "housing_info": [
         {
             "name": "U-삼진랜드",
             "address": "성동구 용답동 233-1",
             "district": "성동구",
             "type": "원룸형",
-            "total_households": "22",
+            "total_households": "184",
             "supply_households": "22",
-            "house_type": "14㎡",
+            "house_type": "29m²",
             "parking": null,
             "elevator": "있음"
         },
@@ -17,10 +18,10 @@
             "name": "서교동 효성 해링턴 타워",
             "address": "마포구 서교동 395-43",
             "district": "마포구",
-            "type": "셰어형",
+            "type": "원룸형",
             "total_households": "162",
-            "supply_households": "162",
-            "house_type": "17㎡, 37A, 37B",
+            "supply_households": "62",
+            "house_type": "37A",
             "parking": null,
             "elevator": "있음"
         }
@@ -31,16 +32,25 @@
             {
                 "priority": "1순위",
                 "criteria": [
-                    "해당세대(신청자 및 세대원) 전년도 도시근로자 가구당 월평균소득의 50%이하인 세대에게 먼저 공급하고, 남은 주택이 있을 경우 가구당 월평균소득의 70%이하인 세대에게 공급하고, 남은 주택이 있을 경우 가구당 월평균소득의 100%이하인 세대에게 공급"
+                    "소득순위",
+                    "지역순위",
+                    "추첨"
                 ]
             },
             {
                 "priority": "2순위",
                 "criteria": [
-                    "위 소득범위 내에서 경쟁이 있을 경우 아래 지역순위에 따라 입주자를 선정",
-                    "해당 건설주택이 위치하고 있는 서울특별시 해당 자치구에",
-                    "해당 건설주택이 위치하고 있는 서울특별시 해당 자치구 외 서울특별시 자치구에",
-                    "1순위 및 2순위에 해당하지 않는 지역에"
+                    "소득순위",
+                    "지역순위",
+                    "추첨"
+                ]
+            },
+            {
+                "priority": "3순위",
+                "criteria": [
+                    "소득순위",
+                    "지역순위",
+                    "추첨"
                 ]
             }
         ],
@@ -48,12 +58,12 @@
     },
     "application_schedule": {
         "announcement_date": "2019.11.01",
-        "online_application_period": "2019.11.18~2019.11.22",
-        "document_submission_period": "2019.12.09~2019.12.17",
-        "inspection_period": "2020.03.04",
+        "online_application_period": "2019.11.18 ~ 2019.11.22",
+        "document_submission_period": "2019.12.09 ~ 2019.12.17",
+        "inspection_period": "2019.12.06",
         "winner_announcement": "2020.03.04",
-        "contract_period": "2020.03.11~2020.03.13",
+        "contract_period": "2020.03.11 ~ 2020.03.13",
         "move_in_period": null
     },
-    "precautions": "입주자 선정방법은 소득순위 → 지역순위 → 추첨 순으로 진행됩니다. 자세한 내용은 공고문을 참조하시기 바랍니다."
+    "precautions": "입주 시 잔금 및 관리비예치금의 납부, 이삿짐의 도착, 입주자가 계약자 본인임을 확인한 후 열쇠를 드리며, 입주지정기간 종료일 이후에 입주하는 경우에는 거주여부에 관계없이 입주지정기간 종료일 다음날부터 임대료, 관리비 및 잔금연체료가 부과됩니다."
 }

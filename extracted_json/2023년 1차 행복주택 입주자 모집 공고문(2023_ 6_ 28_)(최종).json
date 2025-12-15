@@ -1,0 +1,141 @@
+{
+    "announcement_id": "2023-000286",
+    "application_eligibility": "대학생, 청년, 신혼부부, 고령자, 주거급여수급자를 대상으로 공급하며, 각 계층별로 주택소유, 소득, 자산, 자동차 보유 기준이 설정되어 있습니다.",
+    "housing_info": [
+        {
+            "name": "DMC SK뷰 아이파크포레",
+            "address": "서울특별시 강동구 수색13",
+            "district": "강동구",
+            "type": "행복주택",
+            "total_households": null,
+            "supply_households": null,
+            "house_type": "39m², 49m², 53m²",
+            "parking": null,
+            "elevator": null
+        },
+        {
+            "name": "더 더블유 서울",
+            "address": "서울특별시 금천구 가산동 143-7",
+            "district": "금천구",
+            "type": "행복주택",
+            "total_households": null,
+            "supply_households": null,
+            "house_type": "20m², 22m²",
+            "parking": null,
+            "elevator": null
+        },
+        {
+            "name": "더푸름",
+            "address": "서울특별시 강동구 석관동 178-11, 179-20외1",
+            "district": "강동구",
+            "type": "행복주택",
+            "total_households": null,
+            "supply_households": null,
+            "house_type": "28m²",
+            "parking": null,
+            "elevator": null
+        },
+        {
+            "name": "대치푸르지오써밋",
+            "address": "서울특별시 강남구 대치동제1지구",
+            "district": "강남구",
+            "type": "행복주택",
+            "total_households": null,
+            "supply_households": null,
+            "house_type": "49m², 51m²",
+            "parking": null,
+            "elevator": null
+        },
+        {
+            "name": "디에이치퍼스티어아이파크",
+            "address": "서울특별시 강남구 개포주공1",
+            "district": "강남구",
+            "type": "행복주택",
+            "total_households": null,
+            "supply_households": null,
+            "house_type": "49m², 59m²",
+            "parking": null,
+            "elevator": null
+        },
+        {
+            "name": "반포르엘2차",
+            "address": "서울특별시 강남구 신반포14차",
+            "district": "강남구",
+            "type": "행복주택",
+            "total_households": null,
+            "supply_households": null,
+            "house_type": "54m², 59m²",
+            "parking": null,
+            "elevator": null
+        },
+        {
+            "name": "신목동비바힐스",
+            "address": "서울특별시 강동구 신월동981-2",
+            "district": "강동구",
+            "type": "행복주택",
+            "total_households": null,
+            "supply_households": null,
+            "house_type": "58m²",
+            "parking": null,
+            "elevator": null
+        }
+    ],
+    "residence_period": "최대 거주기간은 대학생, 청년 계층 6년, 신혼부부 계층(예비신혼부부, 한부모가족 포함) 무자녀 6년, 자녀 1명 이상 10년, 고령자, 주거급여수급자 20년입니다.",
+    "priority_and_bonus": {
+        "priority_criteria": [
+            {
+                "priority": "1순위",
+                "criteria": [
+                    "행복주택이 위치하는 서울특별시 해당자치구에 거주하는 자",
+                    "행복주택이 위치하는 서울특별시 해당자치구 외 서울특별시에 거주하는 자"
+                ]
+            },
+            {
+                "priority": "2순위",
+                "criteria": [
+                    "해당 주택건설지역(서울특별시) 또는 연접지역(의정부시, 남양주시, 구리시, 하남시, 성남시, 과천시, 안양시, 광명시, 부천시, 인천광역시, 김포시, 고양시, 양주시)에서 거주하거나 소득이 있는 업무에 종사중인 자",
+                    "해당 주택건설지역이 속한 주택공급에 관한 규칙 제4조 3항 각호의 지역으로서 1순위에 해당하지 않는 지역(수원시, 평택시, 동두천시, 안산시, 오산시, 시흥시, 군포시, 의왕시, 용인시, 파주시, 이천시, 안성시, 화성시, 광주시, 포천시, 여주시, 연천군, 가평군, 양평군)에서 거주하거나 소득이 있는 업무에 종사중인 자",
+                    "1순위 및 2순위에 해당하지 않는 자"
+                ]
+            }
+        ],
+        "score_items": [
+            {
+                "priority": "1순위",
+                "items": [
+                    {
+                        "item": "거주지 및 거주기간",
+                        "score": "3점, 2점, 1점"
+                    },
+                    {
+                        "item": "주택청약종합저축(청약저축 포함) 납입횟수",
+                        "score": "3점, 1점"
+                    }
+                ]
+            },
+            {
+                "priority": "2순위",
+                "items": [
+                    {
+                        "item": "거주지 및 거주기간",
+                        "score": "3점, 2점, 1점"
+                    },
+                    {
+                        "item": "주택청약종합저축(청약저축 포함) 납입횟수",
+                        "score": "3점, 1점"
+                    }
+                ]
+            }
+        ]
+    },
+    "application_schedule": {
+        "announcement_date": "2023.6.28.",
+        "online_application_period": "2023.7.10. 10:00 ~ 7.12. 17:00",
+        "document_submission_period": null,
+        "document_announce_date": null,
+        "winner_announcement": "2023.11.22. 14시 이후",
+        "contract_period": "2023.12.1. 10:00 ~ 12.7. 17:00",
+        "move_in_period": null
+    },
+    "precautions": "모든 공급 주택은 공급유형 별로 여러 평면 유형이 있을 수 있으며, 유사 평형이 하나의 공급 유형으로 공급될 수 있습니다. 따라서 동일 단지 동일 공급 유형에 신청했더라도 당첨자는 추첨을 통해 서로 다른 평면 유형을 배정받을 수 있습니다."
+}

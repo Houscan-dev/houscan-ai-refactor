@@ -1,96 +1,137 @@
 {
-    "notice_id": "2020년 제1차역세권청년주택(공공임대) 입주자모집 공고문_웹용",
-    "application_eligibility": "입주자모집공고일(2020.7.31.) 현재 만 19세 이상 39세 이하의 무주택세대구성원으로서 계층별 소득, 총자산, 자동차보유기준(자동차 미소유)을 충족하는 사람",
+    "announcement_id": null,
+    "application_eligibility": "신청 자격: 입주자모집공고일(2020.07.31.) 현재 무주택자로서, 대학생, 청년, 신혼부부 계층에 해당하며, 소득, 자산, 자동차 보유 기준을 충족해야 합니다.",
     "housing_info": [
         {
-            "name": "아임2030",
+            "name": "아임 2030",
             "address": "강서구 등촌동 648-5",
             "district": "강서구",
             "type": "원룸형",
-            "total_households": "99",
-            "supply_households": "18",
-            "house_type": "15",
-            "parking": "자주식 : 282대 (장애인주차대수 : 9대)",
-            "elevator": "20인승 4대, 28인승 1대"
+            "total_households": "15",
+            "supply_households": "15",
+            "house_type": "15.17",
+            "parking": null,
+            "elevator": null
         },
         {
             "name": "센터스퀘어 등촌",
             "address": "강서구 염창동 274-17",
             "district": "강서구",
             "type": "원룸형",
-            "total_households": "49",
-            "supply_households": "49",
-            "house_type": "18",
-            "parking": "자주식 : 282대 (장애인주차대수 : 9대)",
-            "elevator": "20인승 4대, 28인승 1대"
+            "total_households": "18",
+            "supply_households": "18",
+            "house_type": "18.24",
+            "parking": null,
+            "elevator": null
         },
         {
             "name": "더클래식 동작",
             "address": "동작구 노량진동 37-1",
             "district": "동작구",
             "type": "원룸형",
-            "total_households": "32",
-            "supply_households": "32",
-            "house_type": "16",
-            "parking": "자주식 : 282대 (장애인주차대수 : 9대)",
-            "elevator": "20인승 4대, 28인승 1대"
+            "total_households": "16",
+            "supply_households": "16",
+            "house_type": "16.25",
+            "parking": null,
+            "elevator": null
+        },
+        {
+            "name": "어바니엘 위드더스타일 충정로",
+            "address": "서대문구 충정로3가 480",
+            "district": "서대문구",
+            "type": "원룸형",
+            "total_households": "11",
+            "supply_households": "11",
+            "house_type": "35A, 35B",
+            "parking": null,
+            "elevator": null
+        },
+        {
+            "name": "서교동 효성해링턴타워",
+            "address": "마포구 서교동 494",
+            "district": "마포구",
+            "type": "원룸형",
+            "total_households": "20",
+            "supply_households": "20",
+            "house_type": "37B",
+            "parking": null,
+            "elevator": null
         },
         {
             "name": "옥산그린타워",
             "address": "광진구 구의동 587-64",
             "district": "광진구",
-            "type": "32A, 32B(셰어형)",
+            "type": "원룸형",
             "total_households": "2",
             "supply_households": "2",
             "house_type": "32A, 32B",
-            "parking": "자주식 : 3대 (장애인주차대수 : 3대)\n기계식 : 76대",
-            "elevator": "15인승 2대, 장애인겸용 1대 (15인승)"
-        },
-        {
-            "name": "어바니엘 위드 더 스타일 충정로",
-            "address": "서대문구 충정로 3가 480",
-            "district": "서대문구",
-            "type": "35A, 35B",
-            "total_households": "11",
-            "supply_households": "11",
-            "house_type": "35A, 35B",
-            "parking": "자주식 : 3대 (장애인주차대수 : 3대)\n기계식 : 76대",
-            "elevator": "15인승 2대, 장애인겸용 1대 (15인승)"
-        },
-        {
-            "name": "서교동 효성 해링턴 타워",
-            "address": "마포구 서교동 494",
-            "district": "마포구",
-            "type": "37B(셰어형)",
-            "total_households": "20",
-            "supply_households": "20",
-            "house_type": "37B",
-            "parking": "자주식 : 3대 (장애인주차대수 : 3대)\n기계식 : 76대",
-            "elevator": "15인승 2대, 장애인겸용 1대 (15인승)"
+            "parking": null,
+            "elevator": null
         }
     ],
-    "residence_period": null,
+    "residence_period": "최대 6년(대학생, 청년 계층), 최대 10년(자녀 없음), 최대 12년(자녀 1명 이상)(신혼부부 계층)",
     "priority_and_bonus": {
         "priority_criteria": [
             {
                 "priority": "1순위",
                 "criteria": [
-                    "월평균소득이 전년도 도시근로자 가구당 월평균소득의 50%이하인 세대",
-                    "월평균소득이 전년도 도시근로자 가구당 월평균소득의 70%이하인 세대",
-                    "월평균소득이 전년도 도시근로자 가구당 월평균소득의 100%이하인 세대"
+                    "월평균소득이 전년도 도시근로자 가구당 월평균소득의 50% 이하인 세대",
+                    "해당 건설주택이 위치하고 있는 서울특별시 자치구에 거주하는 세대"
+                ]
+            },
+            {
+                "priority": "2순위",
+                "criteria": [
+                    "월평균소득이 전년도 도시근로자 가구당 월평균소득의 70% 이하인 세대",
+                    "해당 건설주택이 위치하고 있는 서울특별시 자치구 외 서울특별시 자치구에 거주하는 세대"
+                ]
+            },
+            {
+                "priority": "3순위",
+                "criteria": [
+                    "월평균소득이 전년도 도시근로자 가구당 월평균소득의 100% 이하인 세대",
+                    "1순위 및 2순위에 해당하지 않는 지역에 거주하는 세대"
                 ]
             }
         ],
-        "score_items": []
+        "score_items": [
+            {
+                "priority": "1순위",
+                "items": [
+                    {
+                        "item": "대학생, 청년, 신혼부부 계층",
+                        "score": "10"
+                    }
+                ]
+            },
+            {
+                "priority": "2순위",
+                "items": [
+                    {
+                        "item": "대학생, 청년, 신혼부부 계층",
+                        "score": "5"
+                    }
+                ]
+            },
+            {
+                "priority": "3순위",
+                "items": [
+                    {
+                        "item": "대학생, 청년, 신혼부부 계층",
+                        "score": "2"
+                    }
+                ]
+            }
+        ]
     },
     "application_schedule": {
-        "announcement_date": "2020.07.31.",
-        "online_application_period": "2020.08.18.(화) 10:00 ~ 08. 20.(목) 17:00",
-        "document_submission_period": "2020.09.14.(월) ~ 2020.09.21.(월)",
-        "inspection_period": "2020.09.09.(수) 14:00 이후",
-        "winner_announcement": "2020.12.29.(화) 14:00 이후",
-        "contract_period": "2021.01.06(수) ~ 2021.01.08(금) 10:00~17:00",
+        "announcement_date": "2020.07.31",
+        "online_application_period": "2020.08.18~2020.08.20",
+        "document_submission_period": "2020.09.14~2020.09.21",
+        "document_announce_date": "2020.09.21~2020.12.29",
+        "winner_announcement": "2020.12.29 14:00 이후",
+        "contract_period": "2021.01.06~2021.01.08",
         "move_in_period": "2021.01"
     },
-    "precautions": "입주기간 중 관계법령이 정한 범위 내에서 임대보증금 및 임대료가 인상될 수 있습니다."
+    "precautions": "유의사항: 신청 및 계약 시 주소, 연락처 변경 시 반드시 공사에 통보해야 합니다. 당첨 후 주택소유, 자산, 자동차 보유로 자격이 상실될 경우 당첨이 취소됩니다."
 }
