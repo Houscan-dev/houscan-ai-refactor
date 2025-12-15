@@ -7,8 +7,8 @@
             "address": "서울특별시 금천구 시흥대로88길 18, 독산동 1068-16",
             "district": "금천구",
             "type": ["청년 1인 단독거주"],
-            "total_households": [1],
-            "supply_households": 1,
+            "total_households": 1,
+            "supply_households": [1],
             "house_type": ["36.59m²"],
             "parking": "본인명의 및 영업용 차량만 주차가능",
             "elevator": true
