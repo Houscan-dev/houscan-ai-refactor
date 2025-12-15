@@ -1,48 +1,48 @@
 {
-    "announcement_id": null,
-    "application_eligibility": "신청 자격: 입주자모집공고일(2020.07.31.) 현재 무주택자로서, 대학생, 청년, 신혼부부 계층에 해당하며, 소득, 자산, 자동차 보유 기준을 충족해야 합니다.",
+    "announcement_id": 16,
+    "application_eligibility": "만 19~39세 무주택자(미혼 또는 혼인 7년 이내)로, 대학생(취준생)·청년·신혼부부(예비 포함)에 해당하는 자를 대상으로, 소득·지역·추첨 순으로 입주자를 선정함.",
     "housing_info": [
         {
             "name": "아임 2030",
             "address": "강서구 등촌동 648-5",
             "district": "강서구",
-            "type": "원룸형",
-            "total_households": "15",
-            "supply_households": "15",
-            "house_type": "15.17",
-            "parking": null,
-            "elevator": null
+            "type": ["대학생", "청년"],
+            "total_households": 18,
+            "supply_households": [7,11],
+            "house_type": ["15m²", "15m²"],
+            "parking": "주차면수 106대",
+            "elevator": true
         },
         {
             "name": "센터스퀘어 등촌",
             "address": "강서구 염창동 274-17",
             "district": "강서구",
-            "type": "원룸형",
-            "total_households": "18",
-            "supply_households": "18",
-            "house_type": "18.24",
-            "parking": null,
-            "elevator": null
+            "type": ["대학생", "청년"],
+            "total_households": 49,
+            "supply_households": [20,29],
+            "house_type": ["18m²", "18m²"],
+            "parking": "주차면수 282대",
+            "elevator": true
         },
         {
             "name": "더클래식 동작",
             "address": "동작구 노량진동 37-1",
             "district": "동작구",
-            "type": "원룸형",
-            "total_households": "16",
-            "supply_households": "16",
-            "house_type": "16.25",
-            "parking": null,
-            "elevator": null
+            "type": ["대학생", "청년"],
+            "total_households": 32,
+            "supply_households": [13,19],
+            "house_type": ["16m²", "16m²"],
+            "parking": "주차면수 79대",
+            "elevator": true
         },
         {
             "name": "어바니엘 위드더스타일 충정로",
             "address": "서대문구 충정로3가 480",
             "district": "서대문구",
-            "type": "원룸형",
-            "total_households": "11",
-            "supply_households": "11",
-            "house_type": "35A, 35B",
+            "type": ["신혼부부", "신혼부부"],
+            "total_households": 11,
+            "supply_households": [6,5],
+            "house_type": ["35A", "35B"],
             "parking": null,
             "elevator": null
         },
@@ -50,10 +50,10 @@
             "name": "서교동 효성해링턴타워",
             "address": "마포구 서교동 494",
             "district": "마포구",
-            "type": "원룸형",
-            "total_households": "20",
-            "supply_households": "20",
-            "house_type": "37B",
+            "type": ["청년 셰어형(남)", "청년 셰어형(여)"],
+            "total_households": 40,
+            "supply_households": [23, 17],
+            "house_type": ["37B", "37B"],
             "parking": null,
             "elevator": null
         },
@@ -61,15 +61,15 @@
             "name": "옥산그린타워",
             "address": "광진구 구의동 587-64",
             "district": "광진구",
-            "type": "원룸형",
-            "total_households": "2",
-            "supply_households": "2",
-            "house_type": "32A, 32B",
-            "parking": null,
-            "elevator": null
+            "type": ["신혼부부", "청년 셰어형(여)"],
+            "total_households": 3,
+            "supply_households": [1, 2],
+            "house_type": ["32A", "32B"],
+            "parking": "주차면수 36대",
+            "elevator": true
         }
     ],
-    "residence_period": "최대 6년(대학생, 청년 계층), 최대 10년(자녀 없음), 최대 12년(자녀 1명 이상)(신혼부부 계층)",
+    "residence_period": "이 주택의 임대차 계약기간은 2년입니다. 대학생·청년 계층은 최대 6년, 신혼부부(예비 포함) 계층은 무자녀 최대 6년, 자녀 1명 이상 최대 10년까지 거주할 수 있습니다.",
     "priority_and_bonus": {
         "priority_criteria": [
             {
@@ -94,44 +94,16 @@
                 ]
             }
         ],
-        "score_items": [
-            {
-                "priority": "1순위",
-                "items": [
-                    {
-                        "item": "대학생, 청년, 신혼부부 계층",
-                        "score": "10"
-                    }
-                ]
-            },
-            {
-                "priority": "2순위",
-                "items": [
-                    {
-                        "item": "대학생, 청년, 신혼부부 계층",
-                        "score": "5"
-                    }
-                ]
-            },
-            {
-                "priority": "3순위",
-                "items": [
-                    {
-                        "item": "대학생, 청년, 신혼부부 계층",
-                        "score": "2"
-                    }
-                ]
-            }
-        ]
+        "score_items": []
     },
     "application_schedule": {
-        "announcement_date": "2020.07.31",
-        "online_application_period": "2020.08.18~2020.08.20",
-        "document_submission_period": "2020.09.14~2020.09.21",
-        "document_announce_date": "2020.09.21~2020.12.29",
-        "winner_announcement": "2020.12.29 14:00 이후",
-        "contract_period": "2021.01.06~2021.01.08",
-        "move_in_period": "2021.01"
+        "announcement_date": "2020.07.31.",
+        "online_application_period": "2020.08.18. ~ 2020.08.20.",
+        "document_submission_period": "2020.09.14. ~ 2020.09.21.",
+        "document_announce_date": "2020.09.09.",
+        "winner_announcement": "2020.12.29. 14:00 이후",
+        "contract_period": "2021.01.06. ~ 2021.01.08.",
+        "move_in_period": "2021.1월 말"
     },
-    "precautions": "유의사항: 신청 및 계약 시 주소, 연락처 변경 시 반드시 공사에 통보해야 합니다. 당첨 후 주택소유, 자산, 자동차 보유로 자격이 상실될 경우 당첨이 취소됩니다."
+    "precautions": ["입주자(세대구성원 전원 포함)는 입주자모집공고일 현재부터 임대차계약 종료일까지 무주택세대구성원이어야 합니다. *대학생 계층 및 청년 계층은 입주자모집공고일 현재부터 임대차계약 종료일까지 무주택자이어야합니다.", "당첨 이후 연락처(주소, 전화번호)가 변경될 경우, 즉시 그 내용을 우리공사에 통보하기 바랍니다. 미통보시 불이익에 대한 책임은 본인에게 있습니다.","예비신혼부부(본인 및 예비배우자)는 1세대로 간주하여 같은 계층 및 다른 계층으로 중복 신청할 경우에는 전부 무효 처리됩니다."]
 }

@@ -1,15 +1,15 @@
 {
-    "announcement_id": "2023-000286",
-    "application_eligibility": "대학생, 청년, 신혼부부, 고령자, 주거급여수급자를 대상으로 공급하며, 각 계층별로 주택소유, 소득, 자산, 자동차 보유 기준이 설정되어 있습니다.",
+    "announcement_id": 19,
+    "application_eligibility": "공고일 기준 무주택세대구성원으로, 대학생·청년·(예비)신혼부부·고령자·주거급여수급자 등 계층별 요건을 충족하며 소득·자산·자동차 기준을 만족한 자.",
     "housing_info": [
         {
             "name": "DMC SK뷰 아이파크포레",
-            "address": "서울특별시 강동구 수색13",
-            "district": "강동구",
-            "type": "행복주택",
-            "total_households": null,
-            "supply_households": null,
-            "house_type": "39m², 49m², 53m²",
+            "address": "서울특별시 은평구 수색동 341-6",
+            "district": "은평구",
+            "type": ["신혼부부","고령자","신혼부부","고령자","신혼부부","고령자"],
+            "total_households": 74,
+            "supply_households": [20,10,15,6,19,4],
+            "house_type": ["39m²","39m²", "49m²","49m²", "53m²","53m²"],
             "parking": null,
             "elevator": null
         },
@@ -17,112 +17,492 @@
             "name": "더 더블유 서울",
             "address": "서울특별시 금천구 가산동 143-7",
             "district": "금천구",
-            "type": "행복주택",
-            "total_households": null,
-            "supply_households": null,
-            "house_type": "20m², 22m²",
+            "type": ["청년","주거급여수급자","청년"],
+            "total_households": 15,
+            "supply_households": [11,2,2],
+            "house_type": ["20m²", "20m²", "22m²"],
             "parking": null,
             "elevator": null
         },
         {
             "name": "더푸름",
-            "address": "서울특별시 강동구 석관동 178-11, 179-20외1",
+            "address": "서울특별시 강동구 석관동 178-11",
             "district": "강동구",
-            "type": "행복주택",
-            "total_households": null,
-            "supply_households": null,
-            "house_type": "28m²",
+            "type": ["청년","주거급여수급자","신혼부부"],
+            "total_households": 4,
+            "supply_households": [2,1,1],
+            "house_type": ["28m²","28m²","49m²"],
             "parking": null,
             "elevator": null
         },
         {
             "name": "대치푸르지오써밋",
-            "address": "서울특별시 강남구 대치동제1지구",
+            "address": "서울특별시 강남구 대치동 963",
             "district": "강남구",
-            "type": "행복주택",
-            "total_households": null,
-            "supply_households": null,
-            "house_type": "49m², 51m²",
+            "type": ["신혼부부","고령자"],
+            "total_households": 8,
+            "supply_households": [6,2],
+            "house_type": ["51m²","51m²"],
             "parking": null,
             "elevator": null
         },
         {
             "name": "디에이치퍼스티어아이파크",
-            "address": "서울특별시 강남구 개포주공1",
+            "address": "서울특별시 강남구 개포동 660-4",
             "district": "강남구",
-            "type": "행복주택",
-            "total_households": null,
-            "supply_households": null,
-            "house_type": "49m², 59m²",
+            "type": ["신혼부부","고령자","신혼부부","고령자"],
+            "total_households": 393,
+            "supply_households": [159,32,160,42],
+            "house_type": ["49m²","49m²", "59m²","59m²"],
             "parking": null,
             "elevator": null
         },
         {
             "name": "반포르엘2차",
-            "address": "서울특별시 강남구 신반포14차",
-            "district": "강남구",
-            "type": "행복주택",
-            "total_households": null,
-            "supply_households": null,
-            "house_type": "54m², 59m²",
+            "address": "서울특별시 서초구 잠원동 74",
+            "district": "서초구",
+            "type": ["신혼부부","고령자","신혼부부","고령자"],
+            "total_households": 35,
+            "supply_households": [16,4,12,3],
+            "house_type": ["54m²", "54m²", "59m²","59m²"],
             "parking": null,
             "elevator": null
         },
         {
             "name": "신목동비바힐스",
-            "address": "서울특별시 강동구 신월동981-2",
+            "address": "서울특별시 양천구 신월동 981-2",
+            "district": "양천구",
+            "type": ["신혼부부","고령자"],
+            "total_households": 6,
+            "supply_households": [4,2],
+            "house_type": ["58m²","58m²"],
+            "parking": null,
+            "elevator": null
+        },
+        {
+            "name": "아현푸르지오클라시티",
+            "address": "서울특별시 마포구 아현동 275-2",
+            "district": "마포구",
+            "type": ["청년","청년","청년","신혼부부"],
+            "total_households": 5,
+            "supply_households": [1,1,1,2],
+            "house_type": ["31m²","33m²","38m²","38m²"],
+            "parking": null,
+            "elevator": null
+        },
+        {
+            "name": "초행지붕-정릉",
+            "address": "서울특별시 성북구 정릉동 227-39",
+            "district": "양천구",
+            "type": ["대학생"],
+            "total_households": 8,
+            "supply_households": [8],
+            "house_type": ["20m²"],
+            "parking": null,
+            "elevator": null
+        },
+        {
+            "name": "강동리엔파크 11단지",
+            "address": "서울특별시 강동구 상일동 36-3",
             "district": "강동구",
-            "type": "행복주택",
-            "total_households": null,
-            "supply_households": null,
-            "house_type": "58m²",
+            "type": ["대학생(공가)","고령자(공가)","대학생(예비)","고령자(예비)"],
+            "total_households": 133,
+            "supply_households": [28,23,50,32],
+            "house_type": ["17m²","29S","17m²","29S"],
+            "parking": null,
+            "elevator": null
+        },
+        {
+            "name": "강동리엔파크 14단지",
+            "address": "서울특별시 강동구 상일동 28",
+            "district": "강동구",
+            "type": ["청년(공가)","청년(예비)"],
+            "total_households": 85,
+            "supply_households": [41,44],
+            "house_type": ["17m²","17m²"],
+            "parking": null,
+            "elevator": null
+        },
+        {
+            "name": "개포래미안포레스트",
+            "address": "서울특별시 강남구 개포동 1282",
+            "district": "강남구",
+            "type": ["신혼부부(공가)","신혼부부(예비)"],
+            "total_households": 4,
+            "supply_households": [1,3],
+            "house_type": ["49m²","49m²"],
+            "parking": null,
+            "elevator": null
+        },
+        {
+            "name": "고덕자이",
+            "address": "서울특별시 강동구 상일동 521",
+            "district": "강동구",
+            "type": ["신혼부부(공가)","신혼부부(예비)"],
+            "total_households": 4,
+            "supply_households": [1,3],
+            "house_type": ["59m²","59m²"],
+            "parking": null,
+            "elevator": null
+        },
+        {
+            "name": "꿈의숲 효성해링턴플레이스",
+            "address": "서울특별시 강북구 미아동 1369",
+            "district": "강북구",
+            "type": ["신혼부부(공가)","신혼부부(예비)"],
+            "total_households": 12,
+            "supply_households": [3,9],
+            "house_type": ["49m²","49m²"],
+            "parking": null,
+            "elevator": null
+        },
+        {
+            "name": "디에이치포레센트",
+            "address": "서울특별시 강남구 일원동 742",
+            "district": "강남구",
+            "type": ["고령자(공가)","고령자(예비)"],
+            "total_households": 4,
+            "supply_households": [1,3],
+            "house_type": ["59m²","59m²"],
+            "parking": null,
+            "elevator": null
+        },
+        {
+            "name": "래미안 로이파크",
+            "address": "서울특별시 동작구 사당동 1159",
+            "district": "동작구",
+            "type": ["신혼부부(공가)","신혼부부(예비)"],
+            "total_households": 4,
+            "supply_households": [1,3],
+            "house_type": ["59m²","59m²"],
+            "parking": null,
+            "elevator": null
+        },
+        {
+            "name": "래미안 명일역 솔베뉴",
+            "address": "서울특별시 강동구 명일동 359",
+            "district": "강동구",
+            "type": ["신혼부부(공가)","신혼부부(예비)"],
+            "total_households": 8,
+            "supply_households": [2,6],
+            "house_type": ["59m²","59m²"],
+            "parking": null,
+            "elevator": null
+        },
+        {
+            "name": "래미안 신반포 리오센트",
+            "address": "서울특별시 서초구 잠원동 161",
+            "district": "서초구",
+            "type": ["신혼부부(공가)","신혼부부(예비)"],
+            "total_households": 12,
+            "supply_households": [3,9],
+            "house_type": ["48m²","48m²"],
+            "parking": null,
+            "elevator": null
+        },
+        {
+            "name": "래미안개포루체하임",
+            "address": "서울특별시 강남구 일원동 741",
+            "district": "강남구",
+            "type": ["신혼부부(공가)","신혼부부(예비)"],
+            "total_households": 18,
+            "supply_households": [6,12],
+            "house_type": ["49m²","49m²"],
+            "parking": null,
+            "elevator": null
+        },
+        {
+            "name": "래미안라클래시",
+            "address": "서울특별시 강남구 삼성동 189",
+            "district": "강남구",
+            "type": ["신혼부부(공가)","신혼부부(예비)"],
+            "total_households": 12,
+            "supply_households": [3,9],
+            "house_type": ["59m²","59m²"],
+            "parking": null,
+            "elevator": null
+        },
+        {
+            "name": "래미안블레스티지",
+            "address": "서울특별시 강남구 개포동 1280",
+            "district": "강남구",
+            "type": ["신혼부부(공가)","신혼부부(예비)"],
+            "total_households": 8,
+            "supply_households": [2,6],
+            "house_type": ["49m²","49m²"],
+            "parking": null,
+            "elevator": null
+        },
+        {
+            "name": "반포래미안아이파크",
+            "address": "서울특별시 서초구 반포동 1341",
+            "district": "서초구",
+            "type": ["신혼부부(공가)","신혼부부(예비)"],
+            "total_households": 12,
+            "supply_households": [3,9],
+            "house_type": ["59m²","59m²"],
+            "parking": null,
+            "elevator": null
+        },
+        {
+            "name": "반포센트럴자이",
+            "address": "서울특별시 서초구 잠원동 162",
+            "district": "서초구",
+            "type": ["신혼부부(공가)","신혼부부(예비)"],
+            "total_households": 4,
+            "supply_households": [1,3],
+            "house_type": ["59m²","59m²"],
+            "parking": null,
+            "elevator": null
+        },
+        {
+            "name": "반포써밋",
+            "address": "서울특별시 서초구 반포동 1342",
+            "district": "서초구",
+            "type": ["신혼부부(공가)","신혼부부(예비)"],
+            "total_households": 12,
+            "supply_households": [3,9],
+            "house_type": ["49m²","49m²"],
+            "parking": null,
+            "elevator": null
+        },{
+            "name": "방배그랑자이",
+            "address": "서울특별시 서초구 방배동 1028-1",
+            "district": "서초구",
+            "type": ["신혼부부(공가)","신혼부부(예비)"],
+            "total_households": 8,
+            "supply_households": [2,6],
+            "house_type": ["54m²","54m²"],
+            "parking": null,
+            "elevator": null
+        },{
+            "name": "보라매자이",
+            "address": "서울특별시 동작구 신대방동 724",
+            "district": "동작구",
+            "type": ["신혼부부(공가)","신혼부부(예비)"],
+            "total_households": 4,
+            "supply_households": [1,3],
+            "house_type": ["36m²","36m²"],
+            "parking": null,
+            "elevator": null
+        },{
+            "name": "송파파크데일 3",
+            "address": "서울특별시 송파구 마천동 605",
+            "district": "송파구",
+            "type": ["청년(공가)","청년(예비)"],
+            "total_households": 64,
+            "supply_households": [30,34],
+            "house_type": [ "21m²", "21m²" ],
+            "parking": null,
+            "elevator": null
+        },{
+            "name": "수락리버타운",
+            "address": "서울특별시 노원구 상계동 1316",
+            "district": "노원구",
+            "type": ["고령자(공가)","고령자(예비)"],
+            "total_households": 4,
+            "supply_households": [1,3],
+            "house_type": ["21S","21S"],
+            "parking": null,
+            "elevator": null
+        },{
+            "name": "숲에리움(오류1동 청신호)",
+            "address": "서울특별시 구로구 오류동 359",
+            "district": "구로구",
+            "type": ["청년(공가)","청년(예비)"],
+            "total_households": 21,
+            "supply_households": [7,14],
+            "house_type":["21m²","21m²"],
+            "parking": null,
+            "elevator": null
+        },{
+            "name": "신내 글로리움",
+            "address": "서울특별시 중랑구 신내동 640",
+            "district": "중랑구",
+            "type": ["신혼부부(공가)","신혼부부(예비)"],
+            "total_households": 16,
+            "supply_households": [4,12],
+            "house_type": ["44m²","44m²"],
+            "parking": null,
+            "elevator": null
+        },{
+            "name": "신내3-3 도시형생활주택",
+            "address": "서울특별시 중랑구 신내동 826 ",
+            "district": "중랑구",
+            "type": ["청년(공가)","청년(예비)"],
+            "total_households": 12,
+            "supply_households": [3,9],
+            "house_type": ["29m²","29m²"],
+            "parking": null,
+            "elevator": null
+        },{
+            "name": "신내3-4 도시형생활주택",
+            "address": "서울특별시 중랑구 신내동 831",
+            "district": "중랑구",
+            "type": ["청년(공가)","청년(예비)"],
+            "total_households": 4,
+            "supply_households": [1,3],
+            "house_type": ["21m²","21m²"],
+            "parking": null,
+            "elevator": null
+        },{
+            "name": "신정 파크샤인",
+            "address": "서울특별시 양천구 신정동 163-36",
+            "district": "양천구",
+            "type": ["청년(공가)","신혼부부(공가)","청년(예비)","신혼부부(예비)"],
+            "total_households": 12,
+            "supply_households": [1,2,3,6],
+            "house_type":["36m²","41m²","36m²","41m²"],
+            "parking": null,
+            "elevator": null
+        },{
+            "name": "정릉 하늘마루",
+            "address": "서울특별시 성북구 정릉동 1054",
+            "district": "성북구",
+            "type": ["고령자(공가)","청년(공가)","신혼부부(공가)","고령자(예비)","청년(예비)","신혼부부(예비)"],
+            "total_households": 36,
+            "supply_households": [3,5,1,9,15,3],
+            "house_type": ["26S","26m²","36m²","26S","26m²","36m²"],
+            "parking": null,
+            "elevator": null
+        },{
+            "name": "천왕연지마을 2",
+            "address": "서울특별시 구로구 천왕동 산13-13",
+            "district": "구로구",
+            "type": ["청년(공가)","고령자(공가)","청년(예비)","고령자(예비)"],
+            "total_households": 16,
+            "supply_households": [3,1,9,3],
+            "house_type":["31m²","21m²","31m²","21m²"],
+            "parking": null,
+            "elevator": null
+        },{
+            "name": "천왕이펜하우스8단지(천왕지구 8단지) ",
+            "address": "서울특별시 구로구 천왕동 산19-1",
+            "district": "구로구",
+            "type": ["주거급여수급자(공가)","고령자(공가)","신혼부부(공가)","주거급여수급자(예비)","고령자(예비)","신혼부부(예비)"],
+            "total_households": 38,
+            "supply_households": [4,1,6,12,3,12],
+            "house_type": ["29S","36S","45m²","29S","36S","45m²"],
+            "parking": null,
+            "elevator": null
+        },{
+            "name": "초행지붕-동소문",
+            "address": "서울특별시 성북구 동소문동 7가 2-26",
+            "district": "성북구",
+            "type": ["대학생(공가)","대학생(예비)"],
+            "total_households": 4,
+            "supply_households": [1,3],
+            "house_type": ["15m²","15m²"],
+            "parking": null,
+            "elevator": null
+        },{
+            "name": "초행지붕-미아-3",
+            "address": "서울특별시 강북구 미아동 791-1960",
+            "district": "강북구",
+            "type": ["신혼부부(공가)","신혼부부(예비)"],
+            "total_households": 8,
+            "supply_households": [2,6],
+            "house_type": ["53m²","53m²"],
+            "parking": null,
+            "elevator": null
+        },{
+            "name": "초행지붕-신사",
+            "address": "서울특별시 은평구 신사동 300-60",
+            "district": "은평구",
+            "type": ["청년(공가)","청년(공가)","대학생(공가)","청년(예비)","청년(예비)","대학생(예비)"],
+            "total_households": 12,
+            "supply_households": [1,1,1,3,3,3],
+            "house_type": ["26m²","29m²(복층)","23m²","26m²","29m²(복층)","23m²"],
+            "parking": null,
+            "elevator": null
+        },{
+            "name": "항동 하버라인 지구(9ㆍ10ㆍ11단지) ",
+            "address": "서울특별시 구로구 항동 136-5",
+            "district": "구로구",
+            "type": ["주거급여수급자(공가)","고령자(공가)","청년(공가)","청년(공가)","고령자(공가)","주거급여수급자(예비)","고령자(예비)","청년(예비)","청년(예비)","고령자(예비)"],
+            "total_households": 101,
+            "supply_households": [4,1,4,16,9,12,3,12,22,18],
+            "house_type": ["29S","39S","29m²","39m²","39m²","29S","39S","29m²","39m²","39m²"],
+            "parking": null,
+            "elevator": null
+        },{
+            "name": "힐스테이트 청계",
+            "address": "서울특별시 동대문구 답십리동 1009",
+            "district": "동대문구",
+            "type": ["신혼부부(공가)","신혼부부(예비)"],
+            "total_households": 4,
+            "supply_households": [1,3],
+            "house_type": ["48m²","48m²"],
+            "parking": null,
+            "elevator": null
+        },{
+            "name": "e편한세상 송파파크센트럴_재건축",
+            "address": "서울특별시 송파구 거여동 234",
+            "district": "송파구",
+            "type": ["신혼부부(공가)","신혼부부(예비)"],
+            "total_households": 4,
+            "supply_households": [1,3],
+            "house_type": [ "59m²","59m²" ],
             "parking": null,
             "elevator": null
         }
+        
     ],
-    "residence_period": "최대 거주기간은 대학생, 청년 계층 6년, 신혼부부 계층(예비신혼부부, 한부모가족 포함) 무자녀 6년, 자녀 1명 이상 10년, 고령자, 주거급여수급자 20년입니다.",
+    "residence_period": "이 주택의 임대차 계약기간은 2년이며, 최대 거주기간은 대학생·청년 계층 6년, 신혼부부 계층(예비신혼부부, 한부모가족 포함) 무자녀 6년 / 자녀 1명 이상 10년, 고령자·주거급여수급자 20년입니다.",
     "priority_and_bonus": {
         "priority_criteria": [
             {
-                "priority": "1순위",
+                "priority": "우선공급 1순위",
                 "criteria": [
-                    "행복주택이 위치하는 서울특별시 해당자치구에 거주하는 자",
-                    "행복주택이 위치하는 서울특별시 해당자치구 외 서울특별시에 거주하는 자"
+                    "* 입주자모집공고일(2023. 6. 28.) 현재 일반공급대상자의 요건을 모두 갖추고 아래 1순위 또는 2순위의 요건을 갖춘 자",
+                    "행복주택이 위치하는 서울특별시 해당자치구에 거주하거나 소득이 있는 업무에 종사중인 자"
                 ]
             },
             {
-                "priority": "2순위",
+                "priority": "일반공급 1순위",
                 "criteria": [
-                    "해당 주택건설지역(서울특별시) 또는 연접지역(의정부시, 남양주시, 구리시, 하남시, 성남시, 과천시, 안양시, 광명시, 부천시, 인천광역시, 김포시, 고양시, 양주시)에서 거주하거나 소득이 있는 업무에 종사중인 자",
-                    "해당 주택건설지역이 속한 주택공급에 관한 규칙 제4조 3항 각호의 지역으로서 1순위에 해당하지 않는 지역(수원시, 평택시, 동두천시, 안산시, 오산시, 시흥시, 군포시, 의왕시, 용인시, 파주시, 이천시, 안성시, 화성시, 광주시, 포천시, 여주시, 연천군, 가평군, 양평군)에서 거주하거나 소득이 있는 업무에 종사중인 자",
+                    "해당 주택건설지역(서울특별시) 또는 연접지역(의정부시, 남양주시, 구리시, 하남시, 성남시, 과천시, 안양시, 광명시, 부천시, 인천광역시, 김포시, 고양시, 양주시)에서 거주하거나 소득이 있는 업무에 종사중인 자"
+                ]
+            },
+            {
+                "priority": "우선공급 2순위",
+                "criteria": [
+                    "* 입주자모집공고일(2023. 6. 28.) 현재 일반공급대상자의 요건을 모두 갖추고 아래 1순위 또는 2순위의 요건을 갖춘 자",
+                    "행복주택이 위치하는 서울특별시 해당자치구 외 서울특별시에 거주하거나 소득이 있는 업무에 종사중인 자"
+                ]
+            },
+            {
+                "priority": "일반공급 2순위",
+                "criteria": [
+                    "해당 주택건설지역이 속한 주택공급에 관한 규칙 제4조 3항 각호의 지역으로서 1순위에 해당하지 않는 지역(수원시, 평택시, 동두천시, 안산시, 오산시, 시흥시, 군포시, 의왕시, 용인시, 파주시, 이천시, 안성시, 화성시, 광주시, 포천시, 여주시, 연천군, 가평군, 양평군)에서 거주하거나 소득이 있는 업무에 종사중인 자"
+                ]
+            },
+            {
+                "priority": "일반공급 2순위",
+                "criteria": [
                     "1순위 및 2순위에 해당하지 않는 자"
                 ]
             }
         ],
         "score_items": [
             {
-                "priority": "1순위",
+                "priority": "우선공급 1, 2순위",
                 "items": [
                     {
-                        "item": "거주지 및 거주기간",
-                        "score": "3점, 2점, 1점"
+                        "item": "행복주택이 위치하는 서울특별시에 3년 이상 거주 ※ 서울시 최종전입일이 2020. 6. 28.(당일포함) 이전인 자",
+                        "score": "3점"
                     },
                     {
-                        "item": "주택청약종합저축(청약저축 포함) 납입횟수",
-                        "score": "3점, 1점"
-                    }
-                ]
-            },
-            {
-                "priority": "2순위",
-                "items": [
-                    {
-                        "item": "거주지 및 거주기간",
-                        "score": "3점, 2점, 1점"
+                        "item": "가입 2년이 경과한 자로서 매월 약정 납입일에 월납입금을 24회 이상 납입한 자",
+                        "score": "3점"
                     },
                     {
-                        "item": "주택청약종합저축(청약저축 포함) 납입횟수",
-                        "score": "3점, 1점"
+                        "item": "행복주택이 위치하는 서울특별시에 3년 미만 거주 ※ 서울시 최종전입일이 2020. 6. 29.(당일포함) 이후인 자",
+                        "score": "1점"
+                    },
+                    {
+                        "item": "가입 6개월이 경과한 자로서 매월 약정 납입일에 월납입금을 6회 이상 23회 이하 납입한 자",
+                        "score": "1점"
                     }
                 ]
             }
@@ -130,12 +510,12 @@
     },
     "application_schedule": {
         "announcement_date": "2023.6.28.",
-        "online_application_period": "2023.7.10. 10:00 ~ 7.12. 17:00",
-        "document_submission_period": null,
-        "document_announce_date": null,
+        "online_application_period": "인터넷 2023.7.10. ~ 23.7.12. / 방문 2023.7.11. ~ 2023.7.12.",
+        "document_submission_period": "2023.8.2. ~ 2023.8.4.",
+        "document_announce_date": "2023.7.28.",
         "winner_announcement": "2023.11.22. 14시 이후",
         "contract_period": "2023.12.1. 10:00 ~ 12.7. 17:00",
-        "move_in_period": null
+        "move_in_period": "2024.1월 중"
     },
-    "precautions": "모든 공급 주택은 공급유형 별로 여러 평면 유형이 있을 수 있으며, 유사 평형이 하나의 공급 유형으로 공급될 수 있습니다. 따라서 동일 단지 동일 공급 유형에 신청했더라도 당첨자는 추첨을 통해 서로 다른 평면 유형을 배정받을 수 있습니다."
+    "precautions": ["이 주택의 입주자는 입주자모집공고일 현재부터 임대차계약 종료일까지 무주택자이어야 하며, 제출 서류는 공고일 이후 발급된 서류로 제출해야합니다","모든 공급 주택은 공급유형 별로 여러 평면 유형이 있을 수 있으며, 유사 평형이 하나의 공급 유형으로 공급될 수 있습니다. 따라서 동일 단지 동일 공급 유형에 신청했더라도 당첨자는 추첨을 통해 서로 다른 평면 유형을 배정받을 수 있습니다.","당첨자 및 세대구성원은 입주 즉시 해당 주택으로 전입신고를 하여야 합니다.","방문청약 신청장소는 서울주택도시공사 2층 대강당입니다."]
 }

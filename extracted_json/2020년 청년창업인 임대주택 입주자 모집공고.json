@@ -1,32 +1,32 @@
 {
-    "announcement_id": null,
-    "application_eligibility": "청년(만 19세 이상 만 39세 이하) 무주택세대구성원, 월평균소득이 전년도 도시근로자 가구당 월평균소득의 100퍼센트 이하, 총 자산가액 2억 8,800만원 이하, 자동차가액 2,468만원 이하",
+    "announcement_id": 17,
+    "application_eligibility": "서울시 창업보육기관(26개소) 입주 청년 창업인 및 임직원으로, 만 19~39세 무주택세대구성원이며 월평균소득 100% 이하, 총자산 2.88억원·자동차가액 2,468만원 이하, 본인 또는 배우자 중 1인이 입주 전까지 주택청약종합저축 가입 가능한 자",
     "housing_info": [
         {
-            "name": "청년창업인 주택",
-            "address": "지하철 1·4호선 창동역 1번출구 인근",
-            "district": "강남구",
-            "type": "창업지원주택",
+            "name": "청년창업인 임대주택",
+            "address": "서울특별시 도봉구 마들로13길84(창동)",
+            "district": "도봉구",
+            "type": ["창업지원(청년창업)", "창업지원(청년창업)"],
             "total_households": null,
-            "supply_households": null,
-            "house_type": null,
-            "parking": null,
-            "elevator": "있음"
+            "supply_households": [23,1],
+            "house_type": ["15m²", "23m²"],
+            "parking": "있음",
+            "elevator": true
         }
     ],
-    "residence_period": "최초 계약 기간 2년, 최장 거주기간 무자녀 6년, 자녀 1인 이상 10년",
+    "residence_period": "최초 계약 기간 2년, 소득·자산 등 재계약요건을 유지할 경우 최장 6년(자녀 1인 이상의 경우 최장 10년) 거주 가능",
     "priority_and_bonus": {
         "priority_criteria": [
             {
                 "priority": "1순위",
                 "criteria": [
-                    "(가칭)창업고도화센터 내 입주(예정)기업의 청년창업인 및 그 임직원"
+                    "(가칭)창업고도화센터 내 입주(예정)기업의 청년창업인 및 그 임직원 (단, 입주예정기업의 임직원일 경우 창업지원주택 입주 전까지 (가칭)창업고도화센터 입주계약서 제출 필수)"
                 ]
             },
             {
                 "priority": "2순위",
                 "criteria": [
-                    "서울시가 운영 중인 창업보육기관(26개소)에 입주한 청년창업인 및 그 임직원"
+                    "공고일 현재, 서울시가 운영 중인 창업보육기관(26개소)에 입주한 청년창업인 및 그 임직원."
                 ]
             }
         ],
@@ -34,12 +34,12 @@
     },
     "application_schedule": {
         "announcement_date": "2020.5.20.",
-        "online_application_period": null,
-        "document_submission_period": "2020.5.20. 이후 발급된 서류 제출",
+        "online_application_period": "2020.6.1. ~ 2020.6.3.",
+        "document_submission_period": "2020.6.1. ~ 2020.6.3. (신청마감일까지 등기우편 소인 처리)",
         "document_announce_date": null,
-        "winner_announcement": null,
-        "contract_period": "2020.9.23. ~ 2020.9.24., 2020.9.28.",
-        "move_in_period": null
+        "winner_announcement": "2020.9.11. 16:00",
+        "contract_period": ["전자 계약 일시 2020.9.23. ~ 2020.9.24. 17:00", "방문 계약 일시 2020.9.24. / 2020.9.28. 10:00 ~ 17:00"],
+        "move_in_period": "2020.10월 중"
     },
-    "precautions": "신청자격 및 자산, 소득, 주택 소유 여부를 정확히 확인하고, 제출 서류는 공고일 이후 발급된 서류로 제출해야 함."
+    "precautions": ["이 주택의 입주자는 입주자모집공고일 현재부터 임대차계약 종료일까지 무주택자이어야 하며, 제출 서류는 공고일 이후 발급된 서류로 제출해야합니다.","방문 계약 장소는 서울주택도시공사(강남구 개포동) 11층입니다."]
 }

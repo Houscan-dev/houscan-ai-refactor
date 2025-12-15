@@ -1,15 +1,224 @@
 {
-    "announcement_id": null,
-    "application_eligibility": "청년계층: 만 19세 이상 만 39세 이하 무주택자, 소득 및 자산 기준 충족\n신혼부부: 공고일 현재 혼인 7년 이내인 사람, 예비신혼부부, 만 6세 이하 자녀가 있는 혼인가구",
+    "announcement_id": 21,
+    "application_eligibility": "입주자모집공고일(2023.10.31.) 현재 만19세 이상 만39세 이하로서 무주택요건을 충족하고 계층별 소득, 총자산 요건을 충족하는 사람.",
     "housing_info": [
+        {
+            "name": "문정역 마에스트로",
+            "address": "서울특별시 송파구 문정동 55-6",
+            "district": "송파구",
+            "type": null,
+            "total_households": 153,
+            "supply_households": [86,8,1,8,5,6,7,6,17,9],
+            "house_type": ["16m²"," 20m²", "26A", "26B", "29m²", "30m²","31m²","33m²","34m²","35m²"],
+            "parking": null,
+            "elevator": null
+        },
+        {
+            "name": "연신내역 루체스테이션",
+            "address": "서울특별시 은평구 불광동 323-21",
+            "district": "은평구",
+            "type": null,
+            "total_households": 74,
+            "supply_households": [64,10],
+            "house_type": ["17m²","35m²"],
+            "parking": null,
+            "elevator": null
+        },
+        {
+            "name": "동작구 사당동",
+            "address": "서울특별시 동작구 사당동 1044-1",
+            "district": "동작구",
+            "type": null,
+            "total_households": 22,
+            "supply_households": [8,3,3,1,3,1,3],
+            "house_type": ["18A","18B","18C","21m²","36m²","37m²"],
+            "parking": null,
+            "elevator": null
+        },
+        {
+            "name": "골든노블레스",
+            "address": "서울특별시 동작구 대방동 403-14 ",
+            "district": "동작구",
+            "type": null,
+            "total_households": 17,
+            "supply_households": [17],
+            "house_type": ["18m²"],
+            "parking": null,
+            "elevator": null
+        },
+        {
+            "name": "어바니엘 위드 더 스타일 충정로",
+            "address": "서울특별시 서대문구 충정로3가 480 ",
+            "district": "서대문구",
+            "type": null,
+            "total_households": 1,
+            "supply_households": [1],
+            "house_type": ["16m²"],
+            "parking": null,
+            "elevator": null
+        },
+        {
+            "name": "서교동 효성해링턴 타워",
+            "address": "서울특별시 마포구 서교동 494",
+            "district": "마포구",
+            "type": null,
+            "total_households": 6,
+            "supply_households": [1,5],
+            "house_type": ["37A","37B(셰어형)"],
+            "parking": null,
+            "elevator": null
+        },
+        {
+            "name": "더클래식동작",
+            "address": "서울특별시 동작구 노량진동 37-1",
+            "district": "동작구",
+            "type": null,
+            "total_households": 1,
+            "supply_households": [1],
+            "house_type": ["16m²"],
+            "parking": null,
+            "elevator": null
+        },
+        {
+            "name": "센터스퀘어등촌",
+            "address": "서울특별시 강서구 염창동 274-17 ",
+            "district": "강서구",
+            "type": null,
+            "total_households": 4,
+            "supply_households": [4],
+            "house_type": ["18m²"],
+            "parking": null,
+            "elevator": null
+        },
+        {
+            "name": "서초꽃마을",
+            "address": "서울특별시 서초구 서초동 1502-12",
+            "district": "서초구",
+            "type": null,
+            "total_households": 2,
+            "supply_households": [2],
+            "house_type": ["16m²"],
+            "parking": null,
+            "elevator": null
+        },
+        {
+            "name": "용산베르디움프렌즈",
+            "address": "서울특별시 용산구 한강로2가 2-350",
+            "district": "용산구",
+            "type": null,
+            "total_households": 11,
+            "supply_households": [2,9],
+            "house_type": ["19m²","39B(셰어형)"],
+            "parking": null,
+            "elevator": null
+        },
+        {
+            "name": "우장산역해링턴타워",
+            "address": "서울특별시 강서구 화곡동 1170",
+            "district": "강서구",
+            "type": null,
+            "total_households": 1,
+            "supply_households": [1],
+            "house_type": ["23m²"],
+            "parking": null,
+            "elevator": null
+        },
+        {
+            "name": "엘크루발산",
+            "address": "서울특별시 강서구 등촌동 671-1 ",
+            "district": "강서구",
+            "type": null,
+            "total_households": 3,
+            "supply_households": [3],
+            "house_type": ["30m²"],
+            "parking": null,
+            "elevator": null
+        },
+        {
+            "name": "비바힐스 강변",
+            "address": "서울특별시 광진구 구의동 593-11",
+            "district": "광진구",
+            "type": null,
+            "total_households": 1,
+            "supply_households": [1],
+            "house_type": ["32m²"],
+            "parking": null,
+            "elevator": null
+        },
+        {
+            "name": "인히어 쌍문",
+            "address": "서울특별시 도봉구 쌍문동 103-6",
+            "district": "도봉구",
+            "type": null,
+            "total_households": 3,
+            "supply_households": [3],
+            "house_type": "19m²",
+            "parking": null,
+            "elevator": null
+        },
+        {
+            "name": "와이엔타워",
+            "address": "서울특별시 노원구 공릉동 617-3",
+            "district": "노원구",
+            "type": null,
+            "total_households": 2,
+            "supply_households": [2],
+            "house_type": "16m²",
+            "parking": null,
+            "elevator": null
+        },
+        {
+            "name": "리스트강남",
+            "address": "서울특별시 강남구 논현동 202-7",
+            "district": "강남구",
+            "type": null,
+            "total_households": 2,
+            "supply_households": [1,1],
+            "house_type": ["14m²","14m²"],
+            "parking": null,
+            "elevator": null
+        },
+        {
+            "name": "선정릉역 모아엘가 퍼스트홈",
+            "address": "서울특별시 강남구 논현동 278-4외2 ",
+            "district": "강남구",
+            "type": null,
+            "total_households": 1,
+            "supply_households": [1],
+            "house_type": ["20m²"],
+            "parking": null,
+            "elevator": null
+        },
+        {
+            "name": "하트리움",
+            "address": "서울특별시 동대문구 휘경동 380",
+            "district": "동대문구",
+            "type": null,
+            "total_households": 3,
+            "supply_households": [3],
+            "house_type": ["15m²"],
+            "parking": null,
+            "elevator": null
+        },
+        {
+            "name": "더원역삼",
+            "address": "서울특별시 강남구 역삼동 738-29",
+            "district": "강남구",
+            "type": null,
+            "total_households": 1,
+            "supply_households": [1],
+            "house_type": ["30m²"],
+            "parking": null,
+            "elevator": null
+        },
         {
             "name": "최강타워",
             "address": "서울특별시 관악구 신림동 75-6",
             "district": "관악구",
-            "type": "청년안심주택",
-            "total_households": "18",
-            "supply_households": "1",
-            "house_type": "18.89m²",
+            "type": null,
+            "total_households": 1,
+            "supply_households": [1],
+            "house_type": ["18m²"],
             "parking": null,
             "elevator": null
         },
@@ -17,10 +226,10 @@
             "name": "잠실센트럴파크",
             "address": "서울특별시 송파구 잠실동 187-10",
             "district": "송파구",
-            "type": "청년안심주택",
-            "total_households": "43",
-            "supply_households": "2",
-            "house_type": "43.46m²",
+            "type": null,
+            "total_households": 2,
+            "supply_households": [2],
+            "house_type": ["43m²"],
             "parking": null,
             "elevator": null
         },
@@ -28,10 +237,32 @@
             "name": "천호역 효성해링턴타워",
             "address": "서울특별시 강동구 성내동 609",
             "district": "강동구",
-            "type": "청년안심주택",
-            "total_households": "16",
-            "supply_households": "54",
-            "house_type": "16.09m²",
+            "type": null,
+            "total_households": 73,
+            "supply_households": [54,14,5],
+            "house_type": ["16m²","33m²","35A"],
+            "parking": null,
+            "elevator": null
+        },
+        {
+            "name": "청계로벤하임",
+            "address": "서울특별시 종로구 숭인동 240-1",
+            "district": "종로구",
+            "type": null,
+            "total_households": 9,
+            "supply_households": [1,5,1,1,1],
+            "house_type": ["29m²","30m²","34m²","35m²","39A"],
+            "parking": null,
+            "elevator": null
+        },
+        {
+            "name": "중구 광희동1가 166 ",
+            "address": "서울특별시 중구 광희동1가 166 ",
+            "district": "중구",
+            "type": null,
+            "total_households": 1,
+            "supply_households": [1],
+            "house_type": ["15m²"],
             "parking": null,
             "elevator": null
         },
@@ -39,15 +270,15 @@
             "name": "호반베르디움 스테이원",
             "address": "서울특별시 은평구 대조동 241",
             "district": "은평구",
-            "type": "청년안심주택",
-            "total_households": "67",
-            "supply_households": "67",
-            "house_type": "36.22m²",
+            "type": null,
+            "total_households": 134,
+            "supply_households": [67,67],
+            "house_type": ["36A","36B"],
             "parking": null,
             "elevator": null
         }
     ],
-    "residence_period": "청년계층: 최대 6년, 신혼부부 계층: 무자녀 6년, 자녀 1명 이상 10년",
+    "residence_period": "최초 계약 기간 2년, 소득·자산 등 재계약요건을 유지할 경우 최장 6년(자녀 1인 이상의 경우 최장 10년) 거주 가능",
     "priority_and_bonus": {
         "priority_criteria": [
             {
@@ -62,14 +293,14 @@
                 "priority": "2순위",
                 "criteria": [
                     "월평균소득이 전년도 도시근로자 가구원수별 가구당 월평균소득의 100% 이하",
-                    "자산이 국민임대 주택의 자산기준을 충족"
+                    "자산이 국민임대 주택의 자산기준을 충족(총자산 36,100만원 이하, 개별 자동차 3,683만원 이하)"
                 ]
             },
             {
                 "priority": "3순위",
                 "criteria": [
-                    "월평균소득이 전년도 도시근로자 가구원수별 가구당 월평균소득의 100% 이하",
-                    "자산이 행복주택 (청년)의 자산기준을 충족"
+                    "1,2 순위에 해당하지 않는 사람 중 본인의 월평균소득이 전년도 도시근로자 가구원수별 가구당 월평균소득의 100% 이하",
+                    "자산이 행복주택 (청년)의 자산기준을 충족(총 자산 29,900만원 이하, 개별 자동차 3,683만원 이하)"
                 ]
             }
         ],
@@ -84,10 +315,15 @@
                     {
                         "item": "보호대상 한부모가족",
                         "score": "3"
-                    },
+                    }
+                ]
+            },
+            {
+                "priority": "2, 3순위",
+                "items": [
                     {
-                        "item": "차상위계층",
-                        "score": "2"
+                        "item": "소득기준 50% 이하",
+                        "score": "3"
                     }
                 ]
             },
@@ -116,12 +352,12 @@
     },
     "application_schedule": {
         "announcement_date": "2023.10.31.",
-        "online_application_period": "2023.11.07.~2023.11.09.",
-        "document_submission_period": null,
-        "document_announce_date": "2023.11.15.~2023.11.23.",
+        "online_application_period": "2023.11.07. ~ 2023.11.09.",
+        "document_submission_period": "2023.11.21. ~ 2023.11.23.",
+        "document_announce_date": "2023.11.15.",
         "winner_announcement": "2024.02.16.",
-        "contract_period": "2024.03.04.~2024.03.06.",
-        "move_in_period": "2024.03.18.~2024.04.17."
+        "contract_period": "2024.03.04. ~ 2024.03.06.",
+        "move_in_period": "2024.03.18. ~ 2024.04.17."
     },
-    "precautions": "문자전송이 안되는 경우 반드시 홈페이지를 통해 확인\n전산 무작위추첨에 따라 배정된 호실 이외 변경 불가\n당첨자로 선정되었더라도 입주부적격사유가 있을 시 계약체결 불가\n당첨사실을 확인하지 못해 계약하지 못한 경우의 책임은 신청자 본인에게 있습니다."
+    "precautions": "문자전송이 안되는 경우 반드시 홈페이지를 통해 확인. 전산 무작위추첨에 따라 배정된 호실 이외 변경 불가. 당첨자로 선정되었더라도 입주부적격사유가 있을 시 계약체결 불가. 당첨사실을 확인하지 못해 계약하지 못한 경우의 책임은 신청자 본인에게 있습니다."
 }
