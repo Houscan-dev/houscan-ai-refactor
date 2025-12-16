@@ -1,0 +1,42 @@
+{
+    "announcement_id": 27,
+    "application_eligibility": "만 19세 이상 만 39세 이하의 미혼 청년으로, 무주택세대구성원이며, 해당 세대의 월평균소득이 전년도 도시근로자 가구원수별 가구당 월평균소득의 100% 이하이고, 총 자산이 행복주택 자산기준을 충족해야 합니다.",
+    "housing_info": [
+        {
+            "name": "리츠하우스",
+            "address": "서울특별시 강동구 구천면로46길 38 (천호동 233-133) 202호",
+            "district": "강동구",
+            "type": [
+                "원룸형"
+            ],
+            "total_households": 1,
+            "supply_households": [
+                1
+            ],
+            "house_type": [
+                "67.88m²"
+            ],
+            "parking": "본인명의 및 영업용 차량만 주차가능",
+            "elevator": null
+        }
+    ],
+    "residence_period": "최대 10년, 2년 단위로 재계약 가능, 4회를 초과할 수 없음",
+    "priority_and_bonus": {
+        "priority_criteria": [],
+        "score_items": []
+    },
+    "application_schedule": {
+        "announcement_date": "2025.08.11.",
+        "online_application_period": "2025.08.11. ~ 2025.08.12.",
+        "document_submission_period": "2025.08.11. ~ 2025.08.12.",
+        "document_announce_date": null,
+        "winner_announcement": "개별 안내",
+        "contract_period": "개별 안내",
+        "move_in_period": "2025.08.29."
+    },
+    "precautions": [
+        "최초 임대차기간은 2년이며, 재계약 시 자격요건 충족 여부를 검증",
+        "임대차계약서상 임대보증금 및 월임대료 인상 시, 최대 5%",
+        "상호전환 가능하며, 기본보증금 아래로 감액 불가"
+    ]
+}

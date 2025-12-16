@@ -1,0 +1,41 @@
+{
+    "announcement_id": 28,
+    "application_eligibility": "만 19세 이상 만 39세 이하의 미혼 청년으로, 무주택세대구성원이며, 해당 세대의 월평균소득이 전년도 도시근로자 가구원수별 가구당 월평균소득의 100% 이하이고, 총 자산이 행복주택 자산기준을 충족해야 합니다.",
+    "housing_info": [
+        {
+            "name": "은행나무C동",
+            "address": "서울특별시 금천구 독산로22길 65 제C동 (시흥동 824-16)",
+            "district": "강남구",
+            "type": [
+                "원룸형"
+            ],
+            "total_households": 1,
+            "supply_households": [
+                1
+            ],
+            "house_type": [
+                "55.94m²"
+            ],
+            "parking": "본인명의 및 영업용 차량만 주차가능",
+            "elevator": null
+        }
+    ],
+    "residence_period": "최대 10년, 2년 단위로 재계약 가능, 4회를 초과할 수 없음",
+    "priority_and_bonus": {
+        "priority_criteria": [],
+        "score_items": []
+    },
+    "application_schedule": {
+        "announcement_date": "2025.10.29.",
+        "online_application_period": "2025.10.29.  ~ 2025.10.30.",
+        "document_submission_period": "2025.10.29. ~ 2025.10.30.",
+        "document_announce_date": null,
+        "winner_announcement": "개별 안내",
+        "contract_period": "개별 안내",
+        "move_in_period": "2025.12.10."
+    },
+    "precautions": [
+        "최초 임대차기간은 2년이며, 재계약 시 자격요건 충족 여부를 검증",
+        "자동차 이용문화 변화 및 주차난 해소로 주차장 일부를 나눔카 사업 등에 제공 가능"
+    ]
+}

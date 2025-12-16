@@ -1,0 +1,226 @@
+{
+    "announcement_id": 31,
+    "application_eligibility": "19세 이상 39세 이하 무주택자, 소득 및 자산 기준 충족",
+    "housing_info": [
+        {
+            "name": "어바니엘 위드 더 스타일 충정로",
+            "address": "서대문구 충정로3가 480",
+            "district": "서대문구",
+            "type": [
+                "청년안심주택",
+                "청년안심주택"
+            ],
+            "total_households": 5,
+            "supply_households": [
+                3,
+                2
+            ],
+            "house_type": [
+                "35A",
+                "35B"
+            ],
+            "parking": null,
+            "elevator": null
+        },
+        {
+            "name": "와이엔타워",
+            "address": "노원구 공릉동 617-3",
+            "district": "노원구",
+            "type": [
+                "청년안심주택"
+            ],
+            "total_households": 1,
+            "supply_households": [
+                1
+            ],
+            "house_type": [
+                "35m²"
+            ],
+            "parking": null,
+            "elevator": null
+        },
+        {
+            "name": "잠실센트럴파크",
+            "address": "송파구 잠실동 187-10",
+            "district": "송파구",
+            "type": [
+                "청년안심주택"
+            ],
+            "total_households": 1,
+            "supply_households": [
+                1
+            ],
+            "house_type": [
+                "17m²"
+            ],
+            "parking": null,
+            "elevator": null
+        },
+        {
+            "name": "도무스 서초",
+            "address": "서초구 서초동 1673-3",
+            "district": "서초구",
+            "type": [
+                "청년안심주택",
+                "청년안심주택",
+                "청년안심주택",
+                "청년안심주택",
+                "청년안심주택",
+                "청년안심주택",
+                "청년안심주택",
+                "청년안심주택"
+            ],
+            "total_households": 129,
+            "supply_households": [
+                46,
+                6,
+                2,
+                36,
+                4,
+                2,
+                5,
+                5
+            ],
+            "house_type": [
+                "18A",
+                "18B",
+                "19A",
+                "19B",
+                "23A",
+                "23B",
+                "33m²",
+                "44m²"
+            ],
+            "parking": null,
+            "elevator": null
+        },
+        {
+            "name": "백악관타워",
+            "address": "광진구 중곡동 93-13",
+            "district": "광진구",
+            "type": [
+                "청년안심주택",
+                "청년안심주택",
+                "청년안심주택",
+                "청년안심주택",
+                "청년안심주택",
+                "청년안심주택",
+                "청년안심주택"
+            ],
+            "total_households": 129,
+            "supply_households": [
+                46,
+                6,
+                2,
+                36,
+                4,
+                2,
+                5
+            ],
+            "house_type": [
+                "18A",
+                "18B",
+                "19m²",
+                "23A",
+                "23B",
+                "33m²",
+                "44m²"
+            ],
+            "parking": null,
+            "elevator": null
+        }
+    ],
+    "residence_period": "청년 계층: 10년, 신혼부부 Ⅰ: 20년, 신혼부부 Ⅱ: 무자녀(10년), 유자녀(14년)",
+    "priority_and_bonus": {
+        "priority_criteria": [
+            {
+                "priority": "1순위",
+                "criteria": [
+                    "보호대상 한부모가족",
+                    "차상위계층 가구"
+                ]
+            },
+            {
+                "priority": "2순위",
+                "criteria": [
+                    "본인과 부모의 월평균소득이 전년도 도시근로자 가구원수별 가구당 월평균소득의 100% 이하",
+                    "본인과 부모의 자산이「공공주택특별법 시행규칙」제13조제3항에 따라 국민임대 주택의 자산기준을 충족 (총자산 33,700만원 이하, 개별 자동차 3,803만원 이하)"
+                ]
+            },
+            {
+                "priority": "3순위",
+                "criteria": [
+                    "1, 2순위에 해당하지 아니하는 사람 중 본인의 월평균소득이 전년도 도시근로자 가구원수별 가구당 월평균소득의 100% 이하",
+                    "「공공주택특별법 시행규칙」 제13조제3항에 따라 본인의 자산이 행복주택 (청년)의 자산기준을 충족 (총자산 25,400만원 이하, 개별 자동차 3,803만원 이하)"
+                ]
+            }
+        ],
+        "score_items": [
+            {
+                "priority": "1순위",
+                "items": [
+                    {
+                        "item": "생계·의료급여 수급자",
+                        "score": "3"
+                    },
+                    {
+                        "item": "보호대상 한부모가족",
+                        "score": "3"
+                    }
+                ]
+            },
+            {
+                "priority": "2, 3 순위",
+                "items": [
+                    {
+                        "item": "소득기준 50% 이하",
+                        "score": "3"
+                    }
+                ]
+            },
+            {
+                "priority": "공통",
+                "items": [
+                    {
+                        "item": "부모 무주택",
+                        "score": "2"
+                    },
+                    {
+                        "item": "장애인(본인)",
+                        "score": "2"
+                    },
+                    {
+                        "item": "장애인 가구",
+                        "score": "1"
+                    },
+                    {
+                        "item": "청약저축 또는 주택청약종합저축 납입횟수 24회 이상",
+                        "score": "3"
+                    },
+                    {
+                        "item": "청약저축 또는 주택청약종합저축 납입횟수 12회 이상 24회 미만",
+                        "score": "2"
+                    },
+                    {
+                        "item": "청약저축 또는 주택청약종합저축 납입횟수 6회 이상 12회 미만",
+                        "score": "1"
+                    }
+                ]
+            }
+        ]
+    },
+    "application_schedule": {
+        "announcement_date": "2025.04.09.",
+        "online_application_period": "2025.04.21. 10:00 ~ 2025.04.23. 17:00",
+        "document_submission_period": "2025.05.19. ~ 2025.05.21.",
+        "document_announce_date": "2025.05.09.",
+        "winner_announcement": "2025.08.29.",
+        "contract_period": "2025.09.15. ~ 2025.09.17.",
+        "move_in_period": "2025.10.13. ~ 2025.11.12."
+    },
+    "precautions": [
+        "문자는 청약 시 작성한 휴대전화 번호로 발송되며, 통신사 오류 등으로 인하여 문자전송이 불가한 경우가 있으니 반드시 홈페이지를 통해 확인하시기 바랍니다.",
+        "전산 무작위추첨에 따라 배정된 호실 이외(공실여부 관계없음)의 호실로 변경은 불가합니다.",
+        "당첨자로 선정되었더라도 입주부적격사유가 있을 시 추가 소명절차를 거치지 않고서는 계약체결이 불가하며 탈락 처리합니다."
+    ]
+}
