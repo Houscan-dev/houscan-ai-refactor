@@ -66,7 +66,7 @@ def parse_financial_limit_from_criteria(criteria_text: str, keyword: str) -> Opt
                     total_amount += int(만_parts[0]) * 10000 
             
             elif parts[1].isdigit():
-                   total_amount += int(parts[1])
+                    total_amount += int(parts[1])
 
         elif '만' in cleaned_str:
             pure_number = cleaned_str.replace('만', '')
@@ -74,7 +74,7 @@ def parse_financial_limit_from_criteria(criteria_text: str, keyword: str) -> Opt
                 total_amount = int(pure_number) * 10000
 
         elif cleaned_str.isdigit():
-               total_amount = int(cleaned_str)
+                total_amount = int(cleaned_str)
         
         if total_amount > 0:
             return total_amount
@@ -168,16 +168,31 @@ def analyze_eligibility_with_ai(user_data: Dict[str, Any], notice_data: Dict[str
     
     user_income_claim = user_data.get("income_range", "정보 없음") 
     
+    user_welfare_status = '복지 수혜 대상자 (생계급여 수급자, 의료급여 수급자, 주거급여 수급자, 교육급여 수급자, 지원대상 한부모 가족, 차상위계층 가구에 해당)' \
+                          if user_data.get("welfare_receipient", False) else '복지 수혜 대상자 아님'
+                          
+    field_description = """
+### [LLM 판단용 입력 데이터 필드 정의]
+- is_married: 결혼 여부 (true/false)
+- welfare_receipient: 생계급여 수급자, 의료급여 수급자, 주거급여 수급자, 교육급여 수급자, 지원대상 한부모 가족, 차상위계층 가구 중 해당 여부 (true/false)
+- parents_own_house: 부모님 주택 소유 여부 (true: 소유함, false: 소유하지 않음)
+- disability_in_family: 본인 또는 가구원 중 장애인 등록증 소유 여부 (true/false)
+- subscription_account: 청약 납입 횟수 (횟수만 전달됨)
+- residence: 거주 자치구 (예: 성북구)
+"""
+    
     prompt_for_llm_first_pass = f"""
 너는 청약 자격 검증 AI이다. **[2차 Python 검증 대상 항목]은 무시하고, [신청자격 요건], [우선순위 기준] 및 나머지 [사용자 정보]만을 기반으로 1차 결론을 도출해야 한다.**
+
+{field_description}
 
 출력 JSON 구조:
 {{
   "is_eligible": true/false,
   "priority": "", # 예: "1순위"
   "reasons": [
-       "최종 부적격 사유를 간결하고 정확하게 설명한 문장.",
-       ...
+        "최종 부적격 사유를 간결하고 정확하게 설명한 문장.",
+        ...
     ]
 }}
 
@@ -186,6 +201,7 @@ def analyze_eligibility_with_ai(user_data: Dict[str, Any], notice_data: Dict[str
 - 신청자격: {notice_data.get("application_eligibility", "정보 없음")}
 
 ### 사용자 정보 (1차 LLM 판단 근거)
+- 복지 수혜 상태: {user_welfare_status}
 - 주택 소유 상태: {'무주택' if not user_data.get('parents_own_house', True) else '부모님 주택 소유'}
 - 사용자 소득 범위 주장: {user_income_claim} 
     # 소득 논리 강조
@@ -193,7 +209,7 @@ def analyze_eligibility_with_ai(user_data: Dict[str, Any], notice_data: Dict[str
 - 거주지: {user_data.get("residence", "정보 없음")}
 - 결혼 상태: {'기혼' if user_data.get('is_married', False) else '미혼'}
 
-###  2차 Python 검증 대상 항목 (LLM은 이 항목을 1차 판단에서 무시해야 함)
+### 2차 Python 검증 대상 항목 (LLM은 이 항목을 1차 판단에서 무시해야 함)
 - 나이, 총자산,  자동차 가액 (이 항목들의 수치 판단은 Python이 최종적으로 강제합니다. LLM은 이와 관련된 사유를 reasons에 포함하지 마세요.)
 
 ### 우선순위 기준
@@ -226,7 +242,7 @@ def analyze_eligibility_with_ai(user_data: Dict[str, Any], notice_data: Dict[str
         return {
             "is_eligible": False,
             "priority": "",
-            "reasons": [f"AI 1차 판단 오류: {str(e)}"]
+            "reasons": ["미해당 사유 추출에 실패하였습니다. 잠시 후 다시 시도해 주세요."]
         }
 
     
@@ -267,22 +283,22 @@ def analyze_eligibility_with_ai(user_data: Dict[str, Any], notice_data: Dict[str
 
     final_reasons = []
     if final_reasons_raw:
-         integration_prompt = f"다음은 신청자에게 해당되는 모든 부적격 사유 목록입니다. 이 사유들을 **하나의 간결하고 자연스러운 한국어 문장**으로 통합하여 출력해주세요. 다른 설명이나 서문은 포함하지 말고, 오직 문장만 출력해야 합니다. 사유 목록: {final_reasons_raw}"
-         
-         try:
-             integration_completion = client.chat.completions.create(
-                 model=GROQ_MODEL_NAME,
-                 messages=[
-                     {"role": "system", "content": "너는 주어진 사유 목록을 하나의 문장으로 통합하고, 정확한 맞춤법과 띄어쓰기를 준수하여 출력하는 AI이다. 다른 설명은 절대 추가하지 마시오."},
-                     {"role": "user", "content": integration_prompt}
-                 ],
-                 temperature=0.1,
-                 max_tokens=256
-             )
-             integrated_reason = integration_completion.choices[0].message.content.strip()
-             final_reasons.append(re.sub(r'\s+', ' ', integrated_reason).strip())
-         except Exception:
-             final_reasons = final_reasons_raw
+          integration_prompt = f"다음은 신청자에게 해당되는 모든 부적격 사유 목록입니다. 이 사유들을 **하나의 간결하고 자연스러운 한국어 문장**으로 통합하여 출력해주세요. 다른 설명이나 서문은 포함하지 말고, 오직 문장만 출력해야 합니다. 사유 목록: {final_reasons_raw}"
+          
+          try:
+              integration_completion = client.chat.completions.create(
+                  model=GROQ_MODEL_NAME,
+                  messages=[
+                      {"role": "system", "content": "너는 주어진 사유 목록을 하나의 문장으로 통합하고, 정확한 맞춤법과 띄어쓰기를 준수하여 출력하는 AI이다. 다른 설명은 절대 추가하지 마시오."},
+                      {"role": "user", "content": integration_prompt}
+                  ],
+                  temperature=0.1,
+                  max_tokens=256
+              )
+              integrated_reason = integration_completion.choices[0].message.content.strip()
+              final_reasons.append(re.sub(r'\s+', ' ', integrated_reason).strip())
+          except Exception:
+              final_reasons = final_reasons_raw
 
     return {
         "is_eligible": final_is_eligible,
@@ -293,20 +309,20 @@ def analyze_eligibility_with_ai(user_data: Dict[str, Any], notice_data: Dict[str
 if __name__ == "__main__":
     
     TEST_USER_DATA = {
-        "age": 37,
-        "birth_date": "880925",
+        "age": 23,
+        "birth_date": "030925",
         "gender": "F",
         "university": False,
         "graduate": True,
-        "employed": True,
+        "employed": False,
         "job_seeker": False,
         "is_married": False,
         "residence": "성북구",
-        "welfare_receipient": False,
+        "welfare_receipient": True,
         "parents_own_house": False,
         "disability_in_family": False,
         "subscription_account": 0,
-        "total_assets": 200000,
+        "total_assets": 1000000,
         "car_value": 0,
         "income_range": "50% 이하",
     }
