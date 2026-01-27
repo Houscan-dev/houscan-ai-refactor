@@ -1,0 +1,106 @@
+{
+    "announcement_id": 41,
+    "application_eligibility": "1인 가구: 월평균소득 2,518,715원 이하, 2인 가구: 월평균소득 3,286,202원 이하, 총자산 33,700만원 이하, 자동차가액 4,563만원 이하",
+    "housing_info": [
+        {
+            "name": "신내의료안심주택",
+            "address": "서울특별시 중랑구 신내로 16길 33",
+            "district": "중랑구",
+            "type": [
+                "18m²",
+                "18m²",
+                "29m²"
+            ],
+            "total_households": 26,
+            "supply_households": [
+                7,
+                3,
+                16
+            ],
+            "house_type": [
+                "중랑구",
+                "그외구",
+                "중랑구"
+            ],
+            "parking": null,
+            "elevator": null
+        }
+    ],
+    "residence_period": "이 주택의 임대차 계약기간은 2년이며, 계속 거주를 희망하는 경우에는 관계법령이 정한 입주자격을 충족하는 자에 한하여 2년 단위로 계약을 갱신할 수 있습니다.",
+    "priority_and_bonus": {
+        "priority_criteria": [
+            {
+                "priority": "1순위",
+                "criteria": [
+                    "의료욕구판정대상자(만65세 이상 고령자 또는 만성질환관리제도 대상자)"
+                ]
+            },
+            {
+                "priority": "2순위",
+                "criteria": [
+                    "만50세 이상 ~ 만65세 미만"
+                ]
+            }
+        ],
+        "score_items": [
+            {
+                "priority": "공통",
+                "items": [
+                    {
+                        "item": "서울시(중랑구) 거주기간 5년 이상",
+                        "score": "10"
+                    },
+                    {
+                        "item": "서울시(중랑구) 거주기간 3년 이상 5년 미만",
+                        "score": "5"
+                    },
+                    {
+                        "item": "서울시(중랑구) 거주기간 3년 미만",
+                        "score": "-"
+                    },
+                    {
+                        "item": "만 60세 이상(1966.01.15. 이전 출생자)",
+                        "score": "5"
+                    },
+                    {
+                        "item": "만 60세 이상(1966.01.15. 이전 출생자)",
+                        "score": "-"
+                    },
+                    {
+                        "item": "의료욕구 점수(노인장기요양보험등급외 판정자)",
+                        "score": "10"
+                    },
+                    {
+                        "item": "의료욕구 점수(만성질환관리제도 대상자)",
+                        "score": "5"
+                    },
+                    {
+                        "item": "사회취약계층 여부(수급자, 차상위계층, 보호대상 한부모가정",
+                        "score": "5"
+                    }
+                ]
+            }
+        ]
+    },
+    "application_schedule": {
+        "announcement_date": "2026.01.15.",
+        "online_application_period": "2026.01.26. ~ 2026.01.28.",
+        "document_submission_period": "2026.02.10. ~ 2026.02.13.",
+        "document_announce_date": "2026.02.06.",
+        "winner_announcement": "2026.04.20.",
+        "contract_period": "2026.04.27. ~ 2026.04.29.",
+        "move_in_period": "2026.05.18. ~ 2026.07.17."
+    },
+    "pre_url": "https://www.i-sh.co.kr/app/skin/doc.html?fn=20260115033409561_572dacf157d1453f8e867e2c955fa07c&rs=/app/upload/bbs/GS0401/html/",
+    "precautions": [
+        "인터넷 청약 접수를 원칙으로 하며, 인터넷 사용이 어려운 고객은 방문 청약이 가능합니다.",
+        "신청시 주민등록표초본을 구비해야 합니다.",
+        "당첨자 발표 후 주소 변경 등으로 인한 불이익이 있을 수 있습니다."
+    ],
+    "category_user": [
+        "기타"
+    ],
+    "category_type": [
+        "기타"
+    ]
+}

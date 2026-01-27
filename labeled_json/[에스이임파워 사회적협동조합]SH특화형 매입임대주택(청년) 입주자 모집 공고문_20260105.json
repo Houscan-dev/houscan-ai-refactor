@@ -1,0 +1,49 @@
+{
+    "announcement_id": 37,
+    "application_eligibility": "청년(만19세 이상 만39세 이하) 무주택자, 기혼자 및 외국인 제외",
+    "housing_info": [
+        {
+            "name": "석관점 특화형 매입임대주택",
+            "address": "서울특별시 성북구 석관동 182-16",
+            "district": "성북구",
+            "type": [
+                "청년"
+            ],
+            "total_households": 1,
+            "supply_households": [
+                1
+            ],
+            "house_type": [
+                "37.86m²"
+            ],
+            "parking": null,
+            "elevator": null
+        }
+    ],
+    "residence_period": "최대 10년, 2년 단위로 재계약 가능, 4회를 초과할 수 없음",
+    "priority_and_bonus": {
+        "priority_criteria": [],
+        "score_items": []
+    },
+    "application_schedule": {
+        "announcement_date": "2026.01.05.",
+        "online_application_period": null,
+        "document_submission_period": "2026.01.05. ~ 2026.01.31.",
+        "document_announce_date": null,
+        "winner_announcement": "개별 안내",
+        "contract_period": "발표 후 1주일 이내 계약체결",
+        "move_in_period": null
+    },
+    "pre_url": "https://www.i-sh.co.kr/app/skin/doc.html?fn=20260102020652878_68ef1bf5bb2246e9a0bb18fabc8f977d&rs=/app/upload/bbs/GS0401/html/",
+    "precautions": [
+        "신청자격은 입주자 모집공고일부터 계약 시까지 유지해야 함",
+        "입주 후 공동생활을 위한 공동체 질서 준수 필요",
+        "거짓이나 부정한 방법으로 임대주택을 임대받거나 임대받게 한 자에 대한 처벌 규정 있음"
+    ],
+    "category_user": [
+        "청년"
+    ],
+    "category_type": [
+        "임대주택"
+    ]
+}

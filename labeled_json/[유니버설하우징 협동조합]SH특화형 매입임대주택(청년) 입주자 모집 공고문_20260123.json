@@ -1,0 +1,47 @@
+{
+    "announcement_id": 40,
+    "application_eligibility": "청년(만19세 이상 만39세 이하) 무주택자, 기혼자 불가, 외국인 불가",
+    "housing_info": [
+        {
+            "name": "디딤하우스_개포",
+            "address": "서울시 강남구 논현로 20길 20",
+            "district": "강남구",
+            "type": [
+                "청년"
+            ],
+            "total_households": 1,
+            "supply_households": [
+                1
+            ],
+            "house_type": [
+                "42m²"
+            ],
+            "parking": null,
+            "elevator": null
+        }
+    ],
+    "residence_period": "최초 임대차기간 2년, 재계약 가능 4회, 최대 거주기간 10년",
+    "priority_and_bonus": {
+        "priority_criteria": [],
+        "score_items": []
+    },
+    "application_schedule": {
+        "announcement_date": "2026.01.23.",
+        "online_application_period": "2026.01.23. ~ 2026.01.30.",
+        "document_submission_period": "2026.01.23. ~ 2026.01.30.",
+        "document_announce_date": null,
+        "winner_announcement": "개별 안내",
+        "contract_period": "개별 안내",
+        "move_in_period": "개별 안내"
+    },
+    "pre_url": "https://www.i-sh.co.kr/app/skin/doc.html?fn=20260123095627657_45919d93155d4508a70540b3bb884725&rs=/app/upload/bbs/GS0401/html/",
+    "precautions": [
+        "거짓이나 부정한 방법으로 임대주택을 임대받거나 임대주택의 임차권을 양도, 전대하는 행위는 벌금 또는 징역에 처해질 수 있음"
+    ],
+    "category_user": [
+        "청년"
+    ],
+    "category_type": [
+        "임대주택"
+    ]
+}

@@ -1,0 +1,1059 @@
+{
+    "announcement_id": 36,
+    "application_eligibility": "19세 이상 39세 이하 무주택 청년, 신혼부부, 한부모가족 등",
+    "housing_info": [
+        {
+            "name": "해링턴플레이스 노원 센트럴",
+            "address": "노원구 상계동 690",
+            "district": "노원구",
+            "type": [
+                "청년"
+            ],
+            "total_households": 9,
+            "supply_households": [
+                9
+            ],
+            "house_type": [
+                "26m²"
+            ],
+            "parking": null,
+            "elevator": null
+        },
+        {
+            "name": "LTOWER",
+            "address": "송파구 잠실동 208-4",
+            "district": "송파구",
+            "type": [
+                "청년"
+            ],
+            "total_households": 6,
+            "supply_households": [
+                6
+            ],
+            "house_type": [
+                "16A"
+            ],
+            "parking": null,
+            "elevator": null
+        },
+        {
+            "name": "건대입구역 더포디엄 830",
+            "address": "광진구 자양동 8-8",
+            "district": "광진구",
+            "type": [
+                "신혼Ⅰ"
+            ],
+            "total_households": 7,
+            "supply_households": [
+                7
+            ],
+            "house_type": [
+                "42"
+            ],
+            "parking": null,
+            "elevator": null
+        },
+        {
+            "name": "골드타워",
+            "address": "동작구 신대방동 351-5",
+            "district": "동작구",
+            "type": [
+                "신혼Ⅰ"
+            ],
+            "total_households": 3,
+            "supply_households": [
+                3
+            ],
+            "house_type": [
+                "36A"
+            ],
+            "parking": null,
+            "elevator": null
+        },
+        {
+            "name": "골든노블레스",
+            "address": "동작구 대방동 403-16",
+            "district": "동작구",
+            "type": [
+                "청년"
+            ],
+            "total_households": 2,
+            "supply_households": [
+                2
+            ],
+            "house_type": [
+                "18"
+            ],
+            "parking": null,
+            "elevator": null
+        },
+        {
+            "name": "광운대역 현대프라힐스",
+            "address": "노원구 월계동 410-3",
+            "district": "노원구",
+            "type": [
+                "신혼Ⅰ"
+            ],
+            "total_households": 3,
+            "supply_households": [
+                3
+            ],
+            "house_type": [
+                "38"
+            ],
+            "parking": null,
+            "elevator": null
+        },
+        {
+            "name": "구산주택",
+            "address": "은평구 구산동 198-3",
+            "district": "은평구",
+            "type": [
+                "청년",
+                "청년"
+            ],
+            "total_households": 3,
+            "supply_households": [
+                2,
+                1
+            ],
+            "house_type": [
+                "17A",
+                "33B"
+            ],
+            "parking": null,
+            "elevator": null
+        },
+        {
+            "name": "길동생활A동",
+            "address": "강동구 길동 367-1",
+            "district": "강동구",
+            "type": [
+                "청년"
+            ],
+            "total_households": 20,
+            "supply_households": [
+                20
+            ],
+            "house_type": [
+                "17"
+            ],
+            "parking": null,
+            "elevator": null
+        },
+        {
+            "name": "길동생활B동",
+            "address": "강동구 길동 367-1",
+            "district": "강동구",
+            "type": [
+                "신혼Ⅰ",
+                "신혼Ⅰ"
+            ],
+            "total_households": 4,
+            "supply_households": [
+                2,
+                2
+            ],
+            "house_type": [
+                "36A",
+                "36B"
+            ],
+            "parking": null,
+            "elevator": null
+        },
+        {
+            "name": "더써밋 타워",
+            "address": "동작구 노량진동 54-1",
+            "district": "동작구",
+            "type": [
+                "청년",
+                "신혼Ⅰ"
+            ],
+            "total_households": 3,
+            "supply_households": [
+                1,
+                2
+            ],
+            "house_type": [
+                "18A",
+                "34A"
+            ],
+            "parking": null,
+            "elevator": null
+        },
+        {
+            "name": "더원역삼",
+            "address": "강남구 역삼동 738-29",
+            "district": "강남구",
+            "type": [
+                "청년"
+            ],
+            "total_households": 2,
+            "supply_households": [
+                2
+            ],
+            "house_type": [
+                "17.66"
+            ],
+            "parking": null,
+            "elevator": null
+        },
+        {
+            "name": "도곡 더써밋타워",
+            "address": "강남구 도곡동 954-17",
+            "district": "강남구",
+            "type": [
+                "청년",
+                "신혼Ⅰ"
+            ],
+            "total_households": 5,
+            "supply_households": [
+                3,
+                2
+            ],
+            "house_type": [
+                "18A",
+                "36A"
+            ],
+            "parking": null,
+            "elevator": null
+        },
+        {
+            "name": "동대문역사문화공원역 166 tower",
+            "address": "중구 광희동1가 166",
+            "district": "중구",
+            "type": [
+                "청년"
+            ],
+            "total_households": 1,
+            "supply_households": [
+                1
+            ],
+            "house_type": [
+                "14"
+            ],
+            "parking": null,
+            "elevator": null
+        },
+        {
+            "name": "라봄 성동",
+            "address": "성동구 마장동 339-2",
+            "district": "성동구",
+            "type": [
+                "청년",
+                "청년"
+            ],
+            "total_households": 96,
+            "supply_households": [
+                92,
+                4
+            ],
+            "house_type": [
+                "18A",
+                "18B"
+            ],
+            "parking": null,
+            "elevator": null
+        },
+        {
+            "name": "리마크빌 군자",
+            "address": "광진구 중곡동 637-5",
+            "district": "광진구",
+            "type": [
+                "청년",
+                "청년",
+                "청년"
+            ],
+            "total_households": 8,
+            "supply_households": [
+                6,
+                1,
+                1
+            ],
+            "house_type": [
+                "16.32",
+                "30.41",
+                "32.34"
+            ],
+            "parking": null,
+            "elevator": null
+        },
+        {
+            "name": "리스트강남",
+            "address": "강남구 논현동 202-7 ",
+            "district": "강남구",
+            "type": [
+                "청년",
+                "청년"
+            ],
+            "total_households": 2,
+            "supply_households": [
+                1,
+                1
+            ],
+            "house_type": [
+                "14",
+                "14"
+            ],
+            "parking": null,
+            "elevator": null
+        },
+        {
+            "name": "리스트안암",
+            "address": "동대문구 제기동 136-3",
+            "district": "동대문구",
+            "type": [
+                "청년",
+                "신혼Ⅰ"
+            ],
+            "total_households": 3,
+            "supply_households": [
+                1,
+                2
+            ],
+            "house_type": [
+                "17",
+                "40B"
+            ],
+            "parking": null,
+            "elevator": null
+        },
+        {
+            "name": "문정역 마에스트로",
+            "address": "송파구 문정동 55-6",
+            "district": "송파구",
+            "type": [
+                "청년",
+                "청년"
+            ],
+            "total_households": 2,
+            "supply_households": [
+                1,
+                1
+            ],
+            "house_type": [
+                "16",
+                "34"
+            ],
+            "parking": null,
+            "elevator": null
+        },
+        {
+            "name": "보눔하우스 화곡",
+            "address": "강서구 화곡동 401-1",
+            "district": "강서구",
+            "type": [
+                "청년",
+                "청년"
+            ],
+            "total_households": 2,
+            "supply_households": [
+                1,
+                1
+            ],
+            "house_type": [
+                "15",
+                "16"
+            ],
+            "parking": null,
+            "elevator": null
+        },
+        {
+            "name": "비바힐스 강변",
+            "address": "광진구 구의동 593-11",
+            "district": "광진구",
+            "type": [
+                "청년",
+                "청년"
+            ],
+            "total_households": 3,
+            "supply_households": [
+                2,
+                1
+            ],
+            "house_type": [
+                "31",
+                "32"
+            ],
+            "parking": null,
+            "elevator": null
+        },
+        {
+            "name": "상봉동양엔파트",
+            "address": "중랑구 상봉동 118-8",
+            "district": "중랑구",
+            "type": [
+                "청년"
+            ],
+            "total_households": 1,
+            "supply_households": [
+                1
+            ],
+            "house_type": [
+                "18C"
+            ],
+            "parking": null,
+            "elevator": null
+        },
+        {
+            "name": "서교동 효성해링턴 타워",
+            "address": "마포구 서교동 395-43",
+            "district": "마포구",
+            "type": [
+                "청년",
+                "신혼Ⅰ"
+            ],
+            "total_households": 4,
+            "supply_households": [
+                1,
+                3
+            ],
+            "house_type": [
+                "17",
+                "37A"
+            ],
+            "parking": null,
+            "elevator": null
+        },
+        {
+            "name": "서초꽃마을",
+            "address": "서초구 서초동 1502-12",
+            "district": "서초구",
+            "type": [
+                "청년"
+            ],
+            "total_households": 1,
+            "supply_households": [
+                1
+            ],
+            "house_type": [
+                "16"
+            ],
+            "parking": null,
+            "elevator": null
+        },
+        {
+            "name": "선릉역 마에스트로",
+            "address": "강남구 삼성동 140-32",
+            "district": "마포구",
+            "type": [
+                "청년",
+                "청년"
+            ],
+            "total_households": 3,
+            "supply_households": [
+                1,
+                2
+            ],
+            "house_type": [
+                "20A",
+                "22A"
+            ],
+            "parking": null,
+            "elevator": null
+        },
+        {
+            "name": "서교동 효성해링턴 타워",
+            "address": "마포구 서교동 395-43",
+            "district": "마포구",
+            "type": [
+                "청년",
+                "신혼Ⅰ"
+            ],
+            "total_households": 4,
+            "supply_households": [
+                1,
+                3
+            ],
+            "house_type": [
+                "17",
+                "37A"
+            ],
+            "parking": null,
+            "elevator": null
+        },
+        {
+            "name": "세이지움 개봉",
+            "address": "구로구 개봉동 403-29",
+            "district": "구로구",
+            "type": [
+                "청년"
+            ],
+            "total_households": 16,
+            "supply_households": [
+                16
+            ],
+            "house_type": [
+                "18B"
+            ],
+            "parking": null,
+            "elevator": null
+        },
+        {
+            "name": "센터스퀘어 발산",
+            "address": "강서구 내발산동 647-1",
+            "district": "강서구",
+            "type": [
+                "신혼Ⅰ",
+                "신혼Ⅰ"
+            ],
+            "total_households": 5,
+            "supply_households": [
+                2,
+                3
+            ],
+            "house_type": [
+                "36",
+                "41"
+            ],
+            "parking": null,
+            "elevator": null
+        },
+        {
+            "name": "센터스퀘어 서울대점",
+            "address": "관악구 신림동 1747",
+            "district": "관악구",
+            "type": [
+                "청년",
+                "청년",
+                "신혼Ⅰ"
+            ],
+            "total_households": 5,
+            "supply_households": [
+                2,
+                1,
+                2
+            ],
+            "house_type": [
+                "16",
+                "22",
+                "44A"
+            ],
+            "parking": null,
+            "elevator": null
+        },
+        {
+            "name": "센터스퀘어등촌",
+            "address": "강서구 염창동 274-17 ",
+            "district": "강서구",
+            "type": [
+                "청년"
+            ],
+            "total_households": 5,
+            "supply_households": [
+                5
+            ],
+            "house_type": [
+                "18"
+            ],
+            "parking": null,
+            "elevator": null
+        },
+        {
+            "name": "센텀힐스 한강",
+            "address": "광진구 구의동 587-62",
+            "district": "광진구",
+            "type": [
+                "청년"
+            ],
+            "total_households": 1,
+            "supply_households": [
+                1
+            ],
+            "house_type": [
+                "16.39ㄴ"
+            ],
+            "parking": null,
+            "elevator": null
+        },
+        {
+            "name": "스타타워",
+            "address": "서대문구 남가좌동 269-1 ",
+            "district": "서대문구",
+            "type": [
+                "청년"
+            ],
+            "total_households": 2,
+            "supply_households": [
+                2
+            ],
+            "house_type": [
+                "18"
+            ],
+            "parking": null,
+            "elevator": null
+        },
+        {
+            "name": "아르체움 등촌",
+            "address": "강서구 염창동 275",
+            "district": "강서구",
+            "type": [
+                "청년"
+            ],
+            "total_households": 5,
+            "supply_households": [
+                5
+            ],
+            "house_type": [
+                "20"
+            ],
+            "parking": null,
+            "elevator": null
+        },
+        {
+            "name": "어반허브 서울 스테이션",
+            "address": "용산구 서계동 100-1",
+            "district": "용산구",
+            "type": [
+                "청년",
+                "청년",
+                "청년",
+                "청년"
+            ],
+            "total_households": 19,
+            "supply_households": [
+                1,
+                4,
+                7,
+                7
+            ],
+            "house_type": [
+                "20A",
+                "21A",
+                "22",
+                "26"
+            ],
+            "parking": null,
+            "elevator": null
+        },
+        {
+            "name": "엘크루 발산",
+            "address": "강서구 등촌동 671-1",
+            "district": "강서구",
+            "type": [
+                "청년",
+                "청년"
+            ],
+            "total_households": 5,
+            "supply_households": [
+                4,
+                1
+            ],
+            "house_type": [
+                "15",
+                "30"
+            ],
+            "parking": null,
+            "elevator": null
+        },
+        {
+            "name": "옥산 그린타워",
+            "address": "광진구 구의동 587-64 ",
+            "district": "광진구",
+            "type": [
+                "청년"
+            ],
+            "total_households": 1,
+            "supply_households": [
+                1
+            ],
+            "house_type": [
+                "16"
+            ],
+            "parking": null,
+            "elevator": null
+        },
+        {
+            "name": "용산 원효 루미니",
+            "address": "용산구 원효로1가 134 ",
+            "district": "용산구",
+            "type": [
+                "청년"
+            ],
+            "total_households": 3,
+            "supply_households": [
+                3
+            ],
+            "house_type": [
+                "29"
+            ],
+            "parking": null,
+            "elevator": null
+        },
+        {
+            "name": "용산베르디움프렌즈",
+            "address": "용산구 한강로 2가 426 ",
+            "district": "용산구",
+            "type": [
+                "신혼Ⅰ"
+            ],
+            "total_households": 3,
+            "supply_households": [
+                3
+            ],
+            "house_type": [
+                "39A"
+            ],
+            "parking": null,
+            "elevator": null
+        },
+        {
+            "name": "우장산역해링턴타워",
+            "address": "강서구 화곡동 1013-3 ",
+            "district": "강서구",
+            "type": [
+                "청년"
+            ],
+            "total_households": 1,
+            "supply_households": [
+                1
+            ],
+            "house_type": [
+                "17"
+            ],
+            "parking": null,
+            "elevator": null
+        },
+        {
+            "name": "유벤투스 240",
+            "address": "관악구 신림동 1644-3 ",
+            "district": "관악구",
+            "type": [
+                "청년"
+            ],
+            "total_households": 6,
+            "supply_households": [
+                6
+            ],
+            "house_type": [
+                "16"
+            ],
+            "parking": null,
+            "elevator": null
+        },
+        {
+            "name": "잠실센트럴파크",
+            "address": "송파구 잠실동 187-10",
+            "district": "송파구",
+            "type": [
+                "청년",
+                "청년",
+                "신혼I",
+                "신혼Ⅰ"
+            ],
+            "total_households": 7,
+            "supply_households": [
+                1,
+                3,
+                1,
+                2
+            ],
+            "house_type": [
+                "17",
+                "21",
+                "35",
+                "43"
+            ],
+            "parking": null,
+            "elevator": null
+        },
+        {
+            "name": "제이스타 상봉",
+            "address": "중랑구 상봉동 109-34 ",
+            "district": "중랑구",
+            "type": [
+                "청년"
+            ],
+            "total_households": 1,
+            "supply_households": [
+                1
+            ],
+            "house_type": [
+                "17"
+            ],
+            "parking": null,
+            "elevator": null
+        },
+        {
+            "name": "종암 라온 프라이빗",
+            "address": "성북구 종암동 83-3",
+            "district": "성북구",
+            "type": [
+                "청년",
+                "청년"
+            ],
+            "total_households": 13,
+            "supply_households": [
+                9,
+                4
+            ],
+            "house_type": [
+                "21",
+                "29"
+            ],
+            "parking": null,
+            "elevator": null
+        },
+        {
+            "name": "천호역한강리슈빌",
+            "address": "강동구 천호동 458-3 ",
+            "district": "강동구",
+            "type": [
+                "청년"
+            ],
+            "total_households": 1,
+            "supply_households": [
+                1
+            ],
+            "house_type": [
+                "33"
+            ],
+            "parking": null,
+            "elevator": null
+        },
+        {
+            "name": "최강타워",
+            "address": "관악구 신림동 1745",
+            "district": "관악구",
+            "type": [
+                "신혼Ⅰ",
+                "신혼I"
+            ],
+            "total_households": 3,
+            "supply_households": [
+                1,
+                2
+            ],
+            "house_type": [
+                "39A",
+                "42A"
+            ],
+            "parking": null,
+            "elevator": null
+        },
+        {
+            "name": "코네스트(CONEST)",
+            "address": "서초구 서초동 1365-8 ",
+            "district": "용산구",
+            "type": [
+                "청년"
+            ],
+            "total_households": 5,
+            "supply_households": [
+                5
+            ],
+            "house_type": [
+                "17A"
+            ],
+            "parking": null,
+            "elevator": null
+        },
+        {
+            "name": "태릉입구역 이니티움",
+            "address": "노원구 공릉동 684-41",
+            "district": "노원구",
+            "type": [
+                "청년",
+                "신혼I"
+            ],
+            "total_households": 4,
+            "supply_households": [
+                3,
+                1
+            ],
+            "house_type": [
+                "23",
+                "44"
+            ],
+            "parking": null,
+            "elevator": null
+        },
+        {
+            "name": "하트리움",
+            "address": "동대문구 휘경동 380",
+            "district": "동대문구",
+            "type": [
+                "청년"
+            ],
+            "total_households": 1,
+            "supply_households": [
+                1
+            ],
+            "house_type": [
+                "33"
+            ],
+            "parking": null,
+            "elevator": null
+        },
+        {
+            "name": "호반베르디움 스테이원",
+            "address": "은평구 대조동 241",
+            "district": "은평구",
+            "type": [
+                "청년",
+                "청년",
+                "청년"
+            ],
+            "total_households": 9,
+            "supply_households": [
+                1,
+                7,
+                1
+            ],
+            "house_type": [
+                "17",
+                "21",
+                "24"
+            ],
+            "parking": null,
+            "elevator": null
+        },
+        {
+            "name": "홍대크리원",
+            "address": "마포구 상수동 355-2 ",
+            "district": "마포구",
+            "type": [
+                "청년"
+            ],
+            "total_households": 2,
+            "supply_households": [
+                2
+            ],
+            "house_type": [
+                "16"
+            ],
+            "parking": null,
+            "elevator": null
+        },
+        {
+            "name": "휘경제이스카이시티",
+            "address": "동대문구 휘경동 192-1 ",
+            "district": "동대문구",
+            "type": [
+                "청년"
+            ],
+            "total_households": 2,
+            "supply_households": [
+                2
+            ],
+            "house_type": [
+                "14"
+            ],
+            "parking": null,
+            "elevator": null
+        },
+        {
+            "name": "힐데스하임",
+            "address": "성동구 용답동 233-1 ",
+            "district": "용산구",
+            "type": [
+                "청년"
+            ],
+            "total_households": 4,
+            "supply_households": [
+                4
+            ],
+            "house_type": [
+                "14"
+            ],
+            "parking": null,
+            "elevator": null
+        }
+    ],
+    "residence_period": "청년 계층은 최대 10년, 신혼부부 Ⅰ 조건에 해당하는 계층은 최대 20년 거주 가능함.",
+    "priority_and_bonus": {
+        "priority_criteria": [
+            {
+                "priority": "1순위",
+                "criteria": [
+                    "생계·의료·주거급여 수급자 가구",
+                    "보호대상 한부모 가족",
+                    "차상위계층 가구"
+                ]
+            },
+            {
+                "priority": "2순위",
+                "criteria": [
+                    "본인과 부모의 월평균소득이 전년도 도시근로자 가구원수별 가구당 월평균소득의 100% 이하",
+                    "본인과 부모의 자산이 국민임대 주택의 자산기준을 충족(총자산 33,700만원 이하, 개별 자동차 4,563만원 이하)"
+                ]
+            },
+            {
+                "priority": "3순위",
+                "criteria": [
+                    "1, 2순위에 해당하지 아니하는 사람 중 본인의 월평균소득이 전년도 도시근로자 가구원수별 가구당 월평균소득의 100% 이하",
+                    "본인의 자산이 행복주택(청년)의 자산기준을 충족(총자산 25,400만원 이하, 개별 자동차 4,563만원 이하)"
+                ]
+            }
+        ],
+        "score_items": [
+            {
+                "priority": "1순위",
+                "items": [
+                    {
+                        "item": "생계·의료·주거급여 수급자",
+                        "score": "3"
+                    },
+                    {
+                        "item": "보호대상 한부모가족",
+                        "score": "3"
+                    }
+                ]
+            },
+            {
+                "priority": "공통",
+                "items": [
+                    {
+                        "item": "부모 무주택",
+                        "score": "2"
+                    },
+                    {
+                        "item": "장애인(본인)",
+                        "score": "2"
+                    },
+                    {
+                        "item": "장애인 가구",
+                        "score": "1"
+                    },
+                    {
+                        "item": "청약저축 또는 주택청약종합저축 납입횟수가 순서대로 24회 이상, 12회 이상 24회 미만, 6회 이상 12회 미만( ※신청자 명의 통장의 인정회차 기준)",
+                        "score": "3, 2, 1"
+                    }
+                ]
+            },
+            {
+                "priority": "2, 3순위",
+                "items": [
+                    {
+                        "item": "소득기준 50% 이하",
+                        "score": "3"
+                    }
+                ]
+            }
+        ]
+    },
+    "application_schedule": {
+        "announcement_date": "2025.12.30.",
+        "online_application_period": "2026.01.13. ~ 2026.01.15.",
+        "document_submission_period": "2026.02.02. ~ 2026.02.04.",
+        "document_announce_date": "2026.01.23. 16:00 이후",
+        "winner_announcement": "2026.05.15.",
+        "contract_period": "2026.06.08. ~ 2026.06.10.",
+        "move_in_period": "2026.06.30. ~ 2026.07.29."
+    },
+    "pre_url": "https://www.i-sh.co.kr/app/skin/doc.html?fn=20251230040359779_db45aa317452493b91f71d5ea0153680&rs=/app/upload/bbs/GS0401/html/",
+    "precautions": [
+        "임대료를 임대보증금으로 전환하고자 하는 경우 입주지정종료일 이내 전환보증금을 납부하여야 합니다.",
+        "입주지정종료일 이후에 입주하여 전환하거나, 입주지정종료일 이전에 입주하더라도 입주한 이후 전환할 경우 전환보증금은 납부일로부터 일할 계산되지 않고 익월 1일부터 적용됩니다.",
+        "청년안심주택은 차량 소유 및 운행이 허용되며, 단지별로 운영상황이 상이하므로 세부사항은 각 단지별 관할 주거안심센터 및 관리사무소에 문의해야 합니다."
+    ],
+    "category_user": [
+        "청년",
+        "신혼부부",
+        "기타"
+    ],
+    "category_type": [
+        "안심주택",
+        "임대주택"
+    ]
+}

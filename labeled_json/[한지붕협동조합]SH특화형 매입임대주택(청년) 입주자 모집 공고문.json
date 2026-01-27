@@ -1,0 +1,49 @@
+{
+    "announcement_id": 39,
+    "application_eligibility": "만 19세 이상 만 39세 이하의 청년, 무주택, 혼인 중이 아닌 자",
+    "housing_info": [
+        {
+            "name": "대명파크힐",
+            "address": "서울특별시 서초구 강남대로2길 79",
+            "district": "서초구",
+            "type": [
+                "청년"
+            ],
+            "total_households": 1,
+            "supply_households": [
+                1
+            ],
+            "house_type": [
+                "35.07㎡"
+            ],
+            "parking": null,
+            "elevator": null
+        }
+    ],
+    "residence_period": "최대 10년, 2년 단위로 재계약 가능, 4회를 초과할 수 없음",
+    "priority_and_bonus": {
+        "priority_criteria": [],
+        "score_items": []
+    },
+    "application_schedule": {
+        "announcement_date": "2026.01.16",
+        "online_application_period": "2026.01.16",
+        "document_submission_period": "2026.01.16",
+        "document_announce_date": null,
+        "winner_announcement": "개별 안내",
+        "contract_period": "개별 안내",
+        "move_in_period": "2026.04.01."
+    },
+    "pre_url": "https://www.i-sh.co.kr/app/skin/doc.html?fn=20260114010348108_4db58ba0045546f5ba79d42101d46bab&rs=/app/upload/bbs/GS0401/html/",
+    "precautions": [
+        "입주자 선정의 권한은 운영기관에 있으며, '자체 입주자 선정기준'에 따름",
+        "입주희망자의 고의, 과실로 인한 미선정시 이의를 제기할 수 없음",
+        "특화형 매입임대주택은 소유주와 임대인이 다르므로 시중은행의 전세자금 대출이 불가능함"
+    ],
+    "category_user": [
+        "청년"
+    ],
+    "category_type": [
+        "임대주택"
+    ]
+}

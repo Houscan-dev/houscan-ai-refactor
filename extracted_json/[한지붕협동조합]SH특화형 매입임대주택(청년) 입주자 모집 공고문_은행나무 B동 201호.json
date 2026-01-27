@@ -1,0 +1,49 @@
+{
+    "announcement_id": 38,
+    "application_eligibility": "무주택세대구성원으로서, 19세 이상 39세 이하의 미혼 청년. 소득 및 자산 기준을 충족해야 함.",
+    "housing_info": [
+        {
+            "name": "은행나무 제B동",
+            "address": "서울특별시 금천구 독산로22길 65 제B동 (시흥동 824-16)",
+            "district": "금천구",
+            "type": [
+                "청년"
+            ],
+            "total_households": 1,
+            "supply_households": [
+                1
+            ],
+            "house_type": [
+                "63.472m²"
+            ],
+            "parking": "본인명의 및 영업용 차량만 주차가능",
+            "elevator": null
+        }
+    ],
+    "residence_period": "최대 10년, 2년 단위로 재계약 가능, 4회를 초과할 수 없음",
+    "priority_and_bonus": {
+        "priority_criteria": [],
+        "score_items": []
+    },
+    "application_schedule": {
+        "announcement_date": "2026.01.15.",
+        "online_application_period": "2026.01.15.",
+        "document_submission_period": "2026.01.15.",
+        "document_announce_date": null,
+        "winner_announcement": "개별 안내",
+        "contract_period": "개별 안내",
+        "move_in_period": "2026.02.01. 이후"
+    },
+    "pre_url": "https://www.i-sh.co.kr/app/skin/doc.html?fn=20260114111601948_64e5fb784b7a48b788bd86188d817dfc&rs=/app/upload/bbs/GS0401/html/",
+    "precautions": [
+        "입주자 선정의 세부사항은 공개하지 않으며, 입주신청 서류는 일체 반환하지 않음.",
+        "입주 후 공동생활을 위한 공동체 질서 준수 필요.",
+        "특화형 매입임대주택은 소유주와 임대인이 다르므로 시중은행 대출이 어려움."
+    ],
+    "category_user": [
+        "청년"
+    ],
+    "category_type": [
+        "임대주택"
+    ]
+}

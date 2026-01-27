@@ -1,0 +1,52 @@
+{
+    "announcement_id": 32,
+    "application_eligibility": "청년(만19세 이상 만39세 이하) 무주택 세대구성원이어야 하고, 기혼자 및 외국인은 신청이 불가합니다.",
+    "housing_info": [
+        {
+            "name": "양천 에코 커뮤니티 하우스",
+            "address": "서울시 양천구 목동중앙본로 7길23 스타힐스",
+            "district": "양천구",
+            "type": [
+                "원룸형",
+                "원룸형"
+            ],
+            "total_households": 2,
+            "supply_households": [
+                1,
+                1
+            ],
+            "house_type": [
+                "32.34m²",
+                "32.31m²"
+            ],
+            "parking": "주차장 일부를 나눔카(카셰어링) 사업 등에 제공할 수 있음",
+            "elevator": null
+        }
+    ],
+    "residence_period": "최대 10년, 2년 단위로 재계약 가능, 4회를 초과할 수 없음",
+    "priority_and_bonus": {
+        "priority_criteria": [],
+        "score_items": []
+    },
+    "application_schedule": {
+        "announcement_date": "2025.11.17.",
+        "online_application_period": "2025.11.17. ~ 2025.11.19.",
+        "document_submission_period": "2025.11.24. ~ 2025.11.27.",
+        "document_announce_date": null,
+        "winner_announcement": "2026.2월 이후",
+        "contract_period": "2026.2월 이후",
+        "move_in_period": null
+    },
+    "pre_url": "https://www.i-sh.co.kr/app/skin/doc.html?fn=20251117100950345_8deb65573515452ba993e35e44e27ff3&rs=/app/upload/bbs/GS0401/html/",
+    "precautions": [
+        "공공주택의 공급을 신청하는 자가 금융정보 제공 동의서 제출을 2회 이상 거부할 경우 신청이 각하되거나, 임대차계약이 해지될 수 있습니다.",
+        "입주자격 조사결과 부적격사유에 대한 소명의무는 신청자에게 있으며, 소명자료 미제출 시 자격결격으로 탈락 처리 됩니다.",
+        "거짓이나 그 밖의 부정한 방법으로 임대주택을 임대받거나 임대받게 한 자에 대해 3년 이하의 징역 또는 3천만원 이하의 벌금에 처할 수 있습니다."
+    ],
+    "category_user": [
+        "청년"
+    ],
+    "category_type": [
+        "임대주택"
+    ]
+}
