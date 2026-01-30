@@ -91,16 +91,9 @@
         "contract_period": "2026.04.27. ~ 2026.04.29.",
         "move_in_period": "2026.05.18. ~ 2026.07.17."
     },
-    "pre_url": "https://www.i-sh.co.kr/app/skin/doc.html?fn=20260115033409561_572dacf157d1453f8e867e2c955fa07c&rs=/app/upload/bbs/GS0401/html/",
     "precautions": [
         "인터넷 청약 접수를 원칙으로 하며, 인터넷 사용이 어려운 고객은 방문 청약이 가능합니다.",
         "신청시 주민등록표초본을 구비해야 합니다.",
         "당첨자 발표 후 주소 변경 등으로 인한 불이익이 있을 수 있습니다."
-    ],
-    "category_user": [
-        "기타"
-    ],
-    "category_type": [
-        "기타"
     ]
 }

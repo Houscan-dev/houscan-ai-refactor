@@ -10,12 +10,8 @@
                 "1A"
             ],
             "total_households": 40,
-            "supply_households": [
-                40
-            ],
-            "house_type": [
-                "43m²,46m²"
-            ],
+            "supply_households": [40],
+            "house_type": ["43m²,46m²"],
             "parking": "자주식기계식혼재",
             "elevator": true
         },
@@ -75,17 +71,14 @@
             "address": "구로구 구로동로 205",
             "district": "구로구",
             "type": [
-                "4A",
-                "4B"
+                "4A","4B"
             ],
             "total_households": 18,
             "supply_households": [
-                17,
-                1
+                17,1
             ],
             "house_type": [
-                "52m²~59m²",
-                "74m²"
+                "52m²~59m²","74m²"
             ],
             "parking": "자주식",
             "elevator": true
@@ -213,15 +206,8 @@
         "contract_period": "2026.6.30. 10:00 ~ 2026.7.2. 17:00",
         "move_in_period": "2026.7.6. ~ 2026.9.3."
     },
-    "pre_url": "https://www.i-sh.co.kr/app/skin/doc.html?fn=20260121032428613_80fa58ece60a4cdea032e8fea5347e1c&rs=/app/upload/bbs/GS0401/html/",
     "precautions": [
         "모집공고일 현재 입주자격을 갖춘자가 신청할 수 있으며, 입주시까지 입주자격을 유지하여야 합니다.(모집공고일부터 입주시까지 계속 유지)",
         "본 공고(2025년 제2-1차 미리내집(신혼·신생아매입임대주택Ⅱ) 입주자 모집공고) 신청세대는 2025년 제2-2차 미리내집(신혼·신생아매입임대주택Ⅱ) 입주대기자모집공고에 신청하실 수 있습니다.(단, 공공임대주택의 중복입주는 관련법령에 따라 불가합니다)공공임대주택의 중복입주는 관련 법령에 따라 불가합니다."
-    ],
-    "category_user": [
-        "신혼부부"
-    ],
-    "category_type": [
-        "임대주택"
     ]
 }

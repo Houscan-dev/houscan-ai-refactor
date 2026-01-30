@@ -134,16 +134,9 @@
         "contract_period": "일정 추후 공지",
         "move_in_period": "일정 추후 공지"
     },
-    "pre_url": "https://www.i-sh.co.kr/app/skin/doc.html?fn=20260121033944649_9745753b62dd4b84be8e6bfcc23e2b64&rs=/app/upload/bbs/GS0401/html/",
     "precautions": [
         "신청자의 주소 및 전화번호 변동이 있을 때에는 반드시 서울주택도시개발공사에 통보해야 합니다.",
         "임대주택의 현황 및 입지환경 등 제반사항은 주택공개 기간동안 현장을 방문하여 확인한 후 청약 신청 및 계약해야 합니다.",
         "입주대기자로 선정된 자는 입주 시까지 입주자격을 유지해야 합니다."
-    ],
-    "category_user": [
-        "신혼부부"
-    ],
-    "category_type": [
-        "임대주택"
     ]
 }
