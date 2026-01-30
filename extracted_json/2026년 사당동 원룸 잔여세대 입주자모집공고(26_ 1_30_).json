@@ -1,0 +1,61 @@
+{
+    "announcement_id": 45,
+    "application_eligibility": "서울특별시에 거주하는 1인가구 무주택 세대원으로서, 만19세 이상 만40세 미만의 중소제조업체 청년근로자(임원 제외)로 중소제조업체에 6개월 이상 근무자로 소득 및 자산요건을 충족해야 함.",
+    "housing_info": [
+        {
+            "name": "사당동 원룸",
+            "address": "서울특별시 강남구",
+            "district": "강남구",
+            "type": [
+                "원룸형"
+            ],
+            "total_households": 8,
+            "supply_households": [
+                8
+            ],
+            "house_type": [],
+            "parking": "주차면수 7대",
+            "elevator": false
+        }
+    ],
+    "residence_period": "최초 임대기간은 2년으로, 재계약은 2회를 초과할 수 없음(최장 6년)",
+    "priority_and_bonus": {
+        "priority_criteria": [
+            {
+                "priority": "1순위",
+                "criteria": [
+                    "도시근로자 월평균소득의 50%이하"
+                ]
+            },
+            {
+                "priority": "2순위",
+                "criteria": [
+                    "도시근로자 월평균소득의 50%초과 70%이하"
+                ]
+            }
+        ],
+        "score_items": []
+    },
+    "application_schedule": {
+        "announcement_date": "2026.1.30.",
+        "online_application_period": "2026.2.9. 10:00 ~ 2026.2.11. 17:00",
+        "document_submission_period": "2026.2.25. ~ 2026.3.3.",
+        "document_announce_date": "2026.2.23.",
+        "winner_announcement": "2026.5.6.",
+        "contract_period": "2026.5.13. ~ 2026.5.15.",
+        "move_in_period": "2026.5.29. ~ 2026.7.31."
+    },
+    "precautions": [
+        "서류심사대상자 전원에게 문자(SMS)로 안내하며, 최종 당첨자에게는 계약안내문 및 계약금고지서를 등기우편으로 발송",
+        "전산 무작위추첨에 따라 배정된 호실 이외로 호실 변경 입주는 불가",
+        "당첨자로 선정되었더라도 입주부적격사유가 있을 시 추가 소명절차를 거치지 않고서는 계약체결이 불가하며 탈락 처리"
+    ],
+    "title": "2026년 사당동 공공원룸 잔여세대 입주자모집공고(26. 1.30.)",
+    "pdf_name": "2026년 사당동 원룸 잔여세대 입주자모집공고(26_ 1_30_).pdf",
+    "category_user": [
+        "기타"
+    ],
+    "category_type": [
+        "기타"
+    ]
+}
