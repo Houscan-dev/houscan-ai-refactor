@@ -1,94 +1,94 @@
 {
-    "announcement_id": 15,
-    "application_eligibility": "만 19~39세 무주택자(미혼 또는 혼인 7년 이내)로, 대학생(취준생)·청년·신혼부부(예비 포함)에 해당하는 자를 대상으로, 소득·지역·추첨 순으로 입주자를 선정함.",
-    "housing_info": [
-        {
-            "name": "U-삼진랜드",
-            "address": "성동구 용답동 233-1",
-            "district": "성동구",
-            "type": null,
-            "total_households": 22,
-            "supply_households": [
-                22
-            ],
-            "house_type": [
-                "14m²"
-            ],
-            "parking": "주차면수 52대",
-            "elevator": true
-        },
-        {
-            "name": "서교동 효성 해링턴 타워",
-            "address": "마포구 서교동 395-43",
-            "district": "마포구",
-            "type": [
-                "원룸형",
-                "원룸형",
-                "원룸형"
-            ],
-            "total_households": 162,
-            "supply_households": [
-                62,
-                63,
-                37
-            ],
-            "house_type": [
-                "17",
-                "37A",
-                "37B(셰어형)"
-            ],
-            "parking": null,
-            "elevator": true
-        }
-    ],
-    "residence_period": "이 주택의 임대차 계약기간은 2년입니다. 대학생·청년 계층은 최대 6년, 신혼부부(예비 포함) 계층은 무자녀 최대 6년, 자녀 1명 이상 최대 10년까지 거주할 수 있습니다.",
-    "priority_and_bonus": {
-        "priority_criteria": [
-            {
-                "priority": "1순위",
-                "criteria": [
-                    "월평균소득이 전년도 도시근로자 가구당 월평균소득의 50% 이하인 세대",
-                    "해당 건설주택이 위치하고 있는 서울특별시 자치구에 거주하는 세대"
-                ]
-            },
-            {
-                "priority": "2순위",
-                "criteria": [
-                    "월평균소득이 전년도 도시근로자 가구당 월평균소득의 70% 이하인 세대",
-                    "해당 건설주택이 위치하고 있는 서울특별시 자치구 외 서울특별시 자치구에 거주하는 세대"
-                ]
-            },
-            {
-                "priority": "3순위",
-                "criteria": [
-                    "월평균소득이 전년도 도시근로자 가구당 월평균소득의 100% 이하인 세대",
-                    "1순위 및 2순위에 해당하지 않는 지역에 거주하는 세대"
-                ]
-            }
-        ],
-        "score_items": []
+  "announcement_id": 15,
+  "application_eligibility": "만 19~39세 무주택자(미혼 또는 혼인 7년 이내)로, 대학생(취준생)·청년·신혼부부(예비 포함)에 해당하는 자를 대상으로, 소득·지역·추첨 순으로 입주자를 선정함.",
+  "housing_info": [
+    {
+      "name": "U-삼진랜드",
+      "address": "성동구 용답동 233-1",
+      "district": "성동구",
+      "type": null,
+      "total_households": 22,
+      "supply_households": [
+        22
+      ],
+      "house_type": [
+        "14m²"
+      ],
+      "parking": "주차면수 52대",
+      "elevator": true
     },
-    "application_schedule": {
-        "announcement_date": "2019.11.01.",
-        "online_application_period": "2019.11.18. 10:00 ~ 2019.11.22. 17:00",
-        "document_submission_period": "2019.12.09. ~ 2019.12.17.",
-        "document_announce_date": "2019.12.06.",
-        "winner_announcement": "2020.03.04.",
-        "contract_period": "2020.03.11. ~ 2020.03.13.",
-        "move_in_period": null
-    },
-    "pre_url": "https://www.i-sh.co.kr/app/skin/doc.html?fn=20191101040351232_bd63823da7c84a38b726f4d350ef225c&rs=/app/upload/bbs/GS0401/html/",
-    "precautions": [
-        "입주자(세대구성원 전원 포함)는 입주자모집공고일 현재부터 임대차계약 종료일까지 무주택세대구성원이어야 합니다. 대학생 계층 및 청년 계층은 입주자모집공고일 현재부터 임대차계약 종료일까지 무주택자이어야합니다.",
-        "당첨 이후 연락처(주소, 전화번호)가 변경될 경우, 즉시 그 내용을 우리공사에 통보하기 바랍니다. 미통보시 불이익에 대한 책임은 본인에게 있습니다.",
-        "예비신혼부부(본인 및 예비배우자)는 1세대로 간주하여 같은 계층 및 다른 계층으로 중복 신청할 경우에는 전부 무효 처리됩니다."
+    {
+      "name": "서교동 효성 해링턴 타워",
+      "address": "마포구 서교동 395-43",
+      "district": "마포구",
+      "type": [
+        "원룸형",
+        "원룸형",
+        "원룸형"
+      ],
+      "total_households": 162,
+      "supply_households": [
+        62,
+        63,
+        37
+      ],
+      "house_type": [
+        "17",
+        "37A",
+        "37B(셰어형)"
+      ],
+      "parking": null,
+      "elevator": true
+    }
+  ],
+  "residence_period": "이 주택의 임대차 계약기간은 2년입니다. 대학생·청년 계층은 최대 6년, 신혼부부(예비 포함) 계층은 무자녀 최대 6년, 자녀 1명 이상 최대 10년까지 거주할 수 있습니다.",
+  "priority_and_bonus": {
+    "priority_criteria": [
+      {
+        "priority": "1순위",
+        "criteria": [
+          "월평균소득이 전년도 도시근로자 가구당 월평균소득의 50% 이하인 세대",
+          "해당 건설주택이 위치하고 있는 서울특별시 자치구에 거주하는 세대"
+        ]
+      },
+      {
+        "priority": "2순위",
+        "criteria": [
+          "월평균소득이 전년도 도시근로자 가구당 월평균소득의 70% 이하인 세대",
+          "해당 건설주택이 위치하고 있는 서울특별시 자치구 외 서울특별시 자치구에 거주하는 세대"
+        ]
+      },
+      {
+        "priority": "3순위",
+        "criteria": [
+          "월평균소득이 전년도 도시근로자 가구당 월평균소득의 100% 이하인 세대",
+          "1순위 및 2순위에 해당하지 않는 지역에 거주하는 세대"
+        ]
+      }
     ],
-    "category_user": [
-        "청년"
-    ],
-    "category_type": [
-        "임대주택"
-    ],
-    "title": "2019-2차 역세권 청년주택 입주자모집공고(공공임대)",
-    "pdf_name": "2019-2차 역세권청년주택(공공임대) 입주자모집공고문(1101).pdf"
+    "score_items": []
+  },
+  "application_schedule": {
+    "announcement_date": "2019.11.01.",
+    "online_application_period": "2019.11.18. 10:00 ~ 2019.11.22. 17:00",
+    "document_submission_period": "2019.12.09. ~ 2019.12.17.",
+    "document_announce_date": "2019.12.06.",
+    "winner_announcement": "2020.03.04.",
+    "contract_period": "2020.03.11. ~ 2020.03.13.",
+    "move_in_period": null
+  },
+  "pre_url": "https://www.i-sh.co.kr/app/skin/doc.html?fn=20191101040351232_bd63823da7c84a38b726f4d350ef225c&rs=/app/upload/bbs/GS0401/html/",
+  "precautions": [
+    "입주자(세대구성원 전원 포함)는 입주자모집공고일 현재부터 임대차계약 종료일까지 무주택세대구성원이어야 합니다. 대학생 계층 및 청년 계층은 입주자모집공고일 현재부터 임대차계약 종료일까지 무주택자이어야합니다.",
+    "당첨 이후 연락처(주소, 전화번호)가 변경될 경우, 즉시 그 내용을 우리공사에 통보하기 바랍니다. 미통보시 불이익에 대한 책임은 본인에게 있습니다.",
+    "예비신혼부부(본인 및 예비배우자)는 1세대로 간주하여 같은 계층 및 다른 계층으로 중복 신청할 경우에는 전부 무효 처리됩니다."
+  ],
+  "category_user": [
+    "청년"
+  ],
+  "category_type": [
+    "임대주택"
+  ],
+  "title": "2019-2차 역세권 청년주택 입주자모집공고(공공임대)",
+  "pdf_name": "2019-2차 역세권청년주택(공공임대) 입주자모집공고문(1101).pdf"
 }

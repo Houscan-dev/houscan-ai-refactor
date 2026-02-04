@@ -1,48 +1,48 @@
 {
-    "announcement_id": 10,
-    "application_eligibility": "만 19세 이상 만 39세 이하의 미혼 청년으로, 무주택세대구성원이며, 해당 세대의 월평균소득이 전년도 도시근로자 가구원수별 가구당 월평균소득의 100% 이하이고, 총 자산이 행복주택 자산기준을 충족해야 합니다.",
-    "housing_info": [
-        {
-            "name": "역촌예하임",
-            "address": "서울특별시 은평구 진흥로1길 13-11 (역촌동 39-35)",
-            "district": "은평구",
-            "type": "원룸형",
-            "total_households": 1,
-            "supply_households": [
-                1
-            ],
-            "house_type": [
-                "26.02m²"
-            ],
-            "parking": null,
-            "elevator": true
-        }
-    ],
-    "residence_period": "최대 10년 거주 가능, 2년 단위로 재계약 가능하며, 4회를 초과할 수 없습니다.",
-    "priority_and_bonus": {
-        "priority_criteria": [],
-        "score_items": []
-    },
-    "application_schedule": {
-        "announcement_date": "2025.04.03.",
-        "online_application_period": "2025.04.03. ~ 2025.04.06.",
-        "document_submission_period": "2025.04.03. ~ 2025.04.06.",
-        "document_announce_date": null,
-        "winner_announcement": null,
-        "contract_period": null,
-        "move_in_period": "2025.6.29. 이후"
-    },
-    "pre_url": "https://www.i-sh.co.kr/app/skin/doc.html?fn=20250401040343403_9fea14830de84090aca6bca46fd6fca8&rs=/app/upload/bbs/GS0401/html/",
-    "precautions": [
-        "거짓이나 부정한 방법으로 임대주택을 임대받거나 임대받게 한 경우 3년 이하 징역 또는 3천만원 이하 벌금",
-        "특화형 매입임대주택은 시중은행 대출이 어려움."
-    ],
-    "category_user": [
-        "청년"
-    ],
-    "category_type": [
-        "임대주택"
-    ],
-    "title": "[청년형] 특화형 매입임대주택(은평구) 입주자 모집 공고(운영기관 : 협동조합 큰바위얼굴)",
-    "pdf_name": "[협동조합 큰바위얼굴]SH특화형 매입임대주택(청년) 입주자 모집 공고문_20250403.pdf"
+  "announcement_id": 10,
+  "application_eligibility": "만 19세 이상 만 39세 이하의 미혼 청년으로, 무주택세대구성원이며, 해당 세대의 월평균소득이 전년도 도시근로자 가구원수별 가구당 월평균소득의 100% 이하이고, 총 자산이 행복주택 자산기준을 충족해야 합니다.",
+  "housing_info": [
+    {
+      "name": "역촌예하임",
+      "address": "서울특별시 은평구 진흥로1길 13-11 (역촌동 39-35)",
+      "district": "은평구",
+      "type": "원룸형",
+      "total_households": 1,
+      "supply_households": [
+        1
+      ],
+      "house_type": [
+        "26.02m²"
+      ],
+      "parking": null,
+      "elevator": true
+    }
+  ],
+  "residence_period": "최대 10년 거주 가능, 2년 단위로 재계약 가능하며, 4회를 초과할 수 없습니다.",
+  "priority_and_bonus": {
+    "priority_criteria": [],
+    "score_items": []
+  },
+  "application_schedule": {
+    "announcement_date": "2025.04.03.",
+    "online_application_period": "2025.04.03. ~ 2025.04.06.",
+    "document_submission_period": "2025.04.03. ~ 2025.04.06.",
+    "document_announce_date": null,
+    "winner_announcement": null,
+    "contract_period": null,
+    "move_in_period": "2025.6.29. 이후"
+  },
+  "pre_url": "https://www.i-sh.co.kr/app/skin/doc.html?fn=20250401040343403_9fea14830de84090aca6bca46fd6fca8&rs=/app/upload/bbs/GS0401/html/",
+  "precautions": [
+    "거짓이나 부정한 방법으로 임대주택을 임대받거나 임대받게 한 경우 3년 이하 징역 또는 3천만원 이하 벌금",
+    "특화형 매입임대주택은 시중은행 대출이 어려움."
+  ],
+  "category_user": [
+    "청년"
+  ],
+  "category_type": [
+    "임대주택"
+  ],
+  "title": "[청년형] 특화형 매입임대주택(은평구) 입주자 모집 공고(운영기관 : 협동조합 큰바위얼굴)",
+  "pdf_name": "[협동조합 큰바위얼굴]SH특화형 매입임대주택(청년) 입주자 모집 공고문_20250403.pdf"
 }

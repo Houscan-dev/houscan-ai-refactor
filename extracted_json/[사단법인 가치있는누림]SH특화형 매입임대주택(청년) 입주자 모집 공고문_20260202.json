@@ -1,0 +1,49 @@
+{
+  "announcement_id": 46,
+  "application_eligibility": "2026.02.02. 현재 무주택세대구성원이며 19세 이상 39세 이하의 미혼 청년을 대상으로 입주자를 모집합니다. 단, 기혼자와 외국인은 신청이 불가합니다.",
+  "housing_info": [
+    {
+      "name": "스타힐스",
+      "address": "서울특별시 금천구 금하로23가길 27, 206호",
+      "district": "금천구",
+      "type": [
+        "청년"
+      ],
+      "total_households": 1,
+      "supply_households": [
+        1
+      ],
+      "house_type": [
+        "27.63m²"
+      ],
+      "parking": null,
+      "elevator": null
+    }
+  ],
+  "residence_period": "최초 임대차기간 2년, 4회 재계약 가능, 최대 거주기간 10년",
+  "priority_and_bonus": {
+    "priority_criteria": [],
+    "score_items": []
+  },
+  "application_schedule": {
+    "announcement_date": "2026.02.02.",
+    "online_application_period": "2026.02.09.",
+    "document_submission_period": null,
+    "document_announce_date": null,
+    "winner_announcement": "개별 안내",
+    "contract_period": "입주자 발표 후 3주 이내",
+    "move_in_period": null
+  },
+  "precautions": [
+    "특화형 매입임대주택은 소유주와 임대인이 다르므로 시중은행 대출이 어렵습니다.",
+    "모든 서류는 누락, 오기입이 없이 작성하여 보내주신 선착순대로 입주 순번이 정해지니 꼭 유의 바랍니다."
+  ],
+  "title": "[청년형] 특화형 매입임대주택(금천구) 입주자 모집 공고(운영기관 : 사단법인 가치있는누림)",
+  "pdf_name": "[사단법인 가치있는누림]SH특화형 매입임대주택(청년) 입주자 모집 공고문_20260202.pdf",
+  "category_user": [
+        "청년"
+    ],
+    "category_type": [
+        "임대주택"
+    ]
+}

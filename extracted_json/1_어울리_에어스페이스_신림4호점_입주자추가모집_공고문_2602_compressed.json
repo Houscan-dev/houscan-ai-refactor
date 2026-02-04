@@ -1,0 +1,50 @@
+{
+  "announcement_id": 48,
+  "application_eligibility": "서울시에서 거주하고 있는 신혼부부(혼인 합산 기간이 7년 이내, 예비신혼부부* 포함) 및 1인 가구를 대상으로 입주자를 모집합니다. 또한, 전년도 도시 근로자 가구원수별 가구당 월평균 소득의 120% 이하에 해당되어야 합니다.",
+  "housing_info": [
+    {
+      "name": "에어스페이스 신림4호점",
+      "address": "서울시 관악구 신림로23길 96 (신림동 1560-17, 18)",
+      "district": "관악구",
+      "type": [
+        "다세대주택"
+      ],
+      "total_households": 1,
+      "supply_households": [
+        1
+      ],
+      "house_type": [
+        " 65.88m²"
+      ],
+      "parking": "주차면수 6대",
+      "elevator": true
+    }
+  ],
+  "residence_period": "최장 10년 (2년 단위로 계약)",
+  "priority_and_bonus": {
+    "priority_criteria": [],
+    "score_items": []
+  },
+  "application_schedule": {
+    "announcement_date": "2026.02.04.",
+    "online_application_period": null,
+    "document_submission_period": null,
+    "document_announce_date": "2026.2.3(화)",
+    "winner_announcement": null,
+    "contract_period": null,
+    "move_in_period": "2월 말 ~ 3월 초"
+  },
+  "precautions": [
+    "서류 제출 시 구청(시청)에서 직접 발급받아야 함",
+    "서울 비거주자의 경우, 입주 후 2주 이내에 전입신고를 해야 함",
+    "소득을 입증할 수 없는 경우 선정에서 제외됨"
+  ],
+  "title": "[토지지원사회주택] 어울리 에어스페이스 신림4호점 입주자추가모집공고",
+  "pdf_name": "1_어울리_에어스페이스_신림4호점_입주자추가모집_공고문_2602_compressed.pdf",
+  "category_user": [
+        "신혼부부"
+    ],
+  "category_type": [
+        "기타"
+    ]
+}
